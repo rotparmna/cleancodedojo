@@ -1,0 +1,6 @@
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Integracion\bin\Debug\CliCountry.Facturacion.Integracion.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Integracion\bin\Debug\CliCountry.Facturacion.Integracion.pdb
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Integracion\bin\Debug\CliCountry.SAHI.Comun.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Integracion\bin\Debug\CliCountry.SAHI.Dominio.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Integracion\obj\Debug\CliCountry.Facturacion.Integracion.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Integracion\obj\Debug\CliCountry.Facturacion.Integracion.pdb

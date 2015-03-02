@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86D0EA8B-CA11-47A3-8EBD-ED6060E18C01}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CliCountry.Facturacion.Web.WebExterno</RootNamespace>
+    <AssemblyName>CliCountry.Facturacion.Web.WebExterno</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\referencias\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxMin">
+      <HintPath>..\referencias\AjaxMin.dll</HintPath>
+    </Reference>
+    <Reference Include="BarcodeLib">
+      <HintPath>..\referencias\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CliCountry.SAHI.Comun">
+      <HintPath>..\referencias\CliCountry.SAHI.Comun.dll</HintPath>
+    </Reference>
+    <Reference Include="CliCountry.SAHI.Dominio">
+      <HintPath>..\referencias\CliCountry.SAHI.Dominio.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\GlobalWeb.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>GlobalWeb1.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="Comun\Controles\Dialogo.ascx" />
+    <Content Include="Comun\Controles\Reporte.ascx" />
+    <Content Include="Comun\Controles\ReporteMultiple.ascx" />
+    <Content Include="Comun\Controles\UC_Paginacion.ascx" />
+    <Content Include="Facturacion\AdministradorFacActividad.aspx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarAtencion.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCliente.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarClienteTercero.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCondicionesCubrimiento.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCondicionesFacturacion.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCondicionesTarifas.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarContratoPlan.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCubrimiento.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarDescuentos.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarExclusiones.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarGrupoProductos.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarPaisDptoCiudad.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarProductos.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarTarifas.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarTercero.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarVentas.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCliente.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearConceptoCobro.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCondicionCubrimiento.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCondicionesFacturacion.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCondicionesTarifa.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCortesFacturacion.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCubrimiento.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearDescuentos.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearExclusion.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearTercero.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_DefinirCondiciones.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_Exclusiones.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_MostrarConceptos.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_VincularEntidad.ascx" />
+    <Content Include="Facturacion\ControlesUsuarioFacturacion\UC_VincularVenta.ascx" />
+    <Content Include="Facturacion\ReporteEstadoCuentaMultiple.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\AdministradorFacActividades.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdministradorFacActividades.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AdministradorFacNoClinica.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdministradorFacNoClinica.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AdministradorFacPaquetes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdministradorFacPaquetes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AdministradorFacRelacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdministradorFacRelacion.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CargueCombos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CargueCombos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CondicionesCubrimientos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CondicionesCubrimientos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CondicionesFacturacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CondicionesFacturacion.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Configuracion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Configuracion.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ControlesUsuario.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ControlesUsuario.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CortesFacturacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CortesFacturacion.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\DefinirCondiciones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DefinirCondiciones.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\DefinirCondicionesTarifa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DefinirCondicionesTarifa.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\DefinirCubrimientos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DefinirCubrimientos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\DefinirExclusiones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DefinirExclusiones.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Descuentos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Descuentos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Exclusiones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Exclusiones.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\GlobalWeb1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GlobalWeb.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Reportes.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reportes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\ValoresPreSeleccion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ValoresPreSeleccion.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\VincularEntidad.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VincularEntidad.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Comun\Clases\CalcularConceptosCobro.cs" />
+    <Compile Include="Comun\Clases\CargaObjetos.cs" />
+    <Compile Include="Comun\Clases\WebService.cs" />
+    <Compile Include="Comun\Controles\Dialogo.ascx.cs">
+      <DependentUpon>Dialogo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comun\Controles\Dialogo.ascx.designer.cs">
+      <DependentUpon>Dialogo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Comun\Controles\Reporte.ascx.cs">
+      <DependentUpon>Reporte.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comun\Controles\Reporte.ascx.designer.cs">
+      <DependentUpon>Reporte.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Comun\Controles\ReporteMultiple.ascx.cs">
+      <DependentUpon>ReporteMultiple.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comun\Controles\ReporteMultiple.ascx.designer.cs">
+      <DependentUpon>ReporteMultiple.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Comun\Controles\UC_Paginacion.ascx.cs">
+      <DependentUpon>UC_Paginacion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comun\Controles\UC_Paginacion.ascx.designer.cs">
+      <DependentUpon>UC_Paginacion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Comun\Enumeraciones.cs" />
+    <Compile Include="Comun\Extension.cs" />
+    <Compile Include="Comun\Extensiones\Reportes.cs" />
+    <Compile Include="Comun\Paginas\WebPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comun\Paginas\WebUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\AdministradorFacActividad.aspx.cs">
+      <DependentUpon>AdministradorFacActividad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\AdministradorFacActividad.aspx.designer.cs">
+      <DependentUpon>AdministradorFacActividad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarAtencion.ascx.cs">
+      <DependentUpon>UC_BuscarAtencion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarAtencion.ascx.designer.cs">
+      <DependentUpon>UC_BuscarAtencion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCliente.ascx.cs">
+      <DependentUpon>UC_BuscarCliente.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCliente.ascx.designer.cs">
+      <DependentUpon>UC_BuscarCliente.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarClienteTercero.ascx.cs">
+      <DependentUpon>UC_BuscarClienteTercero.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarClienteTercero.ascx.designer.cs">
+      <DependentUpon>UC_BuscarClienteTercero.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCondicionesCubrimiento.ascx.cs">
+      <DependentUpon>UC_BuscarCondicionesCubrimiento.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCondicionesCubrimiento.ascx.designer.cs">
+      <DependentUpon>UC_BuscarCondicionesCubrimiento.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCondicionesFacturacion.ascx.cs">
+      <DependentUpon>UC_BuscarCondicionesFacturacion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCondicionesFacturacion.ascx.designer.cs">
+      <DependentUpon>UC_BuscarCondicionesFacturacion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCondicionesTarifas.ascx.cs">
+      <DependentUpon>UC_BuscarCondicionesTarifas.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCondicionesTarifas.ascx.designer.cs">
+      <DependentUpon>UC_BuscarCondicionesTarifas.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarContratoPlan.ascx.cs">
+      <DependentUpon>UC_BuscarContratoPlan.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarContratoPlan.ascx.designer.cs">
+      <DependentUpon>UC_BuscarContratoPlan.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCubrimiento.ascx.cs">
+      <DependentUpon>UC_BuscarCubrimiento.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarCubrimiento.ascx.designer.cs">
+      <DependentUpon>UC_BuscarCubrimiento.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarDescuentos.ascx.cs">
+      <DependentUpon>UC_BuscarDescuentos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarDescuentos.ascx.designer.cs">
+      <DependentUpon>UC_BuscarDescuentos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarExclusiones.ascx.cs">
+      <DependentUpon>UC_BuscarExclusiones.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarExclusiones.ascx.designer.cs">
+      <DependentUpon>UC_BuscarExclusiones.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarGrupoProductos.ascx.cs">
+      <DependentUpon>UC_BuscarGrupoProductos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarGrupoProductos.ascx.designer.cs">
+      <DependentUpon>UC_BuscarGrupoProductos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarPaisDptoCiudad.ascx.cs">
+      <DependentUpon>UC_BuscarPaisDptoCiudad.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarPaisDptoCiudad.ascx.designer.cs">
+      <DependentUpon>UC_BuscarPaisDptoCiudad.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarProductos.ascx.cs">
+      <DependentUpon>UC_BuscarProductos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarProductos.ascx.designer.cs">
+      <DependentUpon>UC_BuscarProductos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarTarifas.ascx.cs">
+      <DependentUpon>UC_BuscarTarifas.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarTarifas.ascx.designer.cs">
+      <DependentUpon>UC_BuscarTarifas.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarTercero.ascx.cs">
+      <DependentUpon>UC_BuscarTercero.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarTercero.ascx.designer.cs">
+      <DependentUpon>UC_BuscarTercero.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarVentas.ascx.cs">
+      <DependentUpon>UC_BuscarVentas.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_BuscarVentas.ascx.designer.cs">
+      <DependentUpon>UC_BuscarVentas.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCliente.ascx.cs">
+      <DependentUpon>UC_CrearCliente.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCliente.ascx.designer.cs">
+      <DependentUpon>UC_CrearCliente.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearConceptoCobro.ascx.cs">
+      <DependentUpon>UC_CrearConceptoCobro.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearConceptoCobro.ascx.designer.cs">
+      <DependentUpon>UC_CrearConceptoCobro.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCondicionCubrimiento.ascx.cs">
+      <DependentUpon>UC_CrearCondicionCubrimiento.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCondicionCubrimiento.ascx.designer.cs">
+      <DependentUpon>UC_CrearCondicionCubrimiento.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCondicionesFacturacion.ascx.cs">
+      <DependentUpon>UC_CrearCondicionesFacturacion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCondicionesFacturacion.ascx.designer.cs">
+      <DependentUpon>UC_CrearCondicionesFacturacion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCondicionesTarifa.ascx.cs">
+      <DependentUpon>UC_CrearCondicionesTarifa.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCondicionesTarifa.ascx.designer.cs">
+      <DependentUpon>UC_CrearCondicionesTarifa.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCortesFacturacion.ascx.cs">
+      <DependentUpon>UC_CrearCortesFacturacion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCortesFacturacion.ascx.designer.cs">
+      <DependentUpon>UC_CrearCortesFacturacion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCubrimiento.ascx.cs">
+      <DependentUpon>UC_CrearCubrimiento.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearCubrimiento.ascx.designer.cs">
+      <DependentUpon>UC_CrearCubrimiento.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearDescuentos.ascx.cs">
+      <DependentUpon>UC_CrearDescuentos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearDescuentos.ascx.designer.cs">
+      <DependentUpon>UC_CrearDescuentos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearExclusion.ascx.cs">
+      <DependentUpon>UC_CrearExclusion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearExclusion.ascx.designer.cs">
+      <DependentUpon>UC_CrearExclusion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearTercero.ascx.cs">
+      <DependentUpon>UC_CrearTercero.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_CrearTercero.ascx.designer.cs">
+      <DependentUpon>UC_CrearTercero.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_DefinirCondiciones.ascx.cs">
+      <DependentUpon>UC_DefinirCondiciones.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_DefinirCondiciones.ascx.designer.cs">
+      <DependentUpon>UC_DefinirCondiciones.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_Exclusiones.ascx.cs">
+      <DependentUpon>UC_Exclusiones.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_Exclusiones.ascx.designer.cs">
+      <DependentUpon>UC_Exclusiones.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_MostrarConceptos.ascx.cs">
+      <DependentUpon>UC_MostrarConceptos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_MostrarConceptos.ascx.designer.cs">
+      <DependentUpon>UC_MostrarConceptos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_VincularEntidad.ascx.cs">
+      <DependentUpon>UC_VincularEntidad.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_VincularEntidad.ascx.designer.cs">
+      <DependentUpon>UC_VincularEntidad.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_VincularVenta.ascx.cs">
+      <DependentUpon>UC_VincularVenta.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ControlesUsuarioFacturacion\UC_VincularVenta.ascx.designer.cs">
+      <DependentUpon>UC_VincularVenta.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\ReporteEstadoCuentaMultiple.aspx.cs">
+      <DependentUpon>ReporteEstadoCuentaMultiple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facturacion\ReporteEstadoCuentaMultiple.aspx.designer.cs">
+      <DependentUpon>ReporteEstadoCuentaMultiple.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\CodigoBarras.cs" />
+    <Compile Include="Utilidades\ExclusionesVinculacion.cs" />
+    <Compile Include="Utilidades\Extension.cs" />
+    <Compile Include="Utilidades\Paginar.cs" />
+    <Compile Include="Utilidades\ValorDefecto.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Main.Master" />
+    <Content Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="AjaxControlToolkit.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\ControlesUsuario.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ControlesUsuario.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CliCountry.Facturacion.Dominio\CliCountry.Facturacion.Dominio.csproj">
+      <Project>{083fcb8f-b0e5-489d-8fd3-2ad536584aa9}</Project>
+      <Name>CliCountry.Facturacion.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CliCountry.Facturacion.Negocio\CliCountry.Facturacion.Negocio.csproj">
+      <Project>{4868b026-287f-40a7-ba53-a3cbaafc6f75}</Project>
+      <Name>CliCountry.Facturacion.Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\VincularEntidad.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>VincularEntidad.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\ValoresPreSeleccion.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>ValoresPreSeleccion.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\AdministradorFacActividades.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AdministradorFacActividades.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\DefinirExclusiones.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>DefinirExclusiones.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\CargueCombos.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CargueCombos.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\CondicionesCubrimientos.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CondicionesCubrimientos.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\CondicionesFacturacion.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CondicionesFacturacion.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\DefinirCubrimientos.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>DefinirCubrimientos.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Descuentos.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Descuentos.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\DefinirCondicionesTarifa.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>DefinirCondicionesTarifa.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Configuracion.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Configuracion.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Reportes.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Reportes.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\AdministradorFacPaquetes.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AdministradorFacPaquetes.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\AdministradorFacNoClinica.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AdministradorFacNoClinica.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\AdministradorFacRelacion.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>AdministradorFacRelacion.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\CortesFacturacion.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CortesFacturacion.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Exclusiones.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Exclusiones.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\DefinirCondiciones.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>DefinirCondiciones.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59281/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

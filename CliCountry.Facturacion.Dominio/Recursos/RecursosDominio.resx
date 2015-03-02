@@ -1,0 +1,1086 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AtencionRolUsuario_CodigoUsuario_Entidad" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="AtencionRolUsuario_IdAtencion_Entidad" xml:space="preserve">
+    <value>IdAtencion</value>
+  </data>
+  <data name="AtencionRolUsuario_IndMovimiento_Entidad" xml:space="preserve">
+    <value>IndMovimiento</value>
+  </data>
+  <data name="Especialidad_CodigoValor_Entidad" xml:space="preserve">
+    <value>ValCodigo</value>
+  </data>
+  <data name="Especialidad_IdEspecialidad_Entidad" xml:space="preserve">
+    <value>IdEspecialidad</value>
+  </data>
+  <data name="Especialidad_IdEsquema_Entidad" xml:space="preserve">
+    <value>idesquema</value>
+  </data>
+  <data name="Especialidad_IndConsulta_Entidad" xml:space="preserve">
+    <value>IndCx</value>
+  </data>
+  <data name="Especialidad_IndHabilitado_Entidad" xml:space="preserve">
+    <value>IndHabilitado</value>
+  </data>
+  <data name="Especialidad_IndInterConsulta_Entidad" xml:space="preserve">
+    <value>indInterconsulta</value>
+  </data>
+  <data name="Especialidad_Nombre_Entidad" xml:space="preserve">
+    <value>NomEspecialidad</value>
+  </data>
+  <data name="Especialidad_OrdenSecuencial_Entidad" xml:space="preserve">
+    <value>SecOrden</value>
+  </data>
+  <data name="TiposRecargo_Activo_Entidad" xml:space="preserve">
+    <value>TigIndAct</value>
+  </data>
+  <data name="TiposRecargo_AplicaFestivos_Entidad" xml:space="preserve">
+    <value>TigIndFes</value>
+  </data>
+  <data name="TiposRecargo_AplicaUrgencias_Entidad" xml:space="preserve">
+    <value>TigIndUrg</value>
+  </data>
+  <data name="TiposRecargo_Codigo_Entidad" xml:space="preserve">
+    <value>TigCod</value>
+  </data>
+  <data name="TiposRecargo_Descripcion_Entidad" xml:space="preserve">
+    <value>TigDes</value>
+  </data>
+  <data name="TiposRecargo_DiaSemana_Entidad" xml:space="preserve">
+    <value>TigDiaSem</value>
+  </data>
+  <data name="TiposRecargo_HoraFinal_Entidad" xml:space="preserve">
+    <value>TigHorFin</value>
+  </data>
+  <data name="TiposRecargo_HoraInicial_Entidad" xml:space="preserve">
+    <value>TigHorIni</value>
+  </data>
+  <data name="TiposRecargo_Nombre_Entidad" xml:space="preserve">
+    <value>TigNom</value>
+  </data>
+  <data name="ObservacionDocumento_Activo_Entidad" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="ObservacionDocumento_Descripcion_Entidad" xml:space="preserve">
+    <value>Descripcion</value>
+  </data>
+  <data name="ObservacionDocumento_IdObservacion_Entidad" xml:space="preserve">
+    <value>IdObservacion</value>
+  </data>
+  <data name="ObservacionDocumento_TipoProceso_Entidad" xml:space="preserve">
+    <value>TipoProceso</value>
+  </data>
+  <data name="UnidadMedida_ActivoUnidad_Entidad" xml:space="preserve">
+    <value>UniIndAct</value>
+  </data>
+  <data name="UnidadMedida_CodigoUnidad_Entidad" xml:space="preserve">
+    <value>UniCod</value>
+  </data>
+  <data name="UnidadMedida_NombreTipoUnidad_Entidad" xml:space="preserve">
+    <value>desItem</value>
+  </data>
+  <data name="UnidadMedida_NombreUnidad_Entidad" xml:space="preserve">
+    <value>UniNom</value>
+  </data>
+  <data name="UnidadMedida_TipoUnidad_Entidad" xml:space="preserve">
+    <value>UniTip</value>
+  </data>
+  <data name="Via_IdVia_Entidad" xml:space="preserve">
+    <value>IdVia</value>
+  </data>
+  <data name="Via_IndHabilitado_Entidad" xml:space="preserve">
+    <value>IndHabilitado</value>
+  </data>
+  <data name="Via_Nombre_Entidad" xml:space="preserve">
+    <value>NomVia</value>
+  </data>
+  <data name="MetodoNumeracion_EntCod_Entidad" xml:space="preserve">
+    <value>EntCod</value>
+  </data>
+  <data name="MetodoNumeracion_ModIde_Entidad" xml:space="preserve">
+    <value>ModIde</value>
+  </data>
+  <data name="MetodoNumeracion_MosAutFec_Entidad" xml:space="preserve">
+    <value>MosAutFec</value>
+  </data>
+  <data name="MetodoNumeracion_MosAutNum_Entidad" xml:space="preserve">
+    <value>MosAutNum</value>
+  </data>
+  <data name="MetodoNumeracion_MosCod_Entidad" xml:space="preserve">
+    <value>MosCod</value>
+  </data>
+  <data name="MetodoNumeracion_MosCon_Entidad" xml:space="preserve">
+    <value>MosCon</value>
+  </data>
+  <data name="MetodoNumeracion_MosEst_Entidad" xml:space="preserve">
+    <value>MosEst</value>
+  </data>
+  <data name="MetodoNumeracion_MosIdSede_Entidad" xml:space="preserve">
+    <value>MosIdSede</value>
+  </data>
+  <data name="MetodoNumeracion_mosindaplsed_Entidad" xml:space="preserve">
+    <value>mosindaplsed</value>
+  </data>
+  <data name="MetodoNumeracion_MosNumHas_Entidad" xml:space="preserve">
+    <value>MosNumHas</value>
+  </data>
+  <data name="MetodoNumeracion_MosDes_Entidad" xml:space="preserve">
+    <value>MosDes</value>
+  </data>
+  <data name="MetodoNumeracion_MosAutNom_Entidad" xml:space="preserve">
+    <value>MosAutNom</value>
+  </data>
+  <data name="TipoMovimiento_ComCod_Entidad" xml:space="preserve">
+    <value>ComCod</value>
+  </data>
+  <data name="TipoMovimiento_EntCod_Entidad" xml:space="preserve">
+    <value>EntCod</value>
+  </data>
+  <data name="TipoMovimiento_TimAfeCon_Entidad" xml:space="preserve">
+    <value>TimAfeCon</value>
+  </data>
+  <data name="TipoMovimiento_TimAfe_Entidad" xml:space="preserve">
+    <value>TimAfe</value>
+  </data>
+  <data name="TipoMovimiento_TimComCla_Entidad" xml:space="preserve">
+    <value>TimComCla</value>
+  </data>
+  <data name="TipoMovimiento_TimEfeCar_Entidad" xml:space="preserve">
+    <value>TimEfeCar</value>
+  </data>
+  <data name="TipoMovimiento_TimEstTipMov_Entidad" xml:space="preserve">
+    <value>TimEstTipMov</value>
+  </data>
+  <data name="TipoMovimiento_TimIdeInv_Entidad" xml:space="preserve">
+    <value>TimIdeInv</value>
+  </data>
+  <data name="TipoMovimiento_TimIde_Entidad" xml:space="preserve">
+    <value>TimIde</value>
+  </data>
+  <data name="TipoMovimiento_TimIndAct_Entidad" xml:space="preserve">
+    <value>TimIndAct</value>
+  </data>
+  <data name="TipoMovimiento_TimIndAfeCon_Entidad" xml:space="preserve">
+    <value>TimIndAfeCon</value>
+  </data>
+  <data name="TipoMovimiento_TimIndCau_Entidad" xml:space="preserve">
+    <value>TimIndCau</value>
+  </data>
+  <data name="TipoMovimiento_TimIndConCop_Entidad" xml:space="preserve">
+    <value>TimIndConCop</value>
+  </data>
+  <data name="TipoMovimiento_TimIndConMov_Entidad" xml:space="preserve">
+    <value>TimIndConMov</value>
+  </data>
+  <data name="TipoMovimiento_TimIndCon_Entidad" xml:space="preserve">
+    <value>TimIndCon</value>
+  </data>
+  <data name="TipoMovimiento_TimIndDepCli_Entidad" xml:space="preserve">
+    <value>TimIndDepCli</value>
+  </data>
+  <data name="TipoMovimiento_TimIndDesPag_Entidad" xml:space="preserve">
+    <value>TimIndDesPag</value>
+  </data>
+  <data name="TipoMovimiento_TimIndDocSop_Entidad" xml:space="preserve">
+    <value>TimIndDocSop</value>
+  </data>
+  <data name="TipoMovimiento_TimIndIntMor_Entidad" xml:space="preserve">
+    <value>TimIndIntMor</value>
+  </data>
+  <data name="TipoMovimiento_TimIndMonMov_Entidad" xml:space="preserve">
+    <value>TimIndMonMov</value>
+  </data>
+  <data name="TipoMovimiento_TimIndMovAutMov_Entidad" xml:space="preserve">
+    <value>TimIndMovAutMov</value>
+  </data>
+  <data name="TipoMovimiento_TimIndMovAut_Entidad" xml:space="preserve">
+    <value>TimIndMovAut</value>
+  </data>
+  <data name="TipoMovimiento_TimIndMovEst_Entidad" xml:space="preserve">
+    <value>TimIndMovEst</value>
+  </data>
+  <data name="TipoMovimiento_TimIndPar_Entidad" xml:space="preserve">
+    <value>TimIndPar</value>
+  </data>
+  <data name="TipoMovimiento_TimIndPorValInt_Entidad" xml:space="preserve">
+    <value>TimIndPorValInt</value>
+  </data>
+  <data name="TipoMovimiento_TimIndReqBas_Entidad" xml:space="preserve">
+    <value>TimIndReqBas</value>
+  </data>
+  <data name="TipoMovimiento_TimIndTipCar_Entidad" xml:space="preserve">
+    <value>TimIndTipCar</value>
+  </data>
+  <data name="TipoMovimiento_TimLisTerCos_Entidad" xml:space="preserve">
+    <value>TimLisTerCos</value>
+  </data>
+  <data name="TipoMovimiento_TimNom_Entidad" xml:space="preserve">
+    <value>TimNom</value>
+  </data>
+  <data name="TipoMovimiento_TimPorConCop_Entidad" xml:space="preserve">
+    <value>TimPorConCop</value>
+  </data>
+  <data name="TipoMovimiento_TimTitIde_Entidad" xml:space="preserve">
+    <value>TimTitIde</value>
+  </data>
+  <data name="TipoMovimiento_TimModIde_Entidad" xml:space="preserve">
+    <value>TimModIde</value>
+  </data>
+  <data name="TipoMovimiento_TimIndDetallaventa_Entidad" xml:space="preserve">
+    <value>TimIndDetallaventa</value>
+  </data>
+  <data name="Cuentas_CodigoCuenta_Entidad" xml:space="preserve">
+    <value>CodigoCuenta</value>
+  </data>
+  <data name="Cuentas_CodigoEntidad_Entidad" xml:space="preserve">
+    <value>CodigoEntidad</value>
+  </data>
+  <data name="Cuentas_IndEstado_Entidad" xml:space="preserve">
+    <value>IndEstado</value>
+  </data>
+  <data name="Cuentas_NombreCuenta_Entidad" xml:space="preserve">
+    <value>NombreCuenta</value>
+  </data>
+  <data name="Cuentas_VigenciaDesde_Entidad" xml:space="preserve">
+    <value>VigenciaDesde</value>
+  </data>
+  <data name="Cuentas_VigenciaHasta_Entidad" xml:space="preserve">
+    <value>VigenciaHasta</value>
+  </data>
+  <data name="CuentaTipoEmpresa_CodigoCuentaCredito_Entidad" xml:space="preserve">
+    <value>CodigoCuentaCredito</value>
+  </data>
+  <data name="CuentaTipoEmpresa_CodigoCuentaDescuentos_Entidad" xml:space="preserve">
+    <value>CodigoCuentaDescuentos</value>
+  </data>
+  <data name="CuentaTipoEmpresa_IdTipoEmpresa_Entidad" xml:space="preserve">
+    <value>IdTipoEmpresa</value>
+  </data>
+  <data name="CuentaTipoEmpresa_NombreCuentaCredito_Entidad" xml:space="preserve">
+    <value>NombreCuentaCredito</value>
+  </data>
+  <data name="CuentaTipoEmpresa_NombreCuentaDescuentos_Entidad" xml:space="preserve">
+    <value>NombreCuentaDescuentos</value>
+  </data>
+  <data name="CuentaTipoEmpresa_TipoEmpresa_Entidad" xml:space="preserve">
+    <value>TipoEmpresa</value>
+  </data>
+  <data name="Contrato_DescripcionContrato_Entidad" xml:space="preserve">
+    <value>DescripcionContrato</value>
+  </data>
+  <data name="Contrato_FechaFinal_Entidad" xml:space="preserve">
+    <value>FechaFinal</value>
+  </data>
+  <data name="Contrato_FechaInicial_Entidad" xml:space="preserve">
+    <value>FechaInicial</value>
+  </data>
+  <data name="Contrato_IdContrato_Entidad" xml:space="preserve">
+    <value>IdContrato</value>
+  </data>
+  <data name="Contrato_IdEntidad_Entidad" xml:space="preserve">
+    <value>IdEntidad</value>
+  </data>
+  <data name="Contrato_IndActivo_Entidad" xml:space="preserve">
+    <value>IndActivo</value>
+  </data>
+  <data name="Contrato_IndUrgencias_Entidad" xml:space="preserve">
+    <value>IndUrgencias</value>
+  </data>
+  <data name="Contrato_NombreEntidad_Entidad" xml:space="preserve">
+    <value>NombreEntidad</value>
+  </data>
+  <data name="Contrato_NumeroContrato_Entidad" xml:space="preserve">
+    <value>NumeroContrato</value>
+  </data>
+  <data name="TipoMovimiento_MosCod_Entidad" xml:space="preserve">
+    <value>MosCod</value>
+  </data>
+  <data name="TipoMovimiento_nom_esor_Entidad" xml:space="preserve">
+    <value>nom_esor</value>
+  </data>
+  <data name="TipoMovimiento_SecTimIndAct_Entidad" xml:space="preserve">
+    <value>SecTimIndAct</value>
+  </data>
+  <data name="TipoMovimiento_TimNumPre_Entidad" xml:space="preserve">
+    <value>TimNumPre</value>
+  </data>
+  <data name="TipoMovimiento_SecCod_Entidad" xml:space="preserve">
+    <value>SecCod</value>
+  </data>
+  <data name="TipoMovimiento_TimNumIndAut_Entidad" xml:space="preserve">
+    <value>TimNumIndAut</value>
+  </data>
+  <data name="DetalleHonorario_ApellidoUsuario_Entidad" xml:space="preserve">
+    <value>ApePersonal</value>
+  </data>
+  <data name="DetalleHonorario_CodigoEntidad_Entidad" xml:space="preserve">
+    <value>EntCod</value>
+  </data>
+  <data name="DetalleHonorario_IdHonorario_Entidad" xml:space="preserve">
+    <value>CofIde</value>
+  </data>
+  <data name="DetalleHonorario_IdPersonal_Entidad" xml:space="preserve">
+    <value>PerIde</value>
+  </data>
+  <data name="DetalleHonorario_IdTercero_Entidad" xml:space="preserve">
+    <value>TerIde</value>
+  </data>
+  <data name="DetalleHonorario_IndHabilitado_Entidad" xml:space="preserve">
+    <value>CofPerIndAct</value>
+  </data>
+  <data name="DetalleHonorario_NombreUsuario_Entidad" xml:space="preserve">
+    <value>Nompersonal</value>
+  </data>
+  <data name="VigenciaCodificacion_Activo_Entidad" xml:space="preserve">
+    <value>MalIndAct</value>
+  </data>
+  <data name="VigenciaCodificacion_idManual_Entidad" xml:space="preserve">
+    <value>ManCod</value>
+  </data>
+  <data name="VigenciaCodificacion_vigencia_Entidad" xml:space="preserve">
+    <value>MalVig</value>
+  </data>
+  <data name="Manual_CodigoManual" xml:space="preserve">
+    <value>ManCod</value>
+  </data>
+  <data name="Manual_IndActivo" xml:space="preserve">
+    <value>TarEst</value>
+  </data>
+  <data name="Manual_Nombre" xml:space="preserve">
+    <value>ManNom</value>
+  </data>
+  <data name="Manual_NombreTarifa" xml:space="preserve">
+    <value>TarNom</value>
+  </data>
+  <data name="Manual_Vigencia" xml:space="preserve">
+    <value>TarVig</value>
+  </data>
+  <data name="FactoresNoQX_Activo_Entidad" xml:space="preserve">
+    <value>FarIndAct</value>
+  </data>
+  <data name="FactoresNoQX_CodigoManual_Entidad" xml:space="preserve">
+    <value>TarManCod</value>
+  </data>
+  <data name="FactoresNoQX_Codigo_Entidad" xml:space="preserve">
+    <value>EntCod</value>
+  </data>
+  <data name="FactoresNoQX_Paquete_Entidad" xml:space="preserve">
+    <value>FarIndPaq</value>
+  </data>
+  <data name="FactoresNoQX_Porcentaje_Entidad" xml:space="preserve">
+    <value>FarVal</value>
+  </data>
+  <data name="FactoresNoQX_Via_Entidad" xml:space="preserve">
+    <value>FarIndVia</value>
+  </data>
+  <data name="FactoresNoQX_Vigencia_Entidad" xml:space="preserve">
+    <value>TarVig</value>
+  </data>
+  <data name="TarifaContrato_Activo_Entidad" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="TarifaContrato_AplicarExclusion_Entidad" xml:space="preserve">
+    <value>AplicarExclusion</value>
+  </data>
+  <data name="TarifaContrato_AplicaSiempreExclusiones_Entidad" xml:space="preserve">
+    <value>AplicaSiempreExclusiones</value>
+  </data>
+  <data name="TarifaContrato_Aproximacion_Entidad" xml:space="preserve">
+    <value>Aproximacion</value>
+  </data>
+  <data name="TarifaContrato_Codificacion_Entidad" xml:space="preserve">
+    <value>Codificacion</value>
+  </data>
+  <data name="TarifaContrato_CodigoEntidad_Entidad" xml:space="preserve">
+    <value>CodigoEntidad</value>
+  </data>
+  <data name="TarifaContrato_CosTip_Entidad" xml:space="preserve">
+    <value>CosTip</value>
+  </data>
+  <data name="TarifaContrato_IdContratoTarifa_Entidad" xml:space="preserve">
+    <value>IdContratoTarifa</value>
+  </data>
+  <data name="TarifaContrato_IdContrato_Entidad" xml:space="preserve">
+    <value>IdContrato</value>
+  </data>
+  <data name="TarifaContrato_IdTercero_Entidad" xml:space="preserve">
+    <value>IdTercero</value>
+  </data>
+  <data name="TarifaContrato_NombreContrato_Entidad" xml:space="preserve">
+    <value>NombreContrato</value>
+  </data>
+  <data name="TarifaContrato_NombreManual_Entidad" xml:space="preserve">
+    <value>NombreManual</value>
+  </data>
+  <data name="TarifaContrato_NombreTarifaAlterna_Entidad" xml:space="preserve">
+    <value>NombreTarifaAlterna</value>
+  </data>
+  <data name="TarifaContrato_NombreTarifa_Entidad" xml:space="preserve">
+    <value>NombreTarifa</value>
+  </data>
+  <data name="TarifaContrato_NombreTercero_Entidad" xml:space="preserve">
+    <value>NombreTercero</value>
+  </data>
+  <data name="TarifaContrato_NumDigitos_Entidad" xml:space="preserve">
+    <value>NumDigitos</value>
+  </data>
+  <data name="TarifaContrato_Porcentaje_Entidad" xml:space="preserve">
+    <value>Porcentaje</value>
+  </data>
+  <data name="TarifaContrato_RenovacionAutomatica_Entidad" xml:space="preserve">
+    <value>RenovacionAutomatica</value>
+  </data>
+  <data name="TarifaContrato_TarifaAlterna_Entidad" xml:space="preserve">
+    <value>TarifaAlterna</value>
+  </data>
+  <data name="TarifaContrato_Tarifa_Entidad" xml:space="preserve">
+    <value>Tarifa</value>
+  </data>
+  <data name="TarifaContrato_VigenciaTarifaAlterna_Entidad" xml:space="preserve">
+    <value>VigenciaTarifaAlterna</value>
+  </data>
+  <data name="TarifaContrato_VigenciaTarifa_Entidad" xml:space="preserve">
+    <value>VigenciaTarifa</value>
+  </data>
+  <data name="TarifaContrato_Vigencia_Entidad" xml:space="preserve">
+    <value>Vigencia</value>
+  </data>
+  <data name="TiempoCirugia_IdTiempo_Entidad" xml:space="preserve">
+    <value>IdTiempo</value>
+  </data>
+  <data name="TiempoCirugia_IndHabilitado_Entidad" xml:space="preserve">
+    <value>IndHabilitado</value>
+  </data>
+  <data name="TiempoCirugia_NomTiempo_Entidad" xml:space="preserve">
+    <value>NomTiempo</value>
+  </data>
+  <data name="ContratoEstancia_Activo_Entidad" xml:space="preserve">
+    <value>CatIndAct</value>
+  </data>
+  <data name="ContratoEstancia_Codigo_Entidad" xml:space="preserve">
+    <value>EntCod</value>
+  </data>
+  <data name="ContratoEstancia_Contrato_Entidad" xml:space="preserve">
+    <value>CatConIde</value>
+  </data>
+  <data name="ContratoEstancia_Estancia_Entidad" xml:space="preserve">
+    <value>CatCanEstMin</value>
+  </data>
+  <data name="ContratoEstancia_HoraCorte_Entidad" xml:space="preserve">
+    <value>CatHorCor</value>
+  </data>
+  <data name="ContratoEstancia_HoraGraciaEgreso_Entidad" xml:space="preserve">
+    <value>CatHorGraEgr</value>
+  </data>
+  <data name="ContratoEstancia_HoraGracia_Entidad" xml:space="preserve">
+    <value>CatHorGra</value>
+  </data>
+  <data name="ContratoEstancia_IdTercero_Entidad" xml:space="preserve">
+    <value>CatTerIde</value>
+  </data>
+  <data name="ContratoEstancia_Id_Entidad" xml:space="preserve">
+    <value>CatIde</value>
+  </data>
+  <data name="ContratoEstancia_Plan_Entidad" xml:space="preserve">
+    <value>CatTecIde</value>
+  </data>
+  <data name="ContratoEstancia_TipoCobro_Entidad" xml:space="preserve">
+    <value>CatTipCar</value>
+  </data>
+  <data name="ContratoEstancia_Unidades_Entidad" xml:space="preserve">
+    <value>CatUniEstMin</value>
+  </data>
+  <data name="Tarifa_CodigoEntidad_Entidad" xml:space="preserve">
+    <value>CodigoEntidad</value>
+  </data>
+  <data name="Tarifa_CodigoManual_Entidad" xml:space="preserve">
+    <value>CodigoManual</value>
+  </data>
+  <data name="Tarifa_EstadoTarifa_Entidad" xml:space="preserve">
+    <value>EstadoTarifa</value>
+  </data>
+  <data name="Tarifa_ManualTarifa_Entidad" xml:space="preserve">
+    <value>ManualTarifa</value>
+  </data>
+  <data name="Tarifa_Tarifa_Entidad" xml:space="preserve">
+    <value>NombreTarifa</value>
+  </data>
+  <data name="Tarifa_VigenciaTarifa_Entidad" xml:space="preserve">
+    <value>VigenciaTarifa</value>
+  </data>
+  <data name="ManualCodificacion_Activo_Entidad" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="ManualCodificacion_CodigoManual_Entidad" xml:space="preserve">
+    <value>CodigoManual</value>
+  </data>
+  <data name="ManualCodificacion_NombreManual_Entidad" xml:space="preserve">
+    <value>NombreManual</value>
+  </data>
+  <data name="ManualCodificacion_VigenciaCodificacion_Entidad" xml:space="preserve">
+    <value>VigenciaCodificacion</value>
+  </data>
+  <data name="ContratoEstancia_NombreContrato_Entidad" xml:space="preserve">
+    <value>DesContrato</value>
+  </data>
+  <data name="ContratoEstancia_NombrePlan_Entidad" xml:space="preserve">
+    <value>NombrePlan</value>
+  </data>
+  <data name="Manual_EntCod" xml:space="preserve">
+    <value>EntCod</value>
+  </data>
+  <data name="Manual_TarCanViao" xml:space="preserve">
+    <value>TarCanVia</value>
+  </data>
+  <data name="Manual_TarIndValFij" xml:space="preserve">
+    <value>TarIndValFij</value>
+  </data>
+  <data name="Manual_TarMalCod" xml:space="preserve">
+    <value>TarMalCod</value>
+  </data>
+  <data name="Manual_TarMalVig" xml:space="preserve">
+    <value>TarMalVig</value>
+  </data>
+  <data name="TarifaContrato_AplicaTarifaPlena_Entidad" xml:space="preserve">
+    <value>AplicaTarifaPlena</value>
+  </data>
+  <data name="TarifaContrato_IdTiempoCirugia_Entidad" xml:space="preserve">
+    <value>IdTiempoCirugia</value>
+  </data>
+  <data name="TarifaContrato_PorcentajeTarifaAlterna_Entidad" xml:space="preserve">
+    <value>PorcentajeTarifaAlterna</value>
+  </data>
+  <data name="FactorComponente_CantidadPagar_Entidad" xml:space="preserve">
+    <value>FatCanPag</value>
+  </data>
+  <data name="FactorComponente_CodigoEntidad_Entidad" xml:space="preserve">
+    <value>EntCod</value>
+  </data>
+  <data name="FactorComponente_Componente_Entidad" xml:space="preserve">
+    <value>TicCod</value>
+  </data>
+  <data name="FactorComponente_IdFactorComponente_Entidad" xml:space="preserve">
+    <value>FatIde</value>
+  </data>
+  <data name="FactorComponente_IdManual_Entidad" xml:space="preserve">
+    <value>TarManCod</value>
+  </data>
+  <data name="FactorComponente_IndBilateralidad_Entidad" xml:space="preserve">
+    <value>FatIndBil</value>
+  </data>
+  <data name="FactorComponente_IndEspecialidad_Entidad" xml:space="preserve">
+    <value>FatIndEsp</value>
+  </data>
+  <data name="FactorComponente_IndHabilitado_Entidad" xml:space="preserve">
+    <value>FatIndAct</value>
+  </data>
+  <data name="FactorComponente_IndOrdenGeneral_Entidad" xml:space="preserve">
+    <value>FatIndOrd</value>
+  </data>
+  <data name="FactorComponente_IndOrdenPrimario_Entidad" xml:space="preserve">
+    <value>FatIndPri</value>
+  </data>
+  <data name="FactorComponente_IndVia_Entidad" xml:space="preserve">
+    <value>FatIndVia</value>
+  </data>
+  <data name="FactorComponente_ValorRelacion_Entidad" xml:space="preserve">
+    <value>FatValRel</value>
+  </data>
+  <data name="FactorComponente_VigenciaManual_Entidad" xml:space="preserve">
+    <value>TarVig</value>
+  </data>
+  <data name="TarifaUnidadVA_ValorUnidad_CodigoEntidad_Entidad" xml:space="preserve">
+    <value>EntCod</value>
+  </data>
+  <data name="TarifaUnidadVA_ValorUnidad_CodigoManual_Entidad" xml:space="preserve">
+    <value>TarManCod</value>
+  </data>
+  <data name="TarifaUnidadVA_ValorUnidad_CodigoUnidad_Entidad" xml:space="preserve">
+    <value>TarUniCod</value>
+  </data>
+  <data name="TarifaUnidadVA_ValorUnidad_Estado_Entidad" xml:space="preserve">
+    <value>TarUniIndAct</value>
+  </data>
+  <data name="TarifaUnidadVA_ValorUnidad_ValorUnidad_Entidad" xml:space="preserve">
+    <value>TarUniVal</value>
+  </data>
+  <data name="TarifaUnidadVA_ValorUnidad_VigenciaTarifa_Entidad" xml:space="preserve">
+    <value>TarVig</value>
+  </data>
+  <data name="FactorComponente_DescripcionCantidad_Entidad" xml:space="preserve">
+    <value>desItem</value>
+  </data>
+  <data name="RecargosTarifa_Activo_Entidad" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="RecargosTarifa_CodigoTipoRecargo_Entidad" xml:space="preserve">
+    <value>CodigoTipoRecargo</value>
+  </data>
+  <data name="RecargosTarifa_GrupoProducto_Entidad" xml:space="preserve">
+    <value>GrupoProducto</value>
+  </data>
+  <data name="RecargosTarifa_NombreServicio_Entidad" xml:space="preserve">
+    <value>NombreServicio</value>
+  </data>
+  <data name="RecargosTarifa_NombreTipoProducto_Entidad" xml:space="preserve">
+    <value>NombreTipoProducto</value>
+  </data>
+  <data name="RecargosTarifa_NombreTipoRecargo_Entidad" xml:space="preserve">
+    <value>NombreTipoRecargo</value>
+  </data>
+  <data name="RecargosTarifa_PorcentajeRecargo_Entidad" xml:space="preserve">
+    <value>PorcentajeRecargo</value>
+  </data>
+  <data name="RecargosTarifa_Producto_Entidad" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="RecargosTarifa_TicCod_Entidad" xml:space="preserve">
+    <value>TicCod</value>
+  </data>
+  <data name="RecargosTarifa_TipoComponente_Entidad" xml:space="preserve">
+    <value>TipoComponente</value>
+  </data>
+  <data name="FirmaDocumentos_CodEnt_Entidad" xml:space="preserve">
+    <value>EntCod</value>
+  </data>
+  <data name="FirmaDocumentos_FirDes_Entidad" xml:space="preserve">
+    <value>FirDes</value>
+  </data>
+  <data name="FirmaDocumentos_FirDet_Entidad" xml:space="preserve">
+    <value>FirDet</value>
+  </data>
+  <data name="FirmaDocumentos_FirIde_Entidad" xml:space="preserve">
+    <value>FirIde</value>
+  </data>
+  <data name="FirmaDocumentos_FirIndAct_Entidad" xml:space="preserve">
+    <value>FirIndAct</value>
+  </data>
+  <data name="FirmaDocumentos_FirModPre_Entidad" xml:space="preserve">
+    <value>FirModPre</value>
+  </data>
+  <data name="FirmaDocumentos_FirOrd_Entidad" xml:space="preserve">
+    <value>FirOrd</value>
+  </data>
+  <data name="FirmaDocumentos_FirTipPro_Entidad" xml:space="preserve">
+    <value>FirTipPro</value>
+  </data>
+  <data name="FirmaDocumentos_NombreProcesoEntidad" xml:space="preserve">
+    <value>NombreProceso</value>
+  </data>
+  <data name="CostosAsociados_Activo_Entidad" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="CostosAsociados_CodProducto_Entidad" xml:space="preserve">
+    <value>CodProducto</value>
+  </data>
+  <data name="CostosAsociados_IdGrupo_Entidad" xml:space="preserve">
+    <value>IdGrupo</value>
+  </data>
+  <data name="CostosAsociados_IdProducto_Entidad" xml:space="preserve">
+    <value>IdProducto</value>
+  </data>
+  <data name="CostosAsociados_Incluye_Entidad" xml:space="preserve">
+    <value>Incluye</value>
+  </data>
+  <data name="CostosAsociados_NomGrupo_Entidad" xml:space="preserve">
+    <value>NomGrupo</value>
+  </data>
+  <data name="CostosAsociados_NomProducto_Entidad" xml:space="preserve">
+    <value>NomProducto</value>
+  </data>
+  <data name="CostosAsociados_IdClaseServ_Entidad" xml:space="preserve">
+    <value>IdClaseServ</value>
+  </data>
+  <data name="CostosAsociados_IdProductoSeg_Entidad" xml:space="preserve">
+    <value>IdProductoSeg</value>
+  </data>
+  <data name="CostosAsociados_IdTipoAten_Entidad" xml:space="preserve">
+    <value>IdTipoAten</value>
+  </data>
+  <data name="CostosAsociados_Signo_Entidad" xml:space="preserve">
+    <value>Signo</value>
+  </data>
+  <data name="CostosAsociados_TipoCom_Entidad" xml:space="preserve">
+    <value>TipoCom</value>
+  </data>
+  <data name="CostosAsociados_Tipo_Entidad" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="CostosAsociados_Unidades_Entidad" xml:space="preserve">
+    <value>Unidades</value>
+  </data>
+  <data name="CostosAsociados_ValorMax_Entidad" xml:space="preserve">
+    <value>ValorMax</value>
+  </data>
+  <data name="CostosAsociados_ValorMin_Entidad" xml:space="preserve">
+    <value>ValorMin</value>
+  </data>
+  <data name="CostosAsociados_Valor_Entidad" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="ComponanteContrato_IdContrato" xml:space="preserve">
+    <value>CanConIde</value>
+  </data>
+  <data name="ComponanteContrato_IndicadorActivo" xml:space="preserve">
+    <value>CanIndAct</value>
+  </data>
+  <data name="ComponenteContraro_TipoComponente" xml:space="preserve">
+    <value>CanTicCod</value>
+  </data>
+  <data name="ComponenteContrato_Aproximacion" xml:space="preserve">
+    <value>AprNom</value>
+  </data>
+  <data name="ComponenteContrato_CantidadDigitos" xml:space="preserve">
+    <value>CanDig</value>
+  </data>
+  <data name="ComponenteContrato_IdTercero" xml:space="preserve">
+    <value>CanTerIde</value>
+  </data>
+  <data name="ComponenteContrato_IndicadorCobroFraccion" xml:space="preserve">
+    <value>CanIndCob</value>
+  </data>
+  <data name="ComponenteContrato_TipoValor" xml:space="preserve">
+    <value>CanTipVal</value>
+  </data>
+  <data name="ComponenteContrato_Valor" xml:space="preserve">
+    <value>CanVal</value>
+  </data>
+  <data name="ComponentesContrato_IdComponente" xml:space="preserve">
+    <value>CanIde</value>
+  </data>
+  <data name="CodificacionManual_CodigoManual_Entidad" xml:space="preserve">
+    <value>MalVigCod</value>
+  </data>
+  <data name="CodificacionManual_CodigoProducto_Entidad" xml:space="preserve">
+    <value>CodProducto</value>
+  </data>
+  <data name="CodificacionManual_IdGrupoProducto_Entidad" xml:space="preserve">
+    <value>IdGrupo</value>
+  </data>
+  <data name="CodificacionManual_IdManual_Entidad" xml:space="preserve">
+    <value>ManCod</value>
+  </data>
+  <data name="CodificacionManual_IdProducto_Entidad" xml:space="preserve">
+    <value>ProIde</value>
+  </data>
+  <data name="CodificacionManual_IdTipoProducto_Entidad" xml:space="preserve">
+    <value>IdProductoTipo</value>
+  </data>
+  <data name="CodificacionManual_IndHabilitado_Entidad" xml:space="preserve">
+    <value>MalVigIndAct</value>
+  </data>
+  <data name="CodificacionManual_NombreGrupoProducto_Entidad" xml:space="preserve">
+    <value>NomGrupo</value>
+  </data>
+  <data name="CodificacionManual_NombreManual_Entidad" xml:space="preserve">
+    <value>ManNom</value>
+  </data>
+  <data name="CodificacionManual_NombreProcedimiento_Entidad" xml:space="preserve">
+    <value>MalVigNom</value>
+  </data>
+  <data name="CodificacionManual_NombreProducto_Entidad" xml:space="preserve">
+    <value>NomProducto</value>
+  </data>
+  <data name="CodificacionManual_NombreTipoProducto_Entidad" xml:space="preserve">
+    <value>NomProductoTipo</value>
+  </data>
+  <data name="CodificacionManual_VigenciaManualProducto_Entidad" xml:space="preserve">
+    <value>MalVigVigPro</value>
+  </data>
+  <data name="CodificacionManual_VigenciaManual_Entidad" xml:space="preserve">
+    <value>MalVig</value>
+  </data>
+  <data name="CostosAsociados_NomAtencionTipo_Entidad" xml:space="preserve">
+    <value>NomAtencionTipo</value>
+  </data>
+  <data name="CostosAsociados_NomServicio_Entidad" xml:space="preserve">
+    <value>NomServicio</value>
+  </data>
+  <data name="CostosAsociados_SignoNom_Entidad" xml:space="preserve">
+    <value>SignoNom</value>
+  </data>
+  <data name="CostosAsociados_TipoComNom_Entidad" xml:space="preserve">
+    <value>TipoComNom</value>
+  </data>
+  <data name="CostosAsociados_TipoNom_Entidad" xml:space="preserve">
+    <value>TipoNom</value>
+  </data>
+  <data name="CostosAsociados_UnidadesNom_Entidad" xml:space="preserve">
+    <value>UnidadesNom</value>
+  </data>
+  <data name="ContratoComponente_IntervaloMaximo" xml:space="preserve">
+    <value>CanDetFraMax</value>
+  </data>
+  <data name="ContratoComponente_IntervaloMinimo" xml:space="preserve">
+    <value>CanDetFraMin</value>
+  </data>
+  <data name="ContratoComponente_IntervaloValor" xml:space="preserve">
+    <value>CanDetVal</value>
+  </data>
+  <data name="Tarifa_IdGrupo_Entidad" xml:space="preserve">
+    <value>IdGrupo</value>
+  </data>
+  <data name="Tarifa_IdTipoProducto_Entidad" xml:space="preserve">
+    <value>IdProductoTipo</value>
+  </data>
+  <data name="Tarifa_CodigoUnidad_Entidad" xml:space="preserve">
+    <value>CodigoUnidad</value>
+  </data>
+  <data name="Tarifa_IdProducto_Entidad" xml:space="preserve">
+    <value>IdProducto</value>
+  </data>
+  <data name="Tarifa_OrdenNivel_Entidad" xml:space="preserve">
+    <value>OrdenNivel</value>
+  </data>
+  <data name="Tarifa_ValorTarifa_Entidad" xml:space="preserve">
+    <value>ValorTarifa</value>
+  </data>
+  <data name="ValoresTarifas_CodProducto_Entidad" xml:space="preserve">
+    <value>CodigoProducto</value>
+  </data>
+  <data name="ValoresTarifas_IdGrupo_Entidad" xml:space="preserve">
+    <value>IdGrupo</value>
+  </data>
+  <data name="ValoresTarifas_IdProducto_Entidad" xml:space="preserve">
+    <value>IdProducto</value>
+  </data>
+  <data name="ValoresTarifas_Id_Entidad" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="ValoresTarifas_NomGrupo_Entidad" xml:space="preserve">
+    <value>NomGrupo</value>
+  </data>
+  <data name="ValoresTarifas_NomProductoTipo_Entidad" xml:space="preserve">
+    <value>NomProductoTipo</value>
+  </data>
+  <data name="ValoresTarifas_NomProducto_Entidad" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="ValoresTarifas_Porcentaje_Entidad" xml:space="preserve">
+    <value>Porcentaje</value>
+  </data>
+  <data name="ValoresTarifas_TipoProducto_Entidad" xml:space="preserve">
+    <value>TipoProducto</value>
+  </data>
+  <data name="ValoresTarifas_Activo_Entidad" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="ValoresTarifas_Aproximacion_Entidad" xml:space="preserve">
+    <value>Aproximacion</value>
+  </data>
+  <data name="ValoresTarifas_Digitos_Entidad" xml:space="preserve">
+    <value>Digitos</value>
+  </data>
+  <data name="ValoresTarifas_Ejecucion_Entidad" xml:space="preserve">
+    <value>Ejecucion</value>
+  </data>
+  <data name="ContratoTarifasAdicionales_AplicaRecargo" xml:space="preserve">
+    <value>CosIndAplRec</value>
+  </data>
+  <data name="ContratoTarifasAdicionales_IdPlan" xml:space="preserve">
+    <value>IdPlan</value>
+  </data>
+  <data name="ContratoTarifasAdicionales_IdServicio" xml:space="preserve">
+    <value>IdServicio</value>
+  </data>
+  <data name="ContratoTarifasAdicionales_IdTipoAtencion" xml:space="preserve">
+    <value>IdAtencionTipo</value>
+  </data>
+  <data name="ContratoTarifasAdicionales_NombrePlan" xml:space="preserve">
+    <value>DesPlan</value>
+  </data>
+  <data name="ContratoTarifasAdicionales_NombreServicio" xml:space="preserve">
+    <value>NomServicio</value>
+  </data>
+  <data name="ContratoTarifasAdicionales_NombreTipoAtencion" xml:space="preserve">
+    <value>NomAtencionTipo</value>
+  </data>
+  <data name="FactorComponente_NombreComponente_Entidad" xml:space="preserve">
+    <value>TicNom</value>
+  </data>
+  <data name="RecargosTarifa_Id_Entidad" xml:space="preserve">
+    <value>IdTarifasRecargos</value>
+  </data>
+  <data name="ExclusionFacturaActividades_Id_Entidad" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="ExclusionFacturaActividades_NombreGrupo_Entidad" xml:space="preserve">
+    <value>NomGrupo</value>
+  </data>
+  <data name="ExclusionFacturaActividades_NombreProductoAlterno_Entidad" xml:space="preserve">
+    <value>NomProductoAlterno</value>
+  </data>
+  <data name="ExclusionFacturaActividades_NombreProducto_Entidad" xml:space="preserve">
+    <value>NomProducto</value>
+  </data>
+  <data name="ExclusionFacturaActividades_NombreServicio_Entidad" xml:space="preserve">
+    <value>NomServicio</value>
+  </data>
+  <data name="ExclusionFacturaActividades_NombreTipoAtencion_Entidad" xml:space="preserve">
+    <value>NomAtencionTipo</value>
+  </data>
+  <data name="ExclusionFacturaActividades_NombreTipoProducto_Entidad" xml:space="preserve">
+    <value>NomProductoTipo</value>
+  </data>
+  <data name="ExclusionFacturaActividades_TipoContrato_Entidad" xml:space="preserve">
+    <value>TipoContrato</value>
+  </data>
+  <data name="ProcedimientosQX_Cantidad" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="ProcedimientosQX_CodProducto" xml:space="preserve">
+    <value>CodProducto</value>
+  </data>
+  <data name="ProcedimientosQX_EquipoQuirurgico" xml:space="preserve">
+    <value>EquipoQuirurgico</value>
+  </data>
+  <data name="ProcedimientosQX_Especialidad" xml:space="preserve">
+    <value>Especialidad</value>
+  </data>
+  <data name="ProcedimientosQX_FecCirugia" xml:space="preserve">
+    <value>FecCirugia</value>
+  </data>
+  <data name="ProcedimientosQX_IdCX" xml:space="preserve">
+    <value>IdCX</value>
+  </data>
+  <data name="ProcedimientosQX_DesTexto" xml:space="preserve">
+    <value>DesTexto</value>
+  </data>
+  <data name="ProcedimientosQX_IdProducto" xml:space="preserve">
+    <value>IdProducto</value>
+  </data>
+  <data name="ProcedimientosQX_IdVia" xml:space="preserve">
+    <value>IdVia</value>
+  </data>
+  <data name="ProcedimientosQX_IndBilateral" xml:space="preserve">
+    <value>IndBilateral</value>
+  </data>
+  <data name="ProcedimientosQX_NomProducto" xml:space="preserve">
+    <value>NomProducto</value>
+  </data>
+  <data name="ProcedimientosQX_TiempoAnestesia" xml:space="preserve">
+    <value>TiempoAnestesia</value>
+  </data>
+  <data name="ProcedimientosQX_TiempoQX" xml:space="preserve">
+    <value>TiempoQX</value>
+  </data>
+</root>

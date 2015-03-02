@@ -1,0 +1,1386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AsociarVentas_Atencion" xml:space="preserve">
+    <value>Atencion</value>
+  </data>
+  <data name="AsociarVentas_BotonCargarProductos" xml:space="preserve">
+    <value>Cargar Productos</value>
+  </data>
+  <data name="AsociarVentas_Cliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="AsociarVentas_CodigoProducto" xml:space="preserve">
+    <value>Codigo Producto</value>
+  </data>
+  <data name="AsociarVentas_IdProducto" xml:space="preserve">
+    <value>Id Producto</value>
+  </data>
+  <data name="AsociarVentas_IdTransaccion" xml:space="preserve">
+    <value>Id Transaccion</value>
+  </data>
+  <data name="AsociarVentas_MsgAtencion" xml:space="preserve">
+    <value>El número de Atención No Existe</value>
+  </data>
+  <data name="AsociarVentas_MsgFacturado" xml:space="preserve">
+    <value>La venta se encuentra en estado facturado, no puede realizar modificaciones</value>
+  </data>
+  <data name="AsociarVentas_MsgProductos" xml:space="preserve">
+    <value>No ha realizado la selección de Productos a Almacenar</value>
+  </data>
+  <data name="AsociarVentas_MsgSeleccionVentasQx" xml:space="preserve">
+    <value>No ha realizado la selección de ventas Qx</value>
+  </data>
+  <data name="AsociarVentas_MsgVentasAsociadas" xml:space="preserve">
+    <value>Se han realizó la asociación de productos a la venta seleccionada</value>
+  </data>
+  <data name="AsociarVentas_MsgVentasMedIns" xml:space="preserve">
+    <value>La atención no presenta ventas de Medicamentos e Insumos</value>
+  </data>
+  <data name="AsociarVentas_MsgVentasPendientes" xml:space="preserve">
+    <value>La atención no presenta ventas pendientes por facturar</value>
+  </data>
+  <data name="AsociarVentas_MsgVentasQx" xml:space="preserve">
+    <value>La atención no presenta ventas Quirúrgicas</value>
+  </data>
+  <data name="AsociarVentas_NombreProducto" xml:space="preserve">
+    <value>Nombre Producto</value>
+  </data>
+  <data name="AsociarVentas_NombreTransaccion" xml:space="preserve">
+    <value>Nombre Transacción</value>
+  </data>
+  <data name="AsociarVentas_NroDocumento" xml:space="preserve">
+    <value>No. Documento</value>
+  </data>
+  <data name="AsociarVentas_NroVentaQx" xml:space="preserve">
+    <value>No. Venta Qx</value>
+  </data>
+  <data name="AsociarVentas_NumeroVenta" xml:space="preserve">
+    <value>Numero Venta</value>
+  </data>
+  <data name="AsociarVentas_Productos" xml:space="preserve">
+    <value>Productos</value>
+  </data>
+  <data name="AsociarVentas_Titulo" xml:space="preserve">
+    <value>Ventas Asociadas</value>
+  </data>
+  <data name="AsociarVentas_TituloVentas" xml:space="preserve">
+    <value>No. Ventas de Insumos y Medicamentos</value>
+  </data>
+  <data name="Atencion_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Atencion_Apellidos" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="Atencion_IdAtencion" xml:space="preserve">
+    <value>Id Atención</value>
+  </data>
+  <data name="Atencion_Nombres" xml:space="preserve">
+    <value>Nombres</value>
+  </data>
+  <data name="Atencion_NroIdentificacion" xml:space="preserve">
+    <value>Número Documento</value>
+  </data>
+  <data name="Atencion_Paciente" xml:space="preserve">
+    <value>Paciente</value>
+  </data>
+  <data name="Atencion_TipoAtencion" xml:space="preserve">
+    <value>Tipo Atención</value>
+  </data>
+  <data name="Atencion_Titulo" xml:space="preserve">
+    <value>Búsqueda de Atenciones</value>
+  </data>
+  <data name="Cliente_Activo" xml:space="preserve">
+    <value>Indicador de registro activo</value>
+  </data>
+  <data name="Cliente_Anios" xml:space="preserve">
+    <value>Años</value>
+  </data>
+  <data name="Cliente_Apellidos" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="Cliente_Barrio" xml:space="preserve">
+    <value>Barrio/ Ciudad Residencia</value>
+  </data>
+  <data name="Cliente_CiudadNacimiento" xml:space="preserve">
+    <value>Ciudad Nacimiento</value>
+  </data>
+  <data name="Cliente_DatosComplementarios" xml:space="preserve">
+    <value>DATOS COMPLEMENTARIOS</value>
+  </data>
+  <data name="Cliente_DatosGenerales" xml:space="preserve">
+    <value>DATOS GENERALES</value>
+  </data>
+  <data name="Cliente_DireccionOficina" xml:space="preserve">
+    <value>Dirección Oficina</value>
+  </data>
+  <data name="Cliente_DireccionResidencia" xml:space="preserve">
+    <value>Dirección Residencia</value>
+  </data>
+  <data name="Cliente_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Cliente_EstadoCivil" xml:space="preserve">
+    <value>Estado Civil</value>
+  </data>
+  <data name="Cliente_Expedicion" xml:space="preserve">
+    <value>Expedido en:</value>
+  </data>
+  <data name="Cliente_FechaNacimiento" xml:space="preserve">
+    <value>Fecha Nacimiento</value>
+  </data>
+  <data name="Cliente_Genero" xml:space="preserve">
+    <value>Género</value>
+  </data>
+  <data name="Cliente_Id" xml:space="preserve">
+    <value>Id Cliente</value>
+  </data>
+  <data name="Cliente_IdAtencion" xml:space="preserve">
+    <value>Id Atención</value>
+  </data>
+  <data name="Cliente_Nivel" xml:space="preserve">
+    <value>Nivel (Categoría)</value>
+  </data>
+  <data name="Cliente_Nombres" xml:space="preserve">
+    <value>Nombres</value>
+  </data>
+  <data name="Cliente_NroDocumento" xml:space="preserve">
+    <value>Número Documento</value>
+  </data>
+  <data name="Cliente_NumeroDocumento" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="Cliente_Ocupacion" xml:space="preserve">
+    <value>Ocupación</value>
+  </data>
+  <data name="Cliente_Paciente" xml:space="preserve">
+    <value>Paciente</value>
+  </data>
+  <data name="Cliente_Religion" xml:space="preserve">
+    <value>Religión</value>
+  </data>
+  <data name="Cliente_SedeAtencion" xml:space="preserve">
+    <value>Sede Atención</value>
+  </data>
+  <data name="Cliente_TelefonoOficina" xml:space="preserve">
+    <value>Teléfono Oficina</value>
+  </data>
+  <data name="Cliente_TelefonoResidencia" xml:space="preserve">
+    <value>Teléfono Residencia</value>
+  </data>
+  <data name="Cliente_TipoAfiliacion" xml:space="preserve">
+    <value>Tipo de Afiliación</value>
+  </data>
+  <data name="Cliente_TipoDocumento" xml:space="preserve">
+    <value>Tipo Documento</value>
+  </data>
+  <data name="Cliente_Titulo" xml:space="preserve">
+    <value>Búsqueda de Clientes</value>
+  </data>
+  <data name="Cliente_TituloCrear" xml:space="preserve">
+    <value>Crear Cliente</value>
+  </data>
+  <data name="Cliente_Zona" xml:space="preserve">
+    <value>Zona</value>
+  </data>
+  <data name="CondicionCubrimiento_MsjActualizacion" xml:space="preserve">
+    <value>Se ha Actualizado la condición de cubrimiento con el Id {0} satisfactoriamente</value>
+  </data>
+  <data name="CondicionCubrimiento_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado la condición de cubrimiento con el Id {0} satisfactoriamente</value>
+  </data>
+  <data name="ConsultarPaquetesDetallado_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="ConsultarPaquetesDetallado_CantidadMaxima" xml:space="preserve">
+    <value>Cantidad Máxima</value>
+  </data>
+  <data name="ConsultarPaquetesDetallado_idGrupo" xml:space="preserve">
+    <value>Código del Grupo</value>
+  </data>
+  <data name="ConsultarPaquetesDetallado_IdProducto" xml:space="preserve">
+    <value>Código del Producto</value>
+  </data>
+  <data name="ConsultarPaquetesDetallado_NombreGrupo" xml:space="preserve">
+    <value>Nombre del Grupo</value>
+  </data>
+  <data name="ConsultarPaquetesDetallado_NombreProducto" xml:space="preserve">
+    <value>Nombre del Producto</value>
+  </data>
+  <data name="ConsultarPaquetes_Codigo" xml:space="preserve">
+    <value>Código:</value>
+  </data>
+  <data name="ConsultarPaquetes_ConsultarTitulo" xml:space="preserve">
+    <value>Consultar Paquetes</value>
+  </data>
+  <data name="ConsultarPaquetes_GrvCodigo" xml:space="preserve">
+    <value>Código del Paquete</value>
+  </data>
+  <data name="ConsultarPaquetes_GrvManualTarifa" xml:space="preserve">
+    <value>Manual de la Tarifa</value>
+  </data>
+  <data name="ConsultarPaquetes_GrvPaquete" xml:space="preserve">
+    <value>Paquete</value>
+  </data>
+  <data name="ConsultarPaquetes_GrvTercero" xml:space="preserve">
+    <value>Nombre del Tercero</value>
+  </data>
+  <data name="ConsultarPaquetes_GrvTipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="ConsultarPaquetes_GrvVigenciaTarifa" xml:space="preserve">
+    <value>Vigencia de la Tarifa</value>
+  </data>
+  <data name="ConsultarPaquetes_Paquete" xml:space="preserve">
+    <value>Paquete:</value>
+  </data>
+  <data name="ContratoPlan_Contrato" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="ContratoPlan_Entidad" xml:space="preserve">
+    <value>Entidad</value>
+  </data>
+  <data name="ContratoPlan_Guardar" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="ContratoPlan_IdPlan" xml:space="preserve">
+    <value>IdPlan</value>
+  </data>
+  <data name="ContratoPlan_Plan" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="ContratoPlan_Titulo" xml:space="preserve">
+    <value>Buscar Contrato-Plan</value>
+  </data>
+  <data name="ConvenioNoClinico_Tercero" xml:space="preserve">
+    <value>Nombre del Tercero</value>
+  </data>
+  <data name="ConvenioNoClinico_Titulo" xml:space="preserve">
+    <value>Buscar Convenio No Clínico</value>
+  </data>
+  <data name="CrearCliente_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado el Cliente con el Id {0} satisfactoriamente</value>
+  </data>
+  <data name="CrearCubrimiento_MsjActualizacion" xml:space="preserve">
+    <value>Se ha actualizado el cubrimiento con el Id {0} satisfactoriamente</value>
+  </data>
+  <data name="CrearCubrimiento_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado el cubrimiento con el Id {0} satisfactoriamente</value>
+  </data>
+  <data name="CrearTercero_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado el Tercero con el Id {0} satisfactoriamente</value>
+  </data>
+  <data name="CrearVinculacion_MsjActualizacion" xml:space="preserve">
+    <value>Se ha modificado la vinculación satisfactoriamente</value>
+  </data>
+  <data name="CrearVinculacion_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado la vinculación satisfactoriamente. Recuerde revisar el estado y el orden de las vinculaciones de la atención.</value>
+  </data>
+  <data name="Cruzar_DepositosActualizar" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="Cruzar_DepositosAtencion" xml:space="preserve">
+    <value>Total Depósitos de la Atención:</value>
+  </data>
+  <data name="Cruzar_DepositosEntidad" xml:space="preserve">
+    <value>Entidad</value>
+  </data>
+  <data name="Cruzar_DepositosTitulo" xml:space="preserve">
+    <value>Cruzar Depósitos</value>
+  </data>
+  <data name="ExclusionContrato_MsjActualizacion" xml:space="preserve">
+    <value>Se ha Actualizado la exclusión de contrato con el Id {0} satisfactoriamente</value>
+  </data>
+  <data name="ExclusionContrato_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado la exclusión de contrato con el Id {0} satisfactoriamente</value>
+  </data>
+  <data name="GrupoProducto_BtnConfirmarToolTip" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="GrupoProducto_BtnSalirToolTip" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="GrupoProducto_Codigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="GrupoProducto_Grupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="GrupoProducto_NombreGrupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="GrupoProducto_TipoProducto" xml:space="preserve">
+    <value>Tipo de Producto</value>
+  </data>
+  <data name="GrupoProducto_Titulo" xml:space="preserve">
+    <value>Búsqueda de Grupos de Productos</value>
+  </data>
+  <data name="PaisDptoCiudad_Ciudad" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="PaisDptoCiudad_CodigoCiudad" xml:space="preserve">
+    <value>Código Ciudad</value>
+  </data>
+  <data name="PaisDptoCiudad_Departamento" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="PaisDptoCiudad_Pais" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="PaisDptoCiudad_Titulo" xml:space="preserve">
+    <value>Búsqueda de Pais - Departamento - Ciudad</value>
+  </data>
+  <data name="Producto_BtnConfirmarToolTip" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="Producto_BtnSalirToolTip" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="Producto_Codigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="Producto_Grilla_Titulo" xml:space="preserve">
+    <value>Resultados de la búsqueda</value>
+  </data>
+  <data name="Producto_Grupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="Producto_Label_Producto" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="Producto_NombreProducto" xml:space="preserve">
+    <value>Nombre Producto</value>
+  </data>
+  <data name="Producto_Paginacion_Item" xml:space="preserve">
+    <value>Resultados por Página</value>
+  </data>
+  <data name="Producto_Paginacion_Pagina" xml:space="preserve">
+    <value>Página</value>
+  </data>
+  <data name="Producto_TipoProducto" xml:space="preserve">
+    <value>Tipo de Producto</value>
+  </data>
+  <data name="Producto_Titulo" xml:space="preserve">
+    <value>Búsqueda de Productos</value>
+  </data>
+  <data name="TerceroCliente_Apellidos" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="TerceroCliente_Cliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="TerceroCliente_NoDocumento" xml:space="preserve">
+    <value>No Documento</value>
+  </data>
+  <data name="TerceroCliente_NoExiste" xml:space="preserve">
+    <value>No fue posible encontrar el registro por el Id {0} o el registro no se encuentra activo</value>
+  </data>
+  <data name="TerceroCliente_Nombre" xml:space="preserve">
+    <value>Nombres</value>
+  </data>
+  <data name="TerceroCliente_NombreTercero" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="TerceroCliente_Responsable" xml:space="preserve">
+    <value>Buscar Responsable del Particular:</value>
+  </data>
+  <data name="TerceroCliente_Tercero" xml:space="preserve">
+    <value>Tercero</value>
+  </data>
+  <data name="Tercero_Crear" xml:space="preserve">
+    <value>Crear Tercero</value>
+  </data>
+  <data name="Tercero_DigitoVerificacion" xml:space="preserve">
+    <value>D.V</value>
+  </data>
+  <data name="Tercero_IdTercero" xml:space="preserve">
+    <value>Id Tercero</value>
+  </data>
+  <data name="Tercero_IndicadorActivo" xml:space="preserve">
+    <value>Indicador de registro Activo</value>
+  </data>
+  <data name="Tercero_Nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Tercero_NumeroDocumento" xml:space="preserve">
+    <value>Número Documento</value>
+  </data>
+  <data name="Tercero_Regimen" xml:space="preserve">
+    <value>Régimen</value>
+  </data>
+  <data name="Tercero_TipoDocumento" xml:space="preserve">
+    <value>Tipo Documento</value>
+  </data>
+  <data name="Tercero_TipoPersona" xml:space="preserve">
+    <value>Tipo persona</value>
+  </data>
+  <data name="Tercero_TipoTercero" xml:space="preserve">
+    <value>Tipo Tercero</value>
+  </data>
+  <data name="Tercero_Titulo" xml:space="preserve">
+    <value>Buscar Tercero</value>
+  </data>
+  <data name="VentaListado_Titulo" xml:space="preserve">
+    <value>Listado de Ventas</value>
+  </data>
+  <data name="Ventas_AtencionDestino" xml:space="preserve">
+    <value>Id  Atención Destino (Madre)</value>
+  </data>
+  <data name="Ventas_AtencionOrigen" xml:space="preserve">
+    <value>Id Atención Origen (Hijo)</value>
+  </data>
+  <data name="Ventas_FechaVenta" xml:space="preserve">
+    <value>Fecha Venta</value>
+  </data>
+  <data name="Ventas_GrillaSinDatos" xml:space="preserve">
+    <value>La atención seleccionada, no presenta ventas pendientes</value>
+  </data>
+  <data name="Ventas_IdAtencion" xml:space="preserve">
+    <value>Id Atención</value>
+  </data>
+  <data name="Ventas_MensajeSeleccionVentas" xml:space="preserve">
+    <value>No ha realizado la selección de ventas a vincular a la atención padre</value>
+  </data>
+  <data name="Ventas_MensajeVinculacion" xml:space="preserve">
+    <value>Una vez se confirme esta acción, las ventas que a continuación se encuentren seleccionadas pertenecerán a la atención destino (actual)</value>
+  </data>
+  <data name="Ventas_MensajeVinculacionAtencion" xml:space="preserve">
+    <value>No se puede vincular ventas dentro de la misma atención (Origen - Destino)</value>
+  </data>
+  <data name="Ventas_MensajeVinculacionExito" xml:space="preserve">
+    <value>Se ha realizado la vinculación de las ventas satisfactoriamente</value>
+  </data>
+  <data name="Ventas_NroVenta" xml:space="preserve">
+    <value>Nro. Venta</value>
+  </data>
+  <data name="Ventas_Paciente" xml:space="preserve">
+    <value>Paciente</value>
+  </data>
+  <data name="Ventas_Titulo" xml:space="preserve">
+    <value>Vinculación de Ventas</value>
+  </data>
+  <data name="Ventas_TituloGrilla" xml:space="preserve">
+    <value>Ventas a Vincular</value>
+  </data>
+  <data name="Ventas_Transaccion" xml:space="preserve">
+    <value>Transacción</value>
+  </data>
+  <data name="Ventas_Vincular" xml:space="preserve">
+    <value>Vincular</value>
+  </data>
+  <data name="Vinculaciones_MsjActualizacion" xml:space="preserve">
+    <value>Se han actualizado las vinculaciones para la atención {0}</value>
+  </data>
+  <data name="Vinculaciones_MsjError" xml:space="preserve">
+    <value>No se puede Guardar cambios en las vinculaciones para la atención {0}. Errores en el campo Orden</value>
+  </data>
+  <data name="ConsultarPaquetes_AjusteEncabezado" xml:space="preserve">
+    <value>Identificador de Ajuste:    </value>
+  </data>
+  <data name="ConsultarPaquetes_CodigoEncabezado" xml:space="preserve">
+    <value>Codígo:</value>
+  </data>
+  <data name="ConsultarPaquetes_IdentificadorPaquete" xml:space="preserve">
+    <value>Identificador del Paquete:</value>
+  </data>
+  <data name="ConsultarPaquetes_ProductoEncabezado" xml:space="preserve">
+    <value>Producto:</value>
+  </data>
+  <data name="Concepto_Contrato" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="Concepto_IdConcepto" xml:space="preserve">
+    <value>IdConcepto</value>
+  </data>
+  <data name="Concepto_Plan" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="Concepto_Tercero" xml:space="preserve">
+    <value>Tercero</value>
+  </data>
+  <data name="Concepto_Titulo" xml:space="preserve">
+    <value>Estado de Cuenta</value>
+  </data>
+  <data name="Concepto_ValorConcepto" xml:space="preserve">
+    <value>ValorConcepto</value>
+  </data>
+  <data name="Deposito_Titulo" xml:space="preserve">
+    <value>Valor del Deposito</value>
+  </data>
+  <data name="Concepto_BotonGuardar" xml:space="preserve">
+    <value>Guardar Conceptos &gt;&gt;</value>
+  </data>
+  <data name="ArmarPaquete_CantidadProducto" xml:space="preserve">
+    <value>Cantidad Producto</value>
+  </data>
+  <data name="ArmarPaquete_Identificador" xml:space="preserve">
+    <value>Identificador</value>
+  </data>
+  <data name="ArmarPaquete_IdentificadorTransaccion" xml:space="preserve">
+    <value>Identificador de Transacción.</value>
+  </data>
+  <data name="ArmarPaquete_LoteProducto" xml:space="preserve">
+    <value>Lote Producto</value>
+  </data>
+  <data name="ArmarPaquete_Nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="ArmarPaquete_NombreProducto" xml:space="preserve">
+    <value>Nombre del Producto</value>
+  </data>
+  <data name="ArmarPaquete_Paquete" xml:space="preserve">
+    <value>Paquete</value>
+  </data>
+  <data name="ArmarPaquete_Producto" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="ArmarPaquete_Titulo" xml:space="preserve">
+    <value>Armar Paquetes</value>
+  </data>
+  <data name="ArmarPaquete_Venta" xml:space="preserve">
+    <value>Venta</value>
+  </data>
+  <data name="ArmarPaquete_CantidadDisponible" xml:space="preserve">
+    <value>Cantidad Disponible</value>
+  </data>
+  <data name="ArmarPaquete_CantidadPasar" xml:space="preserve">
+    <value>Cantidad a Pasar</value>
+  </data>
+  <data name="VentaNoClinica_DirIPNombreEquipo_Entidad" xml:space="preserve">
+    <value>IP o Nombre del Equipo</value>
+  </data>
+  <data name="VentaNoClinica_EstadoVenta_Entidad" xml:space="preserve">
+    <value>Estado de la Venta</value>
+  </data>
+  <data name="VentaNoClinica_FechaFacturacion_Entidad" xml:space="preserve">
+    <value>Fecha de la Facturación</value>
+  </data>
+  <data name="VentaNoClinica_Fecha_Entidad" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="VentaNoClinica_NombreTercero_Entidad" xml:space="preserve">
+    <value>Nombre del Tercero</value>
+  </data>
+  <data name="VentaNoClinica_Numero_Entidad" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="VentaNoClinica_TipoFacturacion_Entidad" xml:space="preserve">
+    <value>Tipo de Facturación</value>
+  </data>
+  <data name="VentaNoClinica_Transaccion_Entidad" xml:space="preserve">
+    <value>Transacción</value>
+  </data>
+  <data name="VentaNoClinica_Ubicacion_Entidad" xml:space="preserve">
+    <value>Ubicación</value>
+  </data>
+  <data name="VentaNoClinica_UsuarioBloquea_Entidad" xml:space="preserve">
+    <value>Usuario que Bloquea</value>
+  </data>
+  <data name="ConvenioNoClinico_IdTercero" xml:space="preserve">
+    <value>IdTercero</value>
+  </data>
+  <data name="ConvenioNoClinico_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="ConvenioNoClinico_Nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="ConvenioNoClinico_NumeroDocumento" xml:space="preserve">
+    <value>Numero Documento</value>
+  </data>
+  <data name="ConvenioNoClinico_Vigencia" xml:space="preserve">
+    <value>Vigencia</value>
+  </data>
+  <data name="Manuales_CodigoTarifa" xml:space="preserve">
+    <value>Codigo Tarifa</value>
+  </data>
+  <data name="Manuales_NombreManual" xml:space="preserve">
+    <value>Manual Tarifa</value>
+  </data>
+  <data name="Manuales_NombreTarifa" xml:space="preserve">
+    <value>Nombre Tarifa</value>
+  </data>
+  <data name="Manuales_Titulo" xml:space="preserve">
+    <value>Buscar Tarifas</value>
+  </data>
+  <data name="Manuales_VigenciaTarifa" xml:space="preserve">
+    <value>Vigencia Tarifa</value>
+  </data>
+  <data name="Manuales_NombreTarifa1" xml:space="preserve">
+    <value>Nombre Tarifa</value>
+  </data>
+  <data name="Responsable_Apellido" xml:space="preserve">
+    <value>Apellido</value>
+  </data>
+  <data name="Responsable_Nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Responsable_NumeroDocumento" xml:space="preserve">
+    <value>N°  de Documento</value>
+  </data>
+  <data name="Responsable_Titulo" xml:space="preserve">
+    <value>Buscar Responsable</value>
+  </data>
+  <data name="Producto_TituloTarifa" xml:space="preserve">
+    <value>Buscar Productos con Tarifa del Manual</value>
+  </data>
+  <data name="CrearVentas" xml:space="preserve">
+    <value>Adicionar Producto</value>
+  </data>
+  <data name="CrearConvenioNoClinico_MsjActualizacion" xml:space="preserve">
+    <value>Se modificó el convenio del Tercero {0} satisfactoriamente.</value>
+  </data>
+  <data name="CrearConvenioNoClinico_MsjCreacion" xml:space="preserve">
+    <value>Se creo el convenio para el Id Tercero {0} satisfactoriamente.</value>
+  </data>
+  <data name="ArmarPaquete_ProductosPaquete" xml:space="preserve">
+    <value>Productos Contenidos en el Paquete</value>
+  </data>
+  <data name="ArmarPaquete_CantidadAsignada" xml:space="preserve">
+    <value>Cantidad Asignada</value>
+  </data>
+  <data name="ArmarPaquete_Adicionar" xml:space="preserve">
+    <value>Adicionar Producto</value>
+  </data>
+  <data name="ArmarPaquete_IdTransaccion" xml:space="preserve">
+    <value>Id Transacción</value>
+  </data>
+  <data name="ArmarPaquete_NumeroVenta" xml:space="preserve">
+    <value>Número Venta</value>
+  </data>
+  <data name="ArmarPaquete_ProductoTitulo" xml:space="preserve">
+    <value>Productos Disponibles Para Asociar al Paquete</value>
+  </data>
+  <data name="ArmarPaquete_IdProducto" xml:space="preserve">
+    <value>IdProducto</value>
+  </data>
+  <data name="ArmarPaquete_RangoCantidad" xml:space="preserve">
+    <value>El valor no puede superar la cantidad disponible</value>
+  </data>
+  <data name="ArmarPaquete_RegCantidad" xml:space="preserve">
+    <value>Ingrese un valor válido a asignar al paquete</value>
+  </data>
+  <data name="Responsable_IdPersonal" xml:space="preserve">
+    <value>Id Personal</value>
+  </data>
+  <data name="AnulacionFactura_Fecha" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="AnulacionFactura_NumeroFactura" xml:space="preserve">
+    <value>Número Factura</value>
+  </data>
+  <data name="AnulacionFactura_NumeroNotaCredito" xml:space="preserve">
+    <value>No. de la Nota Crédito</value>
+  </data>
+  <data name="AnulacionFactura_Titulo" xml:space="preserve">
+    <value>Anulación de Facturas</value>
+  </data>
+  <data name="AnulacionFactura_Usuario" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="AnulacionFactura_ValorAnulacion" xml:space="preserve">
+    <value>Valor de la Anulación</value>
+  </data>
+  <data name="CausalAnulacion_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="CausalAnulacion_IdCausal" xml:space="preserve">
+    <value>ID de Causal</value>
+  </data>
+  <data name="CausalAnulacion_NombreCausal" xml:space="preserve">
+    <value>Causal</value>
+  </data>
+  <data name="CausalAnulacion_Titulo" xml:space="preserve">
+    <value>Causales de Anulación</value>
+  </data>
+  <data name="AnulacionFactura_Concepto" xml:space="preserve">
+    <value>Concepto</value>
+  </data>
+  <data name="AnulacionFactura_Contrato" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="AnulacionFactura_Crear" xml:space="preserve">
+    <value>Crear Anulación de Factura</value>
+  </data>
+  <data name="AnulacionFactura_Factura" xml:space="preserve">
+    <value>No. de Factura</value>
+  </data>
+  <data name="AnulacionFactura_FacturaNoReemplazada" xml:space="preserve">
+    <value>La factura no será reemplazada</value>
+  </data>
+  <data name="AnulacionFactura_Movimiento" xml:space="preserve">
+    <value>Movimiento</value>
+  </data>
+  <data name="AnulacionFactura_Seccion" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="AnulacionFactura_Tercero" xml:space="preserve">
+    <value>Tercero</value>
+  </data>
+  <data name="AnulacionFactura_TipoFacturacion" xml:space="preserve">
+    <value>Tipo Facturación</value>
+  </data>
+  <data name="AnulacionFactura_Valor" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="AnulacionFactura_ValorNotaDebito" xml:space="preserve">
+    <value>Notas Débito</value>
+  </data>
+  <data name="AnulacionFactura_ValorTotal" xml:space="preserve">
+    <value>Valor Total</value>
+  </data>
+  <data name="AnulacionFactura_BuscarCausales" xml:space="preserve">
+    <value>Buscar Causales</value>
+  </data>
+  <data name="AnulacionFactura_FechaAnulacion" xml:space="preserve">
+    <value>Fecha Anulación</value>
+  </data>
+  <data name="AnulacionFactura_FechaFactura" xml:space="preserve">
+    <value>Fecha Factura</value>
+  </data>
+  <data name="CausalAnulacion_Aplicar" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="ConsultarFactura_Titulo" xml:space="preserve">
+    <value>Buscar Facturas</value>
+  </data>
+  <data name="CrearAnulacionFactura_MsjCreacion" xml:space="preserve">
+    <value>Se ha anulado la factura con la nota credito No. {0} satisfactoriamente</value>
+  </data>
+  <data name="AnulacionFactura_IdNumero" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="AnulacionFactura_SubtituloFactura" xml:space="preserve">
+    <value>Datos de la Factura</value>
+  </data>
+  <data name="AnulacionFactura_ResultadoCausales" xml:space="preserve">
+    <value>Resultado Causales</value>
+  </data>
+  <data name="ConsultarFactura_Atencion" xml:space="preserve">
+    <value>Atención</value>
+  </data>
+  <data name="ConsultarFactura_Contrato" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="ConsultarFactura_Entidad" xml:space="preserve">
+    <value>Entidad</value>
+  </data>
+  <data name="ConsultarFactura_Fecha" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="ConsultarFactura_NumeroFactura" xml:space="preserve">
+    <value>Número de factura</value>
+  </data>
+  <data name="ConsultarFactura_TipoFactura" xml:space="preserve">
+    <value>Tipo de factura</value>
+  </data>
+  <data name="ConsultarFactura_TotalDebito" xml:space="preserve">
+    <value>Total Débito</value>
+  </data>
+  <data name="ConsultarFactura_TotalFactura" xml:space="preserve">
+    <value>Total Factura</value>
+  </data>
+  <data name="CrearAnulacionFactura_MsjCausalesError" xml:space="preserve">
+    <value>No incluyó los causales. Indíquelos a través del botón Buscar Causales.</value>
+  </data>
+  <data name="AnulacionFactura_UsuarioNoValido" xml:space="preserve">
+    <value>Usuario No Valido para anulación de facturas.</value>
+  </data>
+  <data name="AnulacionFactura_Consulta" xml:space="preserve">
+    <value>Consulta Factura Anulada</value>
+  </data>
+  <data name="EstadoFactura_Activo" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="EstadoFactura_Eliminado" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Observacion_Activo_Entidad" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Observacion_Descripcion_Entidad" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="Observacion_IdObservacion_Entidad" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Observacion_TipoProceso_Entidad" xml:space="preserve">
+    <value>Tipo de Proceso</value>
+  </data>
+  <data name="Aproximacion_Crear" xml:space="preserve">
+    <value>Crear Criterio de Aproximación</value>
+  </data>
+  <data name="Aproximacion_Modificar" xml:space="preserve">
+    <value>Modificar Criterio de Aproximación</value>
+  </data>
+  <data name="Aproximacion_ResultadoLimites" xml:space="preserve">
+    <value>Resultado Límites</value>
+  </data>
+  <data name="Atencion_Invalida" xml:space="preserve">
+    <value>Debe ingresar un número de atención</value>
+  </data>
+  <data name="TipoComponentes_TituloCrear" xml:space="preserve">
+    <value>Crear tipo de componente</value>
+  </data>
+  <data name="CrearTipoRecargo_MsjActualizacion" xml:space="preserve">
+    <value>Se ha Actualizado el Tipo de Recargo con el Código {0} satisfactoriamente</value>
+  </data>
+  <data name="CrearTipoRecargo_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado el Tipo de Recargo con el Código {0} satisfactoriamente</value>
+  </data>
+  <data name="CuentasTipoEmpresa_Crear_MensajeCrear" xml:space="preserve">
+    <value>Las Cuentas por Tipo de Empresa fueron creadas correctamente</value>
+  </data>
+  <data name="CuentasTipoEmpresa_Crear_MensajeError" xml:space="preserve">
+    <value>No fue posible crear las Cuentas por Tipo de Empresa</value>
+  </data>
+  <data name="CuentasTipoEmpresa_Modificar_MensajeError" xml:space="preserve">
+    <value>No fue posible actualizar las Cuentas por Tipo de Empresa</value>
+  </data>
+  <data name="CuentasTipoEmpresa_Modificar_MensajeModificar" xml:space="preserve">
+    <value>Las Cuentas por Tipo de Empresa fueron actualizadas correctamente</value>
+  </data>
+  <data name="CuentaTipoEmpresa_CodigoCuentaCredito" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="CuentaTipoEmpresa_NombreCuentaCredito" xml:space="preserve">
+    <value>NombreCuentaCredito</value>
+  </data>
+  <data name="CuentaTipoEmpresa_TipoEmpresa" xml:space="preserve">
+    <value>Tipo de Empresa</value>
+  </data>
+  <data name="Contrato_DescripcionContrato" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="Contrato_FechaFinal" xml:space="preserve">
+    <value>Fecha Final</value>
+  </data>
+  <data name="Contrato_FechaInicial" xml:space="preserve">
+    <value>Fecha Inicial</value>
+  </data>
+  <data name="Contrato_IdContrato" xml:space="preserve">
+    <value>Identificador del Contrato</value>
+  </data>
+  <data name="Contrato_IndActivo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Contrato_IndUrgencias" xml:space="preserve">
+    <value>Urgencia vital</value>
+  </data>
+  <data name="Contrato_NumeroContrato" xml:space="preserve">
+    <value>Contarto No.</value>
+  </data>
+  <data name="CrearConvenioProducto_MsjActualizacion" xml:space="preserve">
+    <value>Se ha actualizdo el convenio de tercero para producto con el Id {0} satisfactoriamente</value>
+  </data>
+  <data name="CrearConvenioProducto_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado el convenio de tercero para producto con el Id {0} satisfactoriamente</value>
+  </data>
+  <data name="ExclusionesContratro_Titulo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TarifasContrato_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="TarifasContrato_AplicarExclusion" xml:space="preserve">
+    <value>Aplicar Exclusión</value>
+  </data>
+  <data name="TarifasContrato_AplicaSiempreExlusiones" xml:space="preserve">
+    <value>Aplica Siempre Exclusiones</value>
+  </data>
+  <data name="TarifasContrato_Aproximacion" xml:space="preserve">
+    <value>Aproximación</value>
+  </data>
+  <data name="TarifasContrato_Codificacion" xml:space="preserve">
+    <value>Codificación</value>
+  </data>
+  <data name="TarifasContrato_NombreManual" xml:space="preserve">
+    <value>Nombre Manual</value>
+  </data>
+  <data name="TarifasContrato_NombreTarifa" xml:space="preserve">
+    <value>Nombre Tarifa</value>
+  </data>
+  <data name="TarifasContrato_NombreTarifaAlterna" xml:space="preserve">
+    <value>Nombre Tarifa Alterna</value>
+  </data>
+  <data name="TarifasContrato_NumDigitos" xml:space="preserve">
+    <value>Num. Digitos</value>
+  </data>
+  <data name="TarifasContrato_Porcentaje" xml:space="preserve">
+    <value>Porcentaje</value>
+  </data>
+  <data name="TarifasContrato_RenovacionAutomatica" xml:space="preserve">
+    <value>Renovación Autom.</value>
+  </data>
+  <data name="TarifasContrato_Tarifa" xml:space="preserve">
+    <value>Tarifa</value>
+  </data>
+  <data name="TarifasContrato_TarifaAlterna" xml:space="preserve">
+    <value>Tarifa Alterna</value>
+  </data>
+  <data name="TarifasContrato_Vigencia" xml:space="preserve">
+    <value>Vigencia</value>
+  </data>
+  <data name="TarifasContrato_VigenciaTarifa" xml:space="preserve">
+    <value>Vigencia Tarifa</value>
+  </data>
+  <data name="TarifasContrato_VigenciaTarifaAlterna" xml:space="preserve">
+    <value>Vigencia Tarifa Alterna</value>
+  </data>
+  <data name="MensajeError_ExisteResponsable" xml:space="preserve">
+    <value>El responsable con Id Personal {0} ya esta agregado en la lista.</value>
+  </data>
+  <data name="MensajeError_RequiereResponsables" xml:space="preserve">
+    <value>Debe agregar responsables al convenio.</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_Bilateralidad" xml:space="preserve">
+    <value>Bilateralidad</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_CantCobrar" xml:space="preserve">
+    <value>Procs. a pagar</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_Orden" xml:space="preserve">
+    <value>Orden</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_OrdenGral" xml:space="preserve">
+    <value>Orden Gral</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_Titulo" xml:space="preserve">
+    <value>Factores para paquetes Quirúrgicos</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_ValorRelacion" xml:space="preserve">
+    <value>Valor Relación (%)</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_Via" xml:space="preserve">
+    <value>Via</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_VigenciaTarifa" xml:space="preserve">
+    <value>Vigencia de tarifa</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_Especialidad" xml:space="preserve">
+    <value>Especialidad</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_IgualEspecial" xml:space="preserve">
+    <value>Igual Especialidad</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_IgualVia" xml:space="preserve">
+    <value>Igual Via</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_OrdenPro" xml:space="preserve">
+    <value>Orden del Procedimiento</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_OrdGeneral" xml:space="preserve">
+    <value>Orden general</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_TituloCrear" xml:space="preserve">
+    <value>Crear Factor de Paquete Qx</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_TituloModificar" xml:space="preserve">
+    <value>Modificar Factor de Paquete Qx</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_ProcCobrar" xml:space="preserve">
+    <value>Procedimientos a cobrar</value>
+  </data>
+  <data name="MensajeError_NoTarifaSeleccionada" xml:space="preserve">
+    <value>Debe seleccionar el Manual y la Tarifa.</value>
+  </data>
+  <data name="VigenciaTarifa_Adicionar" xml:space="preserve">
+    <value>Adicionar Vigencia</value>
+  </data>
+  <data name="CrearFactorPaqueteQX_MsjActualizacion" xml:space="preserve">
+    <value>Se ha actualizado el factor de paquete QX {0} satisfactoriamente</value>
+  </data>
+  <data name="CrearFactorPaqueteQX_MsjCreacion" xml:space="preserve">
+    <value>Se ha guardado el factor de paquete QX {0} satisfactoriamente</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_IdFactor" xml:space="preserve">
+    <value>Identificador</value>
+  </data>
+  <data name="Causales_Titulo" xml:space="preserve">
+    <value>Causales</value>
+  </data>
+  <data name="DetalleCausal_Titulo" xml:space="preserve">
+    <value>Detalle de Causal</value>
+  </data>
+  <data name="TipoCausal_Titulo" xml:space="preserve">
+    <value>Tipo de Causal</value>
+  </data>
+  <data name="TipoCausal_Mensaje_CampoRequerido" xml:space="preserve">
+    <value>Debe seleccionar un Tipo de Causal.</value>
+  </data>
+  <data name="ConsultarTipoCartera_TipoCartera" xml:space="preserve">
+    <value>Nombre Tipo Cartera</value>
+  </data>
+  <data name="ConsultarTipoCartera_Titulo" xml:space="preserve">
+    <value>Tipos de Cartera</value>
+  </data>
+  <data name="DetalleCausal_Crear_MensajeCrear" xml:space="preserve">
+    <value>El tipo detalle causal {0} fue creado correctamente.</value>
+  </data>
+  <data name="DetalleCausal_Crear_MensajeError" xml:space="preserve">
+    <value>No fue posible crear el detalle causal {0}.</value>
+  </data>
+  <data name="DetalleCausal_GrvIdDetalleCausal" xml:space="preserve">
+    <value>Id Detalle de Causal</value>
+  </data>
+  <data name="DetalleCausal_GrvIdTipoCausal" xml:space="preserve">
+    <value>Id Tipo de Causal</value>
+  </data>
+  <data name="DetalleCausal_GrvIndHabilitado" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="DetalleCausal_GrvNombreDetalleCausal" xml:space="preserve">
+    <value>Detalle de Causal</value>
+  </data>
+  <data name="DetalleCausal_IdCausal" xml:space="preserve">
+    <value>Id. del Causal</value>
+  </data>
+  <data name="DetalleCausal_IndHabilitado" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="DetalleCausal_Modificar_MensajeError" xml:space="preserve">
+    <value>No fue posible modificar el detalle causal {0}.</value>
+  </data>
+  <data name="DetalleCausal_Modificar_MensajeModificar" xml:space="preserve">
+    <value>El detalle causal {0} fue actualizado correctamente.</value>
+  </data>
+  <data name="DetalleCausal_NombreCausal" xml:space="preserve">
+    <value>Nombre del Causal</value>
+  </data>
+  <data name="DetalleCausal_TipoCausal" xml:space="preserve">
+    <value>Tipo de Causal</value>
+  </data>
+  <data name="DetalleCausal_Titulo_Actualizar" xml:space="preserve">
+    <value>Actualizar  Detalle Causal</value>
+  </data>
+  <data name="DetalleCausal_Titulo_Consulta" xml:space="preserve">
+    <value>Detalle  Causal</value>
+  </data>
+  <data name="DetalleCausal_Titulo_Crear" xml:space="preserve">
+    <value>Crear  Detalle Causal</value>
+  </data>
+  <data name="TipoCausale_NombreTipoCausal_Param" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="TipoCausal_Activo" xml:space="preserve">
+    <value>Tipo de Causal Activo</value>
+  </data>
+  <data name="TipoCausal_Crear_MensajeCrear" xml:space="preserve">
+    <value>El tipo de causal {0} fue creado correctamente.</value>
+  </data>
+  <data name="TipoCausal_Crear_MensajeError" xml:space="preserve">
+    <value>No fue posible crear el tipo de causal {0}.</value>
+  </data>
+  <data name="TipoCausal_IdCausal" xml:space="preserve">
+    <value>Id del Tipo de Causal</value>
+  </data>
+  <data name="TipoCausal_IdTipoCausal_Param" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="TipoCausal_Modificar_MensajeError" xml:space="preserve">
+    <value>No fue posible modificar el tipo de causal {0}.</value>
+  </data>
+  <data name="TipoCausal_Modificar_MensajeModificar" xml:space="preserve">
+    <value>El tipo de causal {0} fue actualizado correctamente.</value>
+  </data>
+  <data name="TipoCausal_NombreCausal" xml:space="preserve">
+    <value>Nombre del Tipo Causal</value>
+  </data>
+  <data name="TipoCausal_Titulo_Actualizar" xml:space="preserve">
+    <value>Actualizar Tipo de Causal</value>
+  </data>
+  <data name="TipoCausal_Titulo_Consulta" xml:space="preserve">
+    <value>Detalle Tipo de Causal</value>
+  </data>
+  <data name="TipoCausal_Titulo_Crear" xml:space="preserve">
+    <value>Crear Tipo de Causal</value>
+  </data>
+  <data name="VentasNoClinicas_NoExisteValorTarifa" xml:space="preserve">
+    <value>No existe valor de tarifa para el producto seleccionado</value>
+  </data>
+  <data name="CodificacionProductos_Activos" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="CodificacionProductos_CodificacionActiva" xml:space="preserve">
+    <value>Codificación Activa</value>
+  </data>
+  <data name="CodificacionProductos_Codigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="CodificacionProductos_CodigoDentroManual" xml:space="preserve">
+    <value>Código dentro del manual</value>
+  </data>
+  <data name="CodificacionProductos_CodigoManual" xml:space="preserve">
+    <value>Código del manual</value>
+  </data>
+  <data name="CodificacionProductos_CodigoProducto" xml:space="preserve">
+    <value>Código del Producto</value>
+  </data>
+  <data name="CodificacionProductos_CodigoSegunManual" xml:space="preserve">
+    <value>Código según el manual</value>
+  </data>
+  <data name="CodificacionProductos_GrupoProducto" xml:space="preserve">
+    <value>Grupo de Producto</value>
+  </data>
+  <data name="CodificacionProductos_Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="CodificacionProductos_NombreDentroManual" xml:space="preserve">
+    <value>Nombre dentro del manual</value>
+  </data>
+  <data name="CodificacionProductos_NombreManual" xml:space="preserve">
+    <value>Nombre del manual</value>
+  </data>
+  <data name="CodificacionProductos_NombreManual1" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="CodificacionProductos_NombreProcedimiento" xml:space="preserve">
+    <value>Nombre del Procedimiento</value>
+  </data>
+  <data name="CodificacionProductos_NombreProducto" xml:space="preserve">
+    <value>Nombre del Producto</value>
+  </data>
+  <data name="CodificacionProductos_Producto" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="CodificacionProductos_TipoProducto" xml:space="preserve">
+    <value>Tipo de Producto</value>
+  </data>
+  <data name="CodificacionProductos_Titulo" xml:space="preserve">
+    <value>Manuales de Codificación</value>
+  </data>
+  <data name="CodificacionProductos_Vigencia" xml:space="preserve">
+    <value>Vigencia</value>
+  </data>
+  <data name="CodificacionProductos_VigenciaOriginal" xml:space="preserve">
+    <value>Vigencia Original</value>
+  </data>
+  <data name="CrearCodificacion_MsjActualizacion" xml:space="preserve">
+    <value>Se realizó la actualización de codificación para el producto {0} satisfactoriamente.</value>
+  </data>
+  <data name="CrearCodificacion_MsjCreacion" xml:space="preserve">
+    <value>Se realizó la creación de codificación para el producto {0} satisfactoriamente.</value>
+  </data>
+  <data name="CodificacionProductos_TituloCrear" xml:space="preserve">
+    <value>Crear Codificación del Producto</value>
+  </data>
+  <data name="CodificacionProductos_TituloModificar" xml:space="preserve">
+    <value>Modificar Codificación del Producto</value>
+  </data>
+  <data name="CodificacionProductos_DatosManual" xml:space="preserve">
+    <value>Datos del Manual</value>
+  </data>
+  <data name="CodificacionProductos_IdProducto" xml:space="preserve">
+    <value>Id del Producto</value>
+  </data>
+  <data name="CodificacionProductos_NombreSegunManual" xml:space="preserve">
+    <value>Nombre según el manual</value>
+  </data>
+  <data name="ContratoComponentes_Guardar" xml:space="preserve">
+    <value>Se ha creado el componente satisfactoriamente</value>
+  </data>
+  <data name="ContratoComponentes_EliminarIntervalo" xml:space="preserve">
+    <value>Se ha eliminado el intervalo del componente satisfactoriamente</value>
+  </data>
+  <data name="Producto_IdProducto" xml:space="preserve">
+    <value>Id Producto</value>
+  </data>
+  <data name="ContratoTarifaAdicional_Actualizar" xml:space="preserve">
+    <value>Se ha actualizado la tarifa adicional satisfactoriamente</value>
+  </data>
+  <data name="ContratoTarifaAdicional_Guardar" xml:space="preserve">
+    <value>Se ha creado la tarifa adicional satisfactoriamente</value>
+  </data>
+  <data name="AdministrarFactoresPaquetes_TituloConsulta" xml:space="preserve">
+    <value>Consulta de Factor de Paquete Qx</value>
+  </data>
+  <data name="AdministrarFactoresQx_Titulo" xml:space="preserve">
+    <value>Factores para Componentes Quirurgicos</value>
+  </data>
+  <data name="AdministrarFactoresQx_TituloConsulta" xml:space="preserve">
+    <value>Consulta Factor Componente Quirurgico</value>
+  </data>
+  <data name="AdministrarFactoresQx_TituloCrear" xml:space="preserve">
+    <value>Crear Factor Componente Quirurgico</value>
+  </data>
+  <data name="AdministrarFactoresQx_TituloModificar" xml:space="preserve">
+    <value>Modificar Factor Componente Quirurgico</value>
+  </data>
+  <data name="CodificacionProductos_TituloConsulta" xml:space="preserve">
+    <value>Consulta Codificación del Producto</value>
+  </data>
+  <data name="Concepto_ValorConceptoTitulo" xml:space="preserve">
+    <value>Valor del Concepto</value>
+  </data>
+  <data name="CrearAnulacionFactura_MsjValidacionEstado" xml:space="preserve">
+    <value>No es posible anular la factura No. {0} porque el estado de cuenta no es apta para su anulación.</value>
+  </data>
+  <data name="CrearAnulacionFactura_MsjValidacionSaldo" xml:space="preserve">
+    <value>No es posible anular la factura No. {0}, La factura tiene un valor diferente al saldo inicial.</value>
+  </data>
+  <data name="ConceptoCobro_MsjGuardado" xml:space="preserve">
+    <value>Se guardaron los conceptos satisfactoriamente.</value>
+  </data>
+  <data name="ConceptoCobro_LblTitulo" xml:space="preserve">
+    <value>Crear Concepto Cobro</value>
+  </data>
+  <data name="lblValorConcepto" xml:space="preserve">
+    <value>Valor Concepto</value>
+  </data>
+  <data name="Concepto_CheckAplicar" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="Exclusiones_GuardarCheckExclusiones" xml:space="preserve">
+    <value>Aplicar Exclusiones Marcadas</value>
+  </data>
+  <data name="Exclusiones_Crear" xml:space="preserve">
+    <value>Debe ingresar el número de la venta</value>
+  </data>
+  <data name="ConceptoCobro_DepositoMenorParticular" xml:space="preserve">
+    <value>El valor del concepto del particular a definir es mayor al del deposito.</value>
+  </data>
+  <data name="ConceptoCobro_SinDeposito" xml:space="preserve">
+    <value>No se puede definir concepto de cobro para el particular, no hay deposito definido para el estado de cuenta.</value>
+  </data>
+  <data name="Concepto_BotonActualizar" xml:space="preserve">
+    <value>Actualizar Conceptos &gt;&gt;</value>
+  </data>
+  <data name="Deposito_Titulo_Cruzar" xml:space="preserve">
+    <value>Valor a Cruzar</value>
+  </data>
+  <data name="Boton_Cruzar_Deposito" xml:space="preserve">
+    <value>Cruzar Deposito</value>
+  </data>
+  <data name="ConceptoCobro_Deposito_MsjGuardado" xml:space="preserve">
+    <value>Se actualizaron los depositos satisfactoriamente.</value>
+  </data>
+  <data name="Facturacion_MensajeErrorCreacion" xml:space="preserve">
+    <value>Error en creación de factura</value>
+  </data>
+  <data name="GenerarFacturar_MsjError" xml:space="preserve">
+    <value>No se puede generar la factura si tiene más de un concepto seleccionado.</value>
+  </data>
+</root>

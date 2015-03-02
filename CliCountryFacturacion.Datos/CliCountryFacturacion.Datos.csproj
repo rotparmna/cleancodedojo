@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6394A4F0-CAAC-4922-AD0A-061EBC26A084}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CliCountry.Facturacion.Datos</RootNamespace>
+    <AssemblyName>CliCountry.Facturacion.Datos</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CliCountry.SAHI.Comun">
+      <HintPath>..\referencias\CliCountry.SAHI.Comun.dll</HintPath>
+    </Reference>
+    <Reference Include="CliCountry.SAHI.Dominio">
+      <HintPath>..\referencias\CliCountry.SAHI.Dominio.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\DAOConfiguracion.cs" />
+    <Compile Include="DAO\DAOFacturacion.cs" />
+    <Compile Include="Fachada\FachadaConfiguracion.cs" />
+    <Compile Include="Fachada\FachadaFacturacion.cs" />
+    <Compile Include="Fachada\FachadaFacturacionXML.cs" />
+    <Compile Include="Fachada\FachadaIntegracion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursos\OperacionesBaseDatos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OperacionesBaseDatos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos\Parametros.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Parametros.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CliCountry.Facturacion.Dominio\CliCountry.Facturacion.Dominio.csproj">
+      <Project>{083fcb8f-b0e5-489d-8fd3-2ad536584aa9}</Project>
+      <Name>CliCountry.Facturacion.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CliCountry.Facturacion.Integracion\CliCountry.Facturacion.Integracion.csproj">
+      <Project>{f87c86c2-a66a-40de-99ce-fbcf52b8446a}</Project>
+      <Name>CliCountry.Facturacion.Integracion</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\OperacionesBaseDatos.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OperacionesBaseDatos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursos\Parametros.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Parametros.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Autenticacion_EstadoActivo" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Autenticacion_EstadoInactivo" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="Autenticacion_MensajeError" xml:space="preserve">
+    <value>Usuario y/o Contraseña no válidos !!!</value>
+  </data>
+  <data name="Autenticacion_NombreCompletoUsuario" xml:space="preserve">
+    <value> - Usuario: {0}</value>
+  </data>
+  <data name="Autenticacion_RolFacturador" xml:space="preserve">
+    <value>BILFA1</value>
+  </data>
+  <data name="Autenticacion_UsuarioDenegado" xml:space="preserve">
+    <value>El usuario {0} no tiene permisos de acceso al sistema !!!</value>
+  </data>
+  <data name="Autenticacion_UsuarioInactivo" xml:space="preserve">
+    <value>El usuario {0} esta como Inactivo !!!</value>
+  </data>
+  <data name="ComandoEliminar" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="ComandoInsertar" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="ComandoModificar" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="ComandoSeleccionar" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="General_BotonBuscaResponsableParticular" xml:space="preserve">
+    <value>Buscar responsable del particular</value>
+  </data>
+  <data name="General_BotonCerrar" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="General_BotonCondicionCubrimiento" xml:space="preserve">
+    <value>Condiciones de Cubrimiento</value>
+  </data>
+  <data name="General_BotonCondicionFacturacion" xml:space="preserve">
+    <value>Condiciones de Facturación</value>
+  </data>
+  <data name="General_BotonCondicionTarifa" xml:space="preserve">
+    <value>Condiciones de Tarifa</value>
+  </data>
+  <data name="General_BotonConsultar" xml:space="preserve">
+    <value>Consultar</value>
+  </data>
+  <data name="General_BotonCortesFacturacion" xml:space="preserve">
+    <value>Definir Cortes de Facturación</value>
+  </data>
+  <data name="General_BotonDefinirCondiciones" xml:space="preserve">
+    <value>Definir Condiciones</value>
+  </data>
+  <data name="General_BotonDefinirCubrimiento" xml:space="preserve">
+    <value>Definir Cubrimientos</value>
+  </data>
+  <data name="General_BotonDefinirExclusiones" xml:space="preserve">
+    <value>Definir Exclusiones</value>
+  </data>
+  <data name="General_BotonDescuentos" xml:space="preserve">
+    <value>Descuentos</value>
+  </data>
+  <data name="General_BotonEditar" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="General_BotonEstadoCuenta" xml:space="preserve">
+    <value>GENERAR ESTADO DE CUENTA</value>
+  </data>
+  <data name="General_BotonEstadoCuentaDetallado" xml:space="preserve">
+    <value>Estado de Cuenta Detallado</value>
+  </data>
+  <data name="General_BotonGuardar" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="General_BotonNuevo" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="General_BotonRelacionarVentas" xml:space="preserve">
+    <value>Relacionar ventas a la atención actual</value>
+  </data>
+  <data name="General_BotonSalir" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="General_BotonVincularEntidad" xml:space="preserve">
+    <value>Vincular Entidad</value>
+  </data>
+  <data name="General_Buscar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="General_ComboItemSeleccionTodos" xml:space="preserve">
+    <value>Seleccione Todos</value>
+  </data>
+  <data name="General_ComboItemTexto" xml:space="preserve">
+    <value>SELECCIONE...</value>
+  </data>
+  <data name="General_ComboItemValor" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="General_ComboPropiedadCodEsor" xml:space="preserve">
+    <value>CodEsor</value>
+  </data>
+  <data name="General_ComboPropiedadTexto" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_TipoFacrtura" xml:space="preserve">
+    <value>Descripcion</value>
+  </data>
+  <data name="General_ComboPropiedadValor" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="General_ComboPropiedadValor_TipoFacrtura" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="General_EstadoActivo" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="General_ExpresionRegularFecha" xml:space="preserve">
+    <value>^(0[1-9]|[12][0-9]|3[01])[-/.](0[1-9]|1[012])[-/.](19|20)\d\d$</value>
+  </data>
+  <data name="General_FechaGrillaCortesFacturacion" xml:space="preserve">
+    <value>El rango de fechas seleccionadas no corresponde a fechas dentro de las ventas de la atención o se encuentran cargadas dentro de los rangos de fechas de la selección en la parte inferior.</value>
+  </data>
+  <data name="General_FormatoFecha" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="General_FormatoMascaraFecha" xml:space="preserve">
+    <value>99/99/9999</value>
+  </data>
+  <data name="General_GrillaSinDatos" xml:space="preserve">
+    <value>No hay coincidencias para los parámetros ingresados.</value>
+  </data>
+  <data name="General_IndHabilitado" xml:space="preserve">
+    <value>true</value>
+  </data>
+  <data name="General_Mensaje1" xml:space="preserve">
+    <value>Tipo de movimiento de no cobrables</value>
+  </data>
+  <data name="General_Mensaje2" xml:space="preserve">
+    <value>NO FACTURABLES</value>
+  </data>
+  <data name="General_MensajeErrorFecha1" xml:space="preserve">
+    <value>La fecha inicial no puede ser mayor que la fecha final.</value>
+  </data>
+  <data name="General_MensajeErrorFecha2" xml:space="preserve">
+    <value>La fecha final no puede ser superior a la fecha actual.</value>
+  </data>
+  <data name="General_MensajeErrorFecha3" xml:space="preserve">
+    <value>El formato de fecha debe estar en dd/MM/yyyy.</value>
+  </data>
+  <data name="General_MensajeErrorFecha4" xml:space="preserve">
+    <value>La fecha final no puede ser menor que la fecha inicial.</value>
+  </data>
+  <data name="General_Mensaje_Buscar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="General_NombreMaestroDetalle" xml:space="preserve">
+    <value>NombreMaestroDetalle</value>
+  </data>
+  <data name="General_ResultadoBusqueda" xml:space="preserve">
+    <value>Resultado de la Búsqueda</value>
+  </data>
+  <data name="General_SinVentas" xml:space="preserve">
+    <value>No hay ventas pendientes</value>
+  </data>
+  <data name="General_Text_Bienvenida" xml:space="preserve">
+    <value>Bienvenido(a) - SISTEMA DE FACTURACIÓN</value>
+  </data>
+  <data name="General_ValidacionNumero" xml:space="preserve">
+    <value>^(0|[1-9][0-9]{0,9})$</value>
+  </data>
+  <data name="General_ValorCampoObligatorio" xml:space="preserve">
+    <value>El campo es obligatorio.</value>
+  </data>
+  <data name="General_ValorCero" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="General_ValorDefectoFecha" xml:space="preserve">
+    <value>01/01/1900</value>
+  </data>
+  <data name="General_ValorGenerarConsulta" xml:space="preserve">
+    <value>Generar consulta.</value>
+  </data>
+  <data name="General_ValorMaestroDetalle" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="General_ValorNegativo" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="ImpresionCopiaFactura" xml:space="preserve">
+    <value>** COPIA **</value>
+  </data>
+  <data name="PaginaDefault_Bienvenida" xml:space="preserve">
+    <value>Bienvenida.aspx</value>
+  </data>
+  <data name="PaginaDefault_Login" xml:space="preserve">
+    <value>Default.aspx</value>
+  </data>
+  <data name="Paginador_Anterior" xml:space="preserve">
+    <value>Página Anterior</value>
+  </data>
+  <data name="Paginador_ControlPaginas" xml:space="preserve">
+    <value>Página:  {0} de {1}</value>
+  </data>
+  <data name="Paginador_Primera" xml:space="preserve">
+    <value>Primera Página</value>
+  </data>
+  <data name="Paginador_Siguiente" xml:space="preserve">
+    <value>Página Siguiente</value>
+  </data>
+  <data name="Paginador_Ultima" xml:space="preserve">
+    <value>Última Página</value>
+  </data>
+  <data name="PaginaMaestra_Texto_Inicio" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="PaginaMaestra_Texto_Salir" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="Session_EstadoCuentaEncabezado" xml:space="preserve">
+    <value>EstadoCuentaEncabezado</value>
+  </data>
+  <data name="Session_EstadoCuentaFacturaImpresa" xml:space="preserve">
+    <value>ImprimirFactura</value>
+  </data>
+  <data name="Session_EstadoCuentaTipo" xml:space="preserve">
+    <value>TipoEstadoCuenta</value>
+  </data>
+  <data name="Paginador_TotalRegistros" xml:space="preserve">
+    <value>Total Registros: {0}</value>
+  </data>
+  <data name="Estilo_MensajeERROR" xml:space="preserve">
+    <value>MensajeERROR</value>
+  </data>
+  <data name="Estilo_MensajeOK" xml:space="preserve">
+    <value>MensajeOK</value>
+  </data>
+  <data name="Mensaje_Descuentos_Entidades" xml:space="preserve">
+    <value>Debe seleccionar una entidad en la grilla de anterior.</value>
+  </data>
+  <data name="General_BotonRegresar" xml:space="preserve">
+    <value>Regresar</value>
+  </data>
+  <data name="General_ExpresionRegularNIT" xml:space="preserve">
+    <value>\d{9}</value>
+  </data>
+  <data name="General_ExpresionRegularNITMensaje" xml:space="preserve">
+    <value>El número de NIT debe tener nueve caracteres</value>
+  </data>
+  <data name="General_TotalRegistros" xml:space="preserve">
+    <value>Total Registros: {0}</value>
+  </data>
+  <data name="General_ValorNA" xml:space="preserve">
+    <value>NA</value>
+  </data>
+  <data name="General_ValorUno" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="General_GuardaCondicionesTarifa" xml:space="preserve">
+    <value>La información  fue almacenada de manera exitosa con Id  </value>
+  </data>
+  <data name="General_GuardarDescuentos" xml:space="preserve">
+    <value>La información  fue almacenada de manera exitosa con Id  </value>
+  </data>
+  <data name="General_CriterioBusqueda" xml:space="preserve">
+    <value>No  existe Información  para el criterio de Busqueda seleccionado</value>
+  </data>
+  <data name="General_TipoCondicionCubrimiento" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="General_MensajeErrorFechaSuperior" xml:space="preserve">
+    <value>La fecha ingresada no puede ser superior a la fecha actual.</value>
+  </data>
+  <data name="General_ExpresionEmail" xml:space="preserve">
+    <value>^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$</value>
+  </data>
+  <data name="General_ExpresionEmailMensaje" xml:space="preserve">
+    <value>El campo email se encuentra mal diligenciado</value>
+  </data>
+  <data name="Global_VincularEntidad" xml:space="preserve">
+    <value>Vincular Entidad</value>
+  </data>
+  <data name="Version_AplicacionFacturacion" xml:space="preserve">
+    <value>Módulo Facturación Vr. 1.0.22.0</value>
+  </data>
+  <data name="Descuentos_Acturalizar_Operacion" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="Descuentos_Insertar_Operacion" xml:space="preserve">
+    <value>Insertar</value>
+  </data>
+  <data name="General_BotonProcesar" xml:space="preserve">
+    <value>Procesar</value>
+  </data>
+  <data name="Session_TipoFacturacion" xml:space="preserve">
+    <value>TipoFacturacion</value>
+  </data>
+  <data name="General_ActualizarVinculaciones" xml:space="preserve">
+    <value>Actualizar Vinculaciones</value>
+  </data>
+  <data name="Vinculacion_GuardarCambios" xml:space="preserve">
+    <value>Guardar Cambios</value>
+  </data>
+  <data name="Dialogo" xml:space="preserve">
+    <value>Mensaje</value>
+  </data>
+  <data name="Dialogo_EstiloError" xml:space="preserve">
+    <value>imgError</value>
+  </data>
+  <data name="Dialogo_EstiloOK" xml:space="preserve">
+    <value>imgOk</value>
+  </data>
+  <data name="Dialogo_JavaScript" xml:space="preserve">
+    <value>MostrarMensaje('{0}','{1}');</value>
+  </data>
+  <data name="Dialogo_Mensaje" xml:space="preserve">
+    <value>&lt;span class={0}&gt;{1}&lt;/span&gt;</value>
+  </data>
+  <data name="Dialogo_Titulo" xml:space="preserve">
+    <value>Facturación Clínica del Country</value>
+  </data>
+  <data name="Version_JQuery" xml:space="preserve">
+    <value>1.9.1</value>
+  </data>
+  <data name="CodigoTipoFacturacion_Actividad" xml:space="preserve">
+    <value>AC</value>
+  </data>
+  <data name="CodigoTipoFacturacion_NoClinica" xml:space="preserve">
+    <value>PR</value>
+  </data>
+  <data name="CodigoTipoFacturacion_Paquetes" xml:space="preserve">
+    <value>PA</value>
+  </data>
+  <data name="CodigoTipoFacturacion_Relacion" xml:space="preserve">
+    <value>RA</value>
+  </data>
+  <data name="General_ExpresionDecimal_2E_2D" xml:space="preserve">
+    <value>^\d{1,2}(\.\d{1,2})?$</value>
+  </data>
+  <data name="General_ExpresionDecimal_3E_2D" xml:space="preserve">
+    <value>^\d{1,3}(\.\d{1,2})?$</value>
+  </data>
+  <data name="EstadoVenta" xml:space="preserve">
+    <value>EstVenta</value>
+  </data>
+  <data name="EstadoDevolucion" xml:space="preserve">
+    <value>EstDevol</value>
+  </data>
+  <data name="AnulacionFactura_TipoNota" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="General_FechaMinimaSQL" xml:space="preserve">
+    <value>01/01/1753</value>
+  </data>
+  <data name="General_SinProductos" xml:space="preserve">
+    <value>Debe Adicionar Productos para Guardar la Venta</value>
+  </data>
+  <data name="General_FormatoFechaVacio" xml:space="preserve">
+    <value>__/__/____</value>
+  </data>
+  <data name="ComandoFacturar" xml:space="preserve">
+    <value>Facturar</value>
+  </data>
+  <data name="Session_FacturaNoClinicaReporte" xml:space="preserve">
+    <value>FacturaNoClinicaReporte</value>
+  </data>
+  <data name="General_BotonModificar" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="General_Confirmar" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="Version_Copyright" xml:space="preserve">
+    <value>© Copyright 2013 – Todos los derechos reservados Clínica del Country | Carrera 16 No.82-57 | Conmutador 530-0470 / 530-1270 | Bogotá - Colombia</value>
+  </data>
+  <data name="Global_CodGrupoTipoCriterio" xml:space="preserve">
+    <value>TipAprox</value>
+  </data>
+  <data name="Session_EstadoCuentaVentaNoQX" xml:space="preserve">
+    <value>VentaNoQX</value>
+  </data>
+  <data name="Session_Vinculacion" xml:space="preserve">
+    <value>Vinculacion</value>
+  </data>
+  <data name="Session_AtencionActiva" xml:space="preserve">
+    <value>AtencionCliente</value>
+  </data>
+  <data name="Session_CondicionContrato" xml:space="preserve">
+    <value>CondicionContrato</value>
+  </data>
+  <data name="DiasDeLaSemana" xml:space="preserve">
+    <value>DiasSema</value>
+  </data>
+  <data name="Session_Productos" xml:space="preserve">
+    <value>DetalleVenta</value>
+  </data>
+  <data name="General_BotonGenerarReporte" xml:space="preserve">
+    <value>GENERAR REPORTE VENTA</value>
+  </data>
+  <data name="General_ComboPropiedadValor_Plan" xml:space="preserve">
+    <value>IdPlan</value>
+  </data>
+  <data name="General_MascaraPorcentajeCero" xml:space="preserve">
+    <value>000.00</value>
+  </data>
+  <data name="MetodosPago" xml:space="preserve">
+    <value>MetPagos</value>
+  </data>
+  <data name="TiposTarifa" xml:space="preserve">
+    <value>TiposTar</value>
+  </data>
+  <data name="TiposValor" xml:space="preserve">
+    <value>TiposVal</value>
+  </data>
+  <data name="Session_ListadoSecciones" xml:space="preserve">
+    <value>Seccion</value>
+  </data>
+  <data name="Session_FactoresNoQX" xml:space="preserve">
+    <value>FactoresNoQX</value>
+  </data>
+  <data name="CodGenLista_Relacion" xml:space="preserve">
+    <value>TipRel</value>
+  </data>
+  <data name="CodGenLista_Visualizacion" xml:space="preserve">
+    <value>TipVis</value>
+  </data>
+  <data name="Configuracion_Modo_Pantalla" xml:space="preserve">
+    <value>Configuracion</value>
+  </data>
+  <data name="Facturacion_Modo_Pantalla" xml:space="preserve">
+    <value>Facturacion</value>
+  </data>
+  <data name="General_ValorN" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="Session_ContratoEstancia" xml:space="preserve">
+    <value>ContratoEstancia</value>
+  </data>
+  <data name="Session_ExclusionesManual" xml:space="preserve">
+    <value>ExclusionesManual</value>
+  </data>
+  <data name="TipoProducto_IdProcedmientoQx" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Formato_Decimal" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="Formato_DecimalString" xml:space="preserve">
+    <value>{0:0.#}</value>
+  </data>
+  <data name="Session_VigenciaTarifaEntidad" xml:space="preserve">
+    <value>VigenciaTarifaEntidad</value>
+  </data>
+  <data name="General_CodigoModulFact" xml:space="preserve">
+    <value>BIL</value>
+  </data>
+  <data name="General_BotonAdicionar" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="General_IdTipoProducto" xml:space="preserve">
+    <value>IdTipoProducto</value>
+  </data>
+  <data name="General_Nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="ContratoComponentes_TipoValor" xml:space="preserve">
+    <value>TValComp</value>
+  </data>
+  <data name="General_DebeSeleccionarVentas" xml:space="preserve">
+    <value>Debe seleccionar ventas para poder generar el estado de cuenta.</value>
+  </data>
+  <data name="General_FormatStringNumero" xml:space="preserve">
+    <value>{0:C0}</value>
+  </data>
+  <data name="General_FechaInvalida" xml:space="preserve">
+    <value>La fecha es inválida</value>
+  </data>
+  <data name="General_FormatoInvalido" xml:space="preserve">
+    <value>Formato inválido</value>
+  </data>
+  <data name="General_IngreseFecha" xml:space="preserve">
+    <value>Ingrese una Fecha</value>
+  </data>
+  <data name="General_ValorMayorCero" xml:space="preserve">
+    <value>El valor debe ser mayor a 0</value>
+  </data>
+  <data name="ComandoImprimir" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="General_AccesoDenegado" xml:space="preserve">
+    <value>Acceso Denegado.</value>
+  </data>
+  <data name="General_ConfigurarPermisos" xml:space="preserve">
+    <value>ConfigurarPermisos({0});</value>
+  </data>
+  <data name="General_Msj_IngresoNoAutorizado" xml:space="preserve">
+    <value>Debe estar autenticado y tener permisos sobre la pagina que intento ingresar.</value>
+  </data>
+  <data name="General_NoExistenPermisos" xml:space="preserve">
+    <value>No existen permisos asociados al usuario {0}.</value>
+  </data>
+  <data name="General_ObjetoNulo" xml:space="preserve">
+    <value>El objeto es nulo.</value>
+  </data>
+  <data name="General_Session_PERMISOPAGINAUSUARIO" xml:space="preserve">
+    <value>PERMISOPAGINAUSUARIO</value>
+  </data>
+  <data name="General_UsuarioNoAurotizado" xml:space="preserve">
+    <value>El usuario {0}, no se encuentra autorizado.</value>
+  </data>
+  <data name="Usuario_NombreCompleto" xml:space="preserve">
+    <value>UsuarioNombreCompleto</value>
+  </data>
+  <data name="ConceptoCobro_MsjCreacion" xml:space="preserve">
+    <value>Se creo el concepto de Cobro satisfactoriamente.</value>
+  </data>
+  <data name="ConceptoCobro_MsjErrorCrear" xml:space="preserve">
+    <value>No se puede crear conceptos de cobro para esta vinculación.</value>
+  </data>
+  <data name="ConceptoCobro_MsjValorConcepto" xml:space="preserve">
+    <value>El valor del concepto del particular es mayor que el Valor del Deposito.</value>
+  </data>
+  <data name="General_LabelConceptos" xml:space="preserve">
+    <value>Conceptos</value>
+  </data>
+  <data name="General_LabelEstadoCuenta" xml:space="preserve">
+    <value>Estado Cuenta</value>
+  </data>
+  <data name="ReporteFactura_NoFacturables" xml:space="preserve">
+    <value>ReporteProductosNoFacturable.aspx</value>
+  </data>
+  <data name="General_ValorCampoPorcentaje" xml:space="preserve">
+    <value>El porcentaje asignado es incorrecto.</value>
+  </data>
+  <data name="General_ValorCCPorcentaje" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="General_ValorCampoAjusteTarifa" xml:space="preserve">
+    <value>No se permite valor Cero en Ajuste de Tarifa.</value>
+  </data>
+  <data name="Cruzar_Depositos_Mensaje" xml:space="preserve">
+    <value>No puede cruzar un valor mayor al deposito</value>
+  </data>
+  <data name="Cruzar_Depositos_Valor_Mensaje" xml:space="preserve">
+    <value>No puede cruzar un valor mayor al valor total de la factura</value>
+  </data>
+  <data name="Depositos_Cruzar_Parcial_Mensaje" xml:space="preserve">
+    <value>No puede cruzar el valor de deposito. Se utilizo : {0} en los copagos. El valor disponible es : {1}</value>
+  </data>
+  <data name="Depositos_Cruzar_Total_Mensaje" xml:space="preserve">
+    <value>No puede cruzar el valor de deposito. El valor completo se utilizo  en los copagos. Total copagos:  {0}</value>
+  </data>
+  <data name="General_Atencion_SinProductos" xml:space="preserve">
+    <value>Los productos asociados a la atención no cumplen las condiciones para incluirlos en la facturación.</value>
+  </data>
+  <data name="General_LabelNoFacturable" xml:space="preserve">
+    <value>No Facturable</value>
+  </data>
+  <data name="Session_RolesUsuario" xml:space="preserve">
+    <value>RolesUsuario</value>
+  </data>
+  <data name="FacturacionActividades_ErrorAtencionBloqueada" xml:space="preserve">
+    <value>Hubo un problema al actualizar el estado de bloqueo de la atención.</value>
+  </data>
+</root>

@@ -1,0 +1,6 @@
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Dominio\bin\Debug\CliCountry.Facturacion.Dominio.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Dominio\bin\Debug\CliCountry.Facturacion.Dominio.pdb
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Dominio\obj\Debug\CliCountry.Facturacion.Dominio.Recursos.RecursosDominio.resources
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Dominio\obj\Debug\CliCountry.Facturacion.Dominio.csproj.GenerateResource.Cache
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Dominio\obj\Debug\CliCountry.Facturacion.Dominio.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Dominio\obj\Debug\CliCountry.Facturacion.Dominio.pdb

@@ -1,0 +1,1524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdministarTiposRecargo_Codigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="AdministarTiposRecargo_Nombre" xml:space="preserve">
+    <value>Nombre del tipo de recargo</value>
+  </data>
+  <data name="AdministrarClaseCubrimiento_Titulo" xml:space="preserve">
+    <value>Administrar Clases de Cubrimientos</value>
+  </data>
+  <data name="AdministrarClasesCubrimiento_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="AdministrarClasesCubrimiento_Cubrimiento" xml:space="preserve">
+    <value>Cubrimiento</value>
+  </data>
+  <data name="AdministrarClasesCubrimiento_Descripcion" xml:space="preserve">
+    <value>Descripcion</value>
+  </data>
+  <data name="AdministrarClasesCubrimiento_Identificador" xml:space="preserve">
+    <value>Identificador</value>
+  </data>
+  <data name="AdministrarTipoMovimientos_TituloMetodoNum" xml:space="preserve">
+    <value>Método de Numeración</value>
+  </data>
+  <data name="AdministrarTipoMovimientos_Titulo" xml:space="preserve">
+    <value>Administrar Tipos de Movimientos</value>
+  </data>
+  <data name="AdministrarTiposRecargo_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="AdministrarTiposRecargo_Descripcion" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="AdministrarTiposRecargo_Titulo" xml:space="preserve">
+    <value>Administrar Tipos de Recargo</value>
+  </data>
+  <data name="AdministrarTiposRecargo_TituloCrear" xml:space="preserve">
+    <value>Crear Nuevo Tipo Recargo</value>
+  </data>
+  <data name="AdministrarTiposRecargo_TituloModificar" xml:space="preserve">
+    <value>Modificar Tipo Recargo</value>
+  </data>
+  <data name="AdministrarUnidadMedida_AbrevUnidad" xml:space="preserve">
+    <value>Abrev.Unidad</value>
+  </data>
+  <data name="AdministrarUnidadMedida_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="AdministrarUnidadMedida_NombreUnidad" xml:space="preserve">
+    <value>Nombre Unidad</value>
+  </data>
+  <data name="AdministrarUnidadMedida_TipoUnidad" xml:space="preserve">
+    <value>Tipo Unidad</value>
+  </data>
+  <data name="AdministrarUnidadMedida_Titulo" xml:space="preserve">
+    <value>Administrar Unidad de Medida</value>
+  </data>
+  <data name="Aproximaciones_CodigoGrupoLista" xml:space="preserve">
+    <value>TipAprox</value>
+  </data>
+  <data name="Aproximaciones_MsjCrear" xml:space="preserve">
+    <value>Se ha creado la aproximación satisfactoriamente</value>
+  </data>
+  <data name="Aproximaciones_MsjCrearError" xml:space="preserve">
+    <value>La aproximación ya es encuentra creada</value>
+  </data>
+  <data name="Aproximaciones_MsjModificar" xml:space="preserve">
+    <value>Se ha modificado la aproximación satisfactoriamente</value>
+  </data>
+  <data name="Aproximaciones_TituloCrear" xml:space="preserve">
+    <value>Crear aproximación</value>
+  </data>
+  <data name="Aproximaciones_TituloModificar" xml:space="preserve">
+    <value>Modificar aproximación</value>
+  </data>
+  <data name="Configuracion_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Configuracion_AproximacionTitulo" xml:space="preserve">
+    <value>Criterios para aproximaciones</value>
+  </data>
+  <data name="Configuracion_LimiteInferior" xml:space="preserve">
+    <value>Límite Inferior</value>
+  </data>
+  <data name="Configuracion_LimiteSuperior" xml:space="preserve">
+    <value>Límite Superior</value>
+  </data>
+  <data name="Configuracion_MsjCrearAproximacion" xml:space="preserve">
+    <value>Datos ingresados correctamente</value>
+  </data>
+  <data name="Configuracion_MsjErrCrearAproximacion" xml:space="preserve">
+    <value>Error al crear el criterio de aproximación</value>
+  </data>
+  <data name="Configuracion_NombreCriterio" xml:space="preserve">
+    <value>Nombre del criterio</value>
+  </data>
+  <data name="Configuracion_TipoAproximacion" xml:space="preserve">
+    <value>Tipo de Aproximación</value>
+  </data>
+  <data name="Configuracion_Valor" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="CrearClaseCubrimiento_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="CrearClaseCubrimiento_Cubrimiento" xml:space="preserve">
+    <value>Cubrimiento</value>
+  </data>
+  <data name="CrearClaseCubrimiento_Descripcion" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="CrearClaseCubrimiento_Identificador" xml:space="preserve">
+    <value>Identificador</value>
+  </data>
+  <data name="CrearClaseCubrimiento_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado la clase de cubrimiento satisfactoriamente.</value>
+  </data>
+  <data name="CrearClaseCubrimiento_MsjErrorCreacion" xml:space="preserve">
+    <value>La clase de cubrimiento ya se encuentra creada.</value>
+  </data>
+  <data name="CrearClaseCubrimiento_MsjModificacion" xml:space="preserve">
+    <value>Se ha modificado la clase de cubrimiento satisfactoriamente.</value>
+  </data>
+  <data name="CrearClaseCubrimiento_SubTitulo" xml:space="preserve">
+    <value>Datos de la Clase de Cubrimiento</value>
+  </data>
+  <data name="CrearClaseCubrimiento_TituloConsulta" xml:space="preserve">
+    <value>Consulta Clase Cubrimiento</value>
+  </data>
+  <data name="CrearClaseCubrimiento_TituloCreacion" xml:space="preserve">
+    <value>Crear Clase Cubrimiento</value>
+  </data>
+  <data name="CrearClaseCubrimiento_TituloModificacion" xml:space="preserve">
+    <value>Modificación Clase Cubrimiento</value>
+  </data>
+  <data name="CrearTipoRecargo_AplicaFestivos" xml:space="preserve">
+    <value>Aplica a festivos</value>
+  </data>
+  <data name="CrearTipoRecargo_AplicaUrgencias" xml:space="preserve">
+    <value>Aplica para urgencias</value>
+  </data>
+  <data name="CrearTipoRecargo_Descripcion" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="CrearTipoRecargo_DiaSemana" xml:space="preserve">
+    <value>Día de la semana </value>
+  </data>
+  <data name="CrearTipoRecargo_HoraFinal" xml:space="preserve">
+    <value>Hora final </value>
+  </data>
+  <data name="CrearTipoRecargo_HoraInicial" xml:space="preserve">
+    <value>Hora inicial</value>
+  </data>
+  <data name="CrearTiposRecargo_Codigo" xml:space="preserve">
+    <value>Código del tipo de recargo</value>
+  </data>
+  <data name="CrearTiposRecargo_Nombre" xml:space="preserve">
+    <value>Nombre del tipo de recargo</value>
+  </data>
+  <data name="CrearUnidadMedida_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="CrearUnidadMedida_Codigo" xml:space="preserve">
+    <value>Abrev. Unidad</value>
+  </data>
+  <data name="CrearUnidadMedida_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado la unidad de medida satisfactoriamente.</value>
+  </data>
+  <data name="CrearUnidadMedida_MsjErrorCreacion" xml:space="preserve">
+    <value>La unidad de medida ya se encuentra creada.</value>
+  </data>
+  <data name="CrearUnidadMedida_MsjErrorSeleccion" xml:space="preserve">
+    <value>La unidad seleccionada no es una unidad válida para ser modificada.</value>
+  </data>
+  <data name="CrearUnidadMedida_MsjModificacion" xml:space="preserve">
+    <value>Se ha modificado la unidad de medida satisfactoriamente.</value>
+  </data>
+  <data name="CrearUnidadMedida_Nombre" xml:space="preserve">
+    <value>Nombre Unidad</value>
+  </data>
+  <data name="CrearUnidadMedida_SubTitulo" xml:space="preserve">
+    <value>Datos de la Unidad de Medida</value>
+  </data>
+  <data name="CrearUnidadMedida_Tipo" xml:space="preserve">
+    <value>Tipo Unidad</value>
+  </data>
+  <data name="CrearUnidadMedida_TituloConsulta" xml:space="preserve">
+    <value>Consulta Unidad de Medida</value>
+  </data>
+  <data name="CrearUnidadMedida_TituloCreacion" xml:space="preserve">
+    <value>Crear Unidad de Medida</value>
+  </data>
+  <data name="CrearUnidadMedida_TituloModificacion" xml:space="preserve">
+    <value>Modificación Unidad de Medida</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_TipoUnidad" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="General_ComboPropiedadValor_TipoUnidad" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="General_ComboPropiedadValor_Plan" xml:space="preserve">
+    <value>IdPlan</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TioComponente_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="TipoComponente_Cantidad" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="TipoComponente_CantidadMaxima" xml:space="preserve">
+    <value>Cantidad máxima</value>
+  </data>
+  <data name="TipoComponente_Clase" xml:space="preserve">
+    <value>Clase</value>
+  </data>
+  <data name="TipoComponente_ClaseComponente" xml:space="preserve">
+    <value>Clase de componente</value>
+  </data>
+  <data name="TipoComponente_CodComponente" xml:space="preserve">
+    <value>Código del componente</value>
+  </data>
+  <data name="TipoComponente_CodGrupoLista" xml:space="preserve">
+    <value>TipCom</value>
+  </data>
+  <data name="TipoComponente_Codigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="TipoComponente_MsjCrear" xml:space="preserve">
+    <value>El componente ha sido creado satisfactoriamente</value>
+  </data>
+  <data name="TipoComponente_MsjCrearError" xml:space="preserve">
+    <value>Error al crear el componente</value>
+  </data>
+  <data name="TipoComponente_MsjModificar" xml:space="preserve">
+    <value>El componente ha sido modificado satisfactoriamente</value>
+  </data>
+  <data name="TipoComponente_NombreComponente" xml:space="preserve">
+    <value>Nombre del tipo de componente</value>
+  </data>
+  <data name="TipoComponente_Tipo" xml:space="preserve">
+    <value>Tipo de Componente</value>
+  </data>
+  <data name="TipoComponente_Titulo" xml:space="preserve">
+    <value>Tipos de componentes</value>
+  </data>
+  <data name="TipoComponente_TituloCrear" xml:space="preserve">
+    <value>Crear tipo componente</value>
+  </data>
+  <data name="TipoComponente_TituloModificar" xml:space="preserve">
+    <value>Modificar tipo componente</value>
+  </data>
+  <data name="TipoRecargo_FechaPorDefecto" xml:space="preserve">
+    <value>1753-01-01 </value>
+  </data>
+  <data name="TipoRecargo_RangoHoraMilitar" xml:space="preserve">
+    <value>La hora debe estar entre las 00:00:00 y las 23:59:59.</value>
+  </data>
+  <data name="TipoUnidad" xml:space="preserve">
+    <value>TiUnidad</value>
+  </data>
+  <data name="TipoUnidad_Codigo" xml:space="preserve">
+    <value>HRS</value>
+  </data>
+  <data name="TipoUnidad_Codigo1" xml:space="preserve">
+    <value>MIN</value>
+  </data>
+  <data name="TipoUnidad_Codigo2" xml:space="preserve">
+    <value>SEG</value>
+  </data>
+  <data name="AdministrarTipoMovimientos_TituloTipoMov" xml:space="preserve">
+    <value>Tipo de Movimiento</value>
+  </data>
+  <data name="AdministrarTipoMovimientos_TituloSecTipoMov" xml:space="preserve">
+    <value>Secciones por Tipo de Movimiento</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_MetNum" xml:space="preserve">
+    <value>MosDes</value>
+  </data>
+  <data name="General_ComboPropiedadValor_MetNum" xml:space="preserve">
+    <value>MosCod</value>
+  </data>
+  <data name="CrearMetodoNumeracion_TituloConsulta" xml:space="preserve">
+    <value>Consulta Método de Numeración</value>
+  </data>
+  <data name="CrearMetodoNumeracion_TituloCreacion" xml:space="preserve">
+    <value>Crear Método de Numeración</value>
+  </data>
+  <data name="CrearMetodoNumeracion_TituloModificacion" xml:space="preserve">
+    <value>Modificar Método de Numeración</value>
+  </data>
+  <data name="CrearMetodoNumeracion_SubTitulo" xml:space="preserve">
+    <value>Datos del Método de Numeración</value>
+  </data>
+  <data name="CrearMetodoNumeracion_Codigo" xml:space="preserve">
+    <value>Código de Numeración</value>
+  </data>
+  <data name="CrearMetodoNumeracion_Consecutivo" xml:space="preserve">
+    <value>Consecutivo Actual</value>
+  </data>
+  <data name="CrearMetodoNumeracion_Descripcion" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="CrearMetodoNumeracion_Estado" xml:space="preserve">
+    <value>Estado de Numeración</value>
+  </data>
+  <data name="CrearMetodoNumeracion_Fecha" xml:space="preserve">
+    <value>Fecha Autorización</value>
+  </data>
+  <data name="CrearMetodoNumeracion_Limite" xml:space="preserve">
+    <value>Limite Superior de Numeración</value>
+  </data>
+  <data name="CrearMetodoNumeracion_Numero" xml:space="preserve">
+    <value>Numero Autorización</value>
+  </data>
+  <data name="CrearMetodoNumeracion_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado el método de numeración satisfactoriamente.</value>
+  </data>
+  <data name="CrearMetodoNumeracion_MsjErrorCreacion" xml:space="preserve">
+    <value>El método de numeración ya se encuentra creado.</value>
+  </data>
+  <data name="CrearMetodoNumeracion_MsjModificacion" xml:space="preserve">
+    <value>Se ha modificado el método de numeración satisfactoriamente.</value>
+  </data>
+  <data name="EstadoMetodoNumeracion" xml:space="preserve">
+    <value>EstNum</value>
+  </data>
+  <data name="CrearMetodoNumeracion_Nombre" xml:space="preserve">
+    <value>Nombre Autorización</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_TipMov" xml:space="preserve">
+    <value>TimNom</value>
+  </data>
+  <data name="General_ComboPropiedadValor_TipMov" xml:space="preserve">
+    <value>TimIde</value>
+  </data>
+  <data name="CrearTipoMovimiento_SubTitulo" xml:space="preserve">
+    <value>Datos del Tipo de Movimiento</value>
+  </data>
+  <data name="CrearTipoMovimiento_TituloConsulta" xml:space="preserve">
+    <value>Consulta Tipo de Movimiento</value>
+  </data>
+  <data name="CrearTipoMovimiento_TituloCreacion" xml:space="preserve">
+    <value>Crear Tipo de Movimiento</value>
+  </data>
+  <data name="CrearTipoMovimiento_TituloModificacion" xml:space="preserve">
+    <value>Modificar Tipo de Movimiento</value>
+  </data>
+  <data name="ConvenioProducto_Activos" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="ConvenioProducto_ClaseServicio" xml:space="preserve">
+    <value>Clase de Servicio</value>
+  </data>
+  <data name="ConvenioProducto_CodigoProducto" xml:space="preserve">
+    <value>Código de Producto</value>
+  </data>
+  <data name="ConvenioProducto_FechaFinal" xml:space="preserve">
+    <value>Fecha Final</value>
+  </data>
+  <data name="ConvenioProducto_FechaInicial" xml:space="preserve">
+    <value>Fecha Inicial</value>
+  </data>
+  <data name="ConvenioProducto_Grupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="ConvenioProducto_GrupoProducto" xml:space="preserve">
+    <value>Grupo de productos</value>
+  </data>
+  <data name="ConvenioProducto_MetodoPago" xml:space="preserve">
+    <value>Método de pago</value>
+  </data>
+  <data name="ConvenioProducto_Producto" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="ConvenioProducto_Tercero" xml:space="preserve">
+    <value>Tercero</value>
+  </data>
+  <data name="ConvenioProducto_TipoAtencion" xml:space="preserve">
+    <value>Tipo de Atención</value>
+  </data>
+  <data name="ConvenioProducto_TipoProducto" xml:space="preserve">
+    <value>Tipo de Producto</value>
+  </data>
+  <data name="ConvenioProducto_TipoValor" xml:space="preserve">
+    <value>Tipo de Valor</value>
+  </data>
+  <data name="ConvenioProducto_Titulo" xml:space="preserve">
+    <value>Convenio con Terceros</value>
+  </data>
+  <data name="ConvenioProducto_Valor" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="CrearTipoMovimiento_Afec" xml:space="preserve">
+    <value>Afectación</value>
+  </data>
+  <data name="CrearTipoMovimiento_DocSop" xml:space="preserve">
+    <value>Aplicar el documento de soporte</value>
+  </data>
+  <data name="CrearTipoMovimiento_IdMov" xml:space="preserve">
+    <value>Id. de Movimiento</value>
+  </data>
+  <data name="CrearTipoMovimiento_MovAct" xml:space="preserve">
+    <value>Movimiento Activo</value>
+  </data>
+  <data name="CrearTipoMovimiento_TipoComp" xml:space="preserve">
+    <value>Tipo de Comprobante</value>
+  </data>
+  <data name="CrearTipoMovimiento_TipoInv" xml:space="preserve">
+    <value>Tipo Inverso</value>
+  </data>
+  <data name="CrearTipoMovimiento_TipoMov" xml:space="preserve">
+    <value>Tipo de Movimiento</value>
+  </data>
+  <data name="CrearTipoMovimiento_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado el tipo de movimiento satisfactoriamente.</value>
+  </data>
+  <data name="CrearTipoMovimiento_MsjModificacion" xml:space="preserve">
+    <value>Se ha modificado el tipo de movimiento satisfactoriamente.</value>
+  </data>
+  <data name="SeccionTipMov_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="SeccionTipMov_Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="SeccionTipMov_Nombre" xml:space="preserve">
+    <value>Nombre de la Sección</value>
+  </data>
+  <data name="SeccionTipMov_Numeracion" xml:space="preserve">
+    <value>Numeración</value>
+  </data>
+  <data name="SeccionTipMov_Prefijo" xml:space="preserve">
+    <value>Prefijo de Numeración</value>
+  </data>
+  <data name="Afectacion" xml:space="preserve">
+    <value>Afec</value>
+  </data>
+  <data name="TipoComprobante" xml:space="preserve">
+    <value>TipComp</value>
+  </data>
+  <data name="CrearSeccTipoMovimiento_TituloConsulta" xml:space="preserve">
+    <value>Consulta Tipo de Movimiento por Sección</value>
+  </data>
+  <data name="CrearSeccTipoMovimiento_TituloCreacion" xml:space="preserve">
+    <value>Crear Tipo de Movimiento por Sección</value>
+  </data>
+  <data name="CrearSeccTipoMovimiento_TituloModificacion" xml:space="preserve">
+    <value>Modificar Tipo de Movimiento por Sección</value>
+  </data>
+  <data name="CrearSeccTipoMovimiento_SubTitulo" xml:space="preserve">
+    <value>Datos del Tipo de Movimiento por Sección</value>
+  </data>
+  <data name="CrearSeccTipoMovimiento_Activo" xml:space="preserve">
+    <value>Movimiento Activo</value>
+  </data>
+  <data name="CrearSeccTipoMovimiento_Codigo" xml:space="preserve">
+    <value>Id. de Movimiento</value>
+  </data>
+  <data name="CrearSeccTipoMovimiento_CodNum" xml:space="preserve">
+    <value>Codigo de Numeración</value>
+  </data>
+  <data name="CrearSeccTipoMovimiento_Nombre" xml:space="preserve">
+    <value>Tipo de Movimiento</value>
+  </data>
+  <data name="CrearSeccTipoMovimiento_Numeracion" xml:space="preserve">
+    <value>Numeración Automática</value>
+  </data>
+  <data name="CrearSeccTipoMovimiento_PreNum" xml:space="preserve">
+    <value>Prefijo de Numeración</value>
+  </data>
+  <data name="CrearSeccTipoMovimiento_Seccion" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="TipoUnidad_CodigoManual" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="ConvenioProducto_AgregarResponsable" xml:space="preserve">
+    <value>Responsable</value>
+  </data>
+  <data name="ConvenioProducto_AgregarResponsableConvenio" xml:space="preserve">
+    <value>Agregar Responsable</value>
+  </data>
+  <data name="ConvenioProducto_Apellido" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="ConvenioProducto_Componente" xml:space="preserve">
+    <value>Componente</value>
+  </data>
+  <data name="ConvenioProducto_ConvenioActivo" xml:space="preserve">
+    <value>Convenio Activo</value>
+  </data>
+  <data name="ConvenioProducto_Entidad" xml:space="preserve">
+    <value>Entidad</value>
+  </data>
+  <data name="ConvenioProducto_IdPersonal" xml:space="preserve">
+    <value>Id. del Personal</value>
+  </data>
+  <data name="ConvenioProducto_Nombre" xml:space="preserve">
+    <value>Nombres</value>
+  </data>
+  <data name="ConvenioProducto_PartDescuento" xml:space="preserve">
+    <value>Participación en descuentos</value>
+  </data>
+  <data name="ConvenioProducto_PersonalActivo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="ConvenioProducto_PorcentajeTrans" xml:space="preserve">
+    <value>Porcentaje a transferir</value>
+  </data>
+  <data name="ConvenioProducto_ResultadoResponsables" xml:space="preserve">
+    <value>Resultado Responsables</value>
+  </data>
+  <data name="ConvenioProducto_TipoFacturacion" xml:space="preserve">
+    <value>Tipo de Facturación</value>
+  </data>
+  <data name="ConvenioProducto_TipoTarifa" xml:space="preserve">
+    <value>Tipo de Tarifa</value>
+  </data>
+  <data name="ConvenioProducto_TituloCrear" xml:space="preserve">
+    <value>Convenios con terceros para Productos</value>
+  </data>
+  <data name="Responsable_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="ConvenioProducto_Porcentaje" xml:space="preserve">
+    <value>Porcentaje</value>
+  </data>
+  <data name="Descuento_Servicio" xml:space="preserve">
+    <value>Servicio</value>
+  </data>
+  <data name="Descuento_TipoAtencion" xml:space="preserve">
+    <value>Descuento Tipo Atención</value>
+  </data>
+  <data name="ExclusionesManual_CrearTitulo" xml:space="preserve">
+    <value>Crear exclusión de manual</value>
+  </data>
+  <data name="ExclusionesManual_ModificarTitulo" xml:space="preserve">
+    <value>Modificar exclusión de manual</value>
+  </data>
+  <data name="Exclusiones_MsjActualizar" xml:space="preserve">
+    <value>Se actualizó la exclusión satisfactoriamente.</value>
+  </data>
+  <data name="Exclusiones_MsjCrear" xml:space="preserve">
+    <value>Se ingresó la exlusión satisfactoriamente.</value>
+  </data>
+  <data name="Exclusiones_MsjValoresNivel" xml:space="preserve">
+    <value>El valor inicial no puede ser mayor que el valor final.</value>
+  </data>
+  <data name="Descuentos_CodigoGrupoRelacion" xml:space="preserve">
+    <value>TipRel</value>
+  </data>
+  <data name="CrearSecTipoMovimiento_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado la sección del tipo de movimiento satisfactoriamente.</value>
+  </data>
+  <data name="CrearSecTipoMovimiento_MsjModificacion" xml:space="preserve">
+    <value>Se ha modificado la sección del tipo de movimiento satisfactoriamente</value>
+  </data>
+  <data name="AdministrarFactorNoQX_Titulo" xml:space="preserve">
+    <value>Administrar Factores No QX</value>
+  </data>
+  <data name="AdministrarSecciones_SubTitulo" xml:space="preserve">
+    <value>Datos de la Sección</value>
+  </data>
+  <data name="AdministrarSecciones_Titulo" xml:space="preserve">
+    <value>Listado de Secciones</value>
+  </data>
+  <data name="CrearSecciones_Codigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="CrearSecciones_Nombre" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="Manual_Estado" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="Manual_ExclusionesRecargos" xml:space="preserve">
+    <value>Exclusiones y recargos</value>
+  </data>
+  <data name="Manual_Factores" xml:space="preserve">
+    <value>Factores QX y no QX</value>
+  </data>
+  <data name="Manual_NombreTarifa" xml:space="preserve">
+    <value>Nombre de la tarifa</value>
+  </data>
+  <data name="Manual_TituloComplejidadCostosAsociados" xml:space="preserve">
+    <value>Niveles complejidad y costos asociados</value>
+  </data>
+  <data name="Manual_TituloCondicionesPorcentuales" xml:space="preserve">
+    <value>Condiciones porcentuales</value>
+  </data>
+  <data name="Manual_TituloManual" xml:space="preserve">
+    <value>Manuales</value>
+  </data>
+  <data name="Manual_TituloTarifa" xml:space="preserve">
+    <value>Tarifa</value>
+  </data>
+  <data name="Manual_TituloValoresVigenciaTarifa" xml:space="preserve">
+    <value>Valores y vigencias tarifa</value>
+  </data>
+  <data name="Manual_Vigencia" xml:space="preserve">
+    <value>Vigencia</value>
+  </data>
+  <data name="CrearManual_Codigo" xml:space="preserve">
+    <value>Código del manual</value>
+  </data>
+  <data name="CrearManual_Nombre" xml:space="preserve">
+    <value>Nombre del Manual</value>
+  </data>
+  <data name="CrearManual_TituloCreacion" xml:space="preserve">
+    <value>Crear manuales básicos</value>
+  </data>
+  <data name="Manual_CodificacionProducto" xml:space="preserve">
+    <value>Definir codificaciones para los productos</value>
+  </data>
+  <data name="Manual_CondicionesPorcentuales" xml:space="preserve">
+    <value>Condiciones porcentuales basadas en productos</value>
+  </data>
+  <data name="Manual_CostosAsociados" xml:space="preserve">
+    <value>Costos asociados</value>
+  </data>
+  <data name="Manual_Exclusiones" xml:space="preserve">
+    <value>Exclusiones</value>
+  </data>
+  <data name="Manual_FactoresNoQX" xml:space="preserve">
+    <value>Factores no QX</value>
+  </data>
+  <data name="Manual_FactoresQX" xml:space="preserve">
+    <value>Factores QX</value>
+  </data>
+  <data name="Manual_NivelesComplejidad" xml:space="preserve">
+    <value>Niveles de complejidad</value>
+  </data>
+  <data name="Manual_PaquetesQX" xml:space="preserve">
+    <value>Factores paquetes QX</value>
+  </data>
+  <data name="Manual_Recargos" xml:space="preserve">
+    <value>Recargos</value>
+  </data>
+  <data name="Manual_TituloVigenciaCodificacion" xml:space="preserve">
+    <value>Vigencia codificación</value>
+  </data>
+  <data name="Manual_ValoresTarifa" xml:space="preserve">
+    <value>Generar valores de tarifa</value>
+  </data>
+  <data name="Manual_ValoresUnidades" xml:space="preserve">
+    <value>Definir valores para unidades</value>
+  </data>
+  <data name="Manual_VigenciaTarifa" xml:space="preserve">
+    <value>Definir valores para la vigencia de tarifa</value>
+  </data>
+  <data name="ActualizarManual_MsjModificacion" xml:space="preserve">
+    <value>Se ha modificado el manual satisfactoriamente.</value>
+  </data>
+  <data name="CrearManual_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado el manual satisfactoriamente.</value>
+  </data>
+  <data name="Descuentos_ClaseServicio" xml:space="preserve">
+    <value>Clase de Servicio</value>
+  </data>
+  <data name="Descuentos_Identificador" xml:space="preserve">
+    <value>Identificador</value>
+  </data>
+  <data name="Descuentos_TipoAtencion" xml:space="preserve">
+    <value>Tipo de Atención</value>
+  </data>
+  <data name="Descuento_Aplicar" xml:space="preserve">
+    <value>Aplicar únicamente al facturar</value>
+  </data>
+  <data name="Exclusiones_TituloManual" xml:space="preserve">
+    <value>Exclusiones para manual</value>
+  </data>
+  <data name="TipoComponente_InicialNoQuirurgico" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="TipoComponente_InicialQuirurgico" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="Secciones_Codigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="Secciones_Nombre" xml:space="preserve">
+    <value>Sección</value>
+  </data>
+  <data name="AdministrarFactoresNoQX_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="AdministrarFactoresNoQX_Igual" xml:space="preserve">
+    <value>Igual Vía</value>
+  </data>
+  <data name="AdministrarFactoresNoQX_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="AdministrarFactoresNoQX_Paquete" xml:space="preserve">
+    <value>Paquete</value>
+  </data>
+  <data name="AdministrarFactoresNoQX_Porcentaje" xml:space="preserve">
+    <value>Porcentaje %</value>
+  </data>
+  <data name="AdministrarFactoresNoQX_Tarifa" xml:space="preserve">
+    <value>Tarifa</value>
+  </data>
+  <data name="AdministrarFactoresNoQX_Vigencia" xml:space="preserve">
+    <value>Vigencia</value>
+  </data>
+  <data name="CrearFactoresNoQX_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="CrearFactoresNoQX_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="CrearFactoresNoQX_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado el Factor No QX satisfactoriamente.</value>
+  </data>
+  <data name="CrearFactoresNoQX_MsjModificacion" xml:space="preserve">
+    <value>Se ha modificado el Factor No QX satisfactoriamente.</value>
+  </data>
+  <data name="CrearFactoresNoQX_Paquete" xml:space="preserve">
+    <value>Producto Tipo Paquete</value>
+  </data>
+  <data name="CrearFactoresNoQX_Porcentaje" xml:space="preserve">
+    <value>Porcentaje</value>
+  </data>
+  <data name="CrearFactoresNoQX_SubTitulo" xml:space="preserve">
+    <value>Datos del Factor No QX</value>
+  </data>
+  <data name="CrearFactoresNoQX_Tarifa" xml:space="preserve">
+    <value>Tarifa</value>
+  </data>
+  <data name="CrearFactoresNoQX_TituloConsulta" xml:space="preserve">
+    <value>Consulta Factor No QX</value>
+  </data>
+  <data name="CrearFactoresNoQX_TituloCreacion" xml:space="preserve">
+    <value>Crear Factor No QX</value>
+  </data>
+  <data name="CrearFactoresNoQX_TituloModificacion" xml:space="preserve">
+    <value>Modificar Factor No QX</value>
+  </data>
+  <data name="CrearFactoresNoQX_Via" xml:space="preserve">
+    <value>Procedimientos de Igual Vía</value>
+  </data>
+  <data name="CrearFactoresNoQX_Vigencia" xml:space="preserve">
+    <value>Vigencia</value>
+  </data>
+  <data name="AdministrarContratoEstancia_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="AdministrarContratoEstancia_Contrato" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="AdministrarContratoEstancia_Entidad" xml:space="preserve">
+    <value>Entidad</value>
+  </data>
+  <data name="AdministrarContratoEstancia_HoraCorte" xml:space="preserve">
+    <value>Hora de Corte</value>
+  </data>
+  <data name="AdministrarContratoEstancia_HoraGracia" xml:space="preserve">
+    <value>Hora de Gracia</value>
+  </data>
+  <data name="AdministrarContratoEstancia_Plan" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="AdministrarContratoEstancia_TipoCobro" xml:space="preserve">
+    <value>Tipo de Cargue para Estancia</value>
+  </data>
+  <data name="AdministrarContratoEstancia_Titulo" xml:space="preserve">
+    <value>Administrar Contrato por Estancia</value>
+  </data>
+  <data name="CrearContratoEstancia_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="CrearContratoEstancia_Contrato" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="CrearContratoEstancia_Entidad" xml:space="preserve">
+    <value>Entidad</value>
+  </data>
+  <data name="CrearContratoEstancia_Estancia" xml:space="preserve">
+    <value>Estancia Mínima</value>
+  </data>
+  <data name="CrearContratoEstancia_HoraCorte" xml:space="preserve">
+    <value>Hora de Corte</value>
+  </data>
+  <data name="CrearContratoEstancia_HoraGracia" xml:space="preserve">
+    <value>Horas de Gracia</value>
+  </data>
+  <data name="CrearContratoEstancia_HoraGraciaEgreso" xml:space="preserve">
+    <value>Horas de Gracia Egreso</value>
+  </data>
+  <data name="CrearContratoEstancia_Identificador" xml:space="preserve">
+    <value>Identificador</value>
+  </data>
+  <data name="CrearContratoEstancia_Plan" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="CrearContratoEstancia_SubTitulo" xml:space="preserve">
+    <value>Datos del Contrato por Estancia</value>
+  </data>
+  <data name="CrearContratoEstancia_TipoCobro" xml:space="preserve">
+    <value>Tipo de Cobro</value>
+  </data>
+  <data name="CrearContratoEstancia_TituloCreacion" xml:space="preserve">
+    <value>Crear Contrato por Estancia</value>
+  </data>
+  <data name="CrearContratoEstancia_Unidades" xml:space="preserve">
+    <value>Unidades</value>
+  </data>
+  <data name="CrearContratoEstancia_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado el contrato por estancia satisfactoriamente.</value>
+  </data>
+  <data name="CrearContratoEstancia_MsjModificacion" xml:space="preserve">
+    <value>Se ha modificado el contrato por estancia satisfactoriamente.</value>
+  </data>
+  <data name="CrearContratoEstancia_TituloConsulta" xml:space="preserve">
+    <value>Consultar Contrato por Estancia</value>
+  </data>
+  <data name="CrearContratoEstancia_TituloModificacion" xml:space="preserve">
+    <value>Modificar Contrato por Estancia</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_Contrato" xml:space="preserve">
+    <value>NombreContrato</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_ContratoPlan" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="General_ComboPropiedadValor_Contrato" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="TipoCobro" xml:space="preserve">
+    <value>TipCob</value>
+  </data>
+  <data name="Unidades" xml:space="preserve">
+    <value>Uni</value>
+  </data>
+  <data name="Configuracion_ValoresUnidades_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="Configuracion_ValoresUnidades_Tarifa" xml:space="preserve">
+    <value>Tarifa</value>
+  </data>
+  <data name="Configuracion_ValoresUnidades_Titulo" xml:space="preserve">
+    <value>Valores para las Unidades</value>
+  </data>
+  <data name="Configuracion_ValoresUnidades_Unidad" xml:space="preserve">
+    <value>Unidad</value>
+  </data>
+  <data name="Configuracion_ValoresUnidades_ValorUnidad" xml:space="preserve">
+    <value>Valor de la Unidad</value>
+  </data>
+  <data name="Configuracion_ValoresUnidades_Vigencia" xml:space="preserve">
+    <value>Vigencia</value>
+  </data>
+  <data name="Configuracion_UnidadMediad_CodigoUnidad" xml:space="preserve">
+    <value>CodigoUnidad</value>
+  </data>
+  <data name="Configuracion_UnidadMediad_NombreUnidad" xml:space="preserve">
+    <value>NombreUnidad</value>
+  </data>
+  <data name="Configuracion_ValoresUnidades_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Configuracion_ValoresUnidades_MsjErrorCargarValoresUnidad" xml:space="preserve">
+    <value>No ha seleccionado un manual o una tarifa para realizar la asignación de valores de unidad corresponiente.</value>
+  </data>
+  <data name="Configuracion_ValoresUnidades_TituloMsjError" xml:space="preserve">
+    <value>Error seleccion manuales y/o tarifas.</value>
+  </data>
+  <data name="Configuracion_ValoresUnidad_MsgErrorDiligenciarCampos" xml:space="preserve">
+    <value>Debe diligenciar el campo Valor unidad y seleccionar una unidad.</value>
+  </data>
+  <data name="Configuracion_ValoresUnidad_MsgOkAlmacenamiento" xml:space="preserve">
+    <value>Se guardo el registro con exito.</value>
+  </data>
+  <data name="Configuracion_TarifaManual_MsjSeleccionManual" xml:space="preserve">
+    <value>Debe seleccionar un Manual</value>
+  </data>
+  <data name="AdministradorTar_MsjActualizacion" xml:space="preserve">
+    <value>Se actualizó la Tarifa satisfactoriamente.</value>
+  </data>
+  <data name="AdministradorTar_MsjActualizacionError" xml:space="preserve">
+    <value>Error al actualizar registro.</value>
+  </data>
+  <data name="AdministradorTar_MsjInsercion" xml:space="preserve">
+    <value>Se ingresó la Tarifa satisfactoriamente.</value>
+  </data>
+  <data name="AdministradorTar_MsjInsercionError" xml:space="preserve">
+    <value>Error al ingresar tarifa.</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_Base" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_CantidadMaxima" xml:space="preserve">
+    <value>Cantidad Máxima</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_CantidadxDefecto" xml:space="preserve">
+    <value>Cantidad por Defecto</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_ClaseServicio" xml:space="preserve">
+    <value>Clase de Servicio</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_CobroxFracciones" xml:space="preserve">
+    <value>Cobro por Fracciones</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_IncluirValor" xml:space="preserve">
+    <value>Incluir el Valor</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_Producto" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_Tipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_TipoAtencion" xml:space="preserve">
+    <value>Id. Tipo de Atención</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_TipoComp" xml:space="preserve">
+    <value>Tipo Comp</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_TituloGrilla" xml:space="preserve">
+    <value>Datos Nivel de Complejidad</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_Unidad" xml:space="preserve">
+    <value>Unidad</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_UnidadesValor" xml:space="preserve">
+    <value>Unidades Valor</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_Valor" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_ValorBase" xml:space="preserve">
+    <value>Valor Base</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_ValorMaximo" xml:space="preserve">
+    <value>Valor Máximo</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_ValorMinimo" xml:space="preserve">
+    <value>Valor Mínimo</value>
+  </data>
+  <data name="Configuracion_NivelesComplejidad_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Configuracion_NivelesComplejidad_Inactivo" xml:space="preserve">
+    <value>Inactivo</value>
+  </data>
+  <data name="Configuracion_NivelesComplejidad_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="Configuracion_NivelesComplejidad_NivelComplejidad" xml:space="preserve">
+    <value>Nivel de Complejidad</value>
+  </data>
+  <data name="Configuracion_NivelesComplejidad_NumeroOrden" xml:space="preserve">
+    <value>Orden</value>
+  </data>
+  <data name="Configuracion_NivelesComplejidad_Tarifa" xml:space="preserve">
+    <value>Tarifa</value>
+  </data>
+  <data name="Configuracion_NivelesComplejidad_Titulo" xml:space="preserve">
+    <value>Niveles de Complejidad para una Vigencia de Tarifa</value>
+  </data>
+  <data name="Configuracion_NivelesComplejidad_Vigencia" xml:space="preserve">
+    <value>Vigencia</value>
+  </data>
+  <data name="Contratos_ComponentesQX" xml:space="preserve">
+    <value>Componentes</value>
+  </data>
+  <data name="Contratos_ComponentesCobrarFraccion" xml:space="preserve">
+    <value>Cobro por fracción</value>
+  </data>
+  <data name="Contratos_ComponentesDigitos" xml:space="preserve">
+    <value>Digitos aprox.</value>
+  </data>
+  <data name="Contratos_ComponentesTiposValor" xml:space="preserve">
+    <value>Tipo de valor</value>
+  </data>
+  <data name="Contratos_ComponentesTituloBuscar" xml:space="preserve">
+    <value>Definir componentes</value>
+  </data>
+  <data name="Contratos_ComponentesValor" xml:space="preserve">
+    <value>Valor componente</value>
+  </data>
+  <data name="FirmaDocumentos_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="FirmaDocumentos_CodTipoProceso" xml:space="preserve">
+    <value>TipoProc</value>
+  </data>
+  <data name="FirmaDocumentos_Descripcion" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="FirmaDocumentos_Firma" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="FirmaDocumentos_GrillaTitulo" xml:space="preserve">
+    <value>Firmas Documentos</value>
+  </data>
+  <data name="FirmaDocumentos_Identificador" xml:space="preserve">
+    <value>Identificador</value>
+  </data>
+  <data name="FirmaDocumentos_MsjCrear" xml:space="preserve">
+    <value>La firma se ha creado exitosamente.</value>
+  </data>
+  <data name="FirmaDocumentos_MsjModificar" xml:space="preserve">
+    <value>La firma se ha modificado exitosamente.</value>
+  </data>
+  <data name="FirmaDocumentos_Orden" xml:space="preserve">
+    <value>Orden</value>
+  </data>
+  <data name="FirmaDocumentos_TipoProceso" xml:space="preserve">
+    <value>Tipo de Proceso</value>
+  </data>
+  <data name="FirmaDocumentos_TituloCrear" xml:space="preserve">
+    <value>Crear Firma para Documentos</value>
+  </data>
+  <data name="FirmaDocumentos_TituloModificar" xml:space="preserve">
+    <value>Modificar Firma para Documentos</value>
+  </data>
+  <data name="FirmaDocumentos_Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="FirmaDocumentos_BuscarTitulo" xml:space="preserve">
+    <value>Buscar Firma Documentos</value>
+  </data>
+  <data name="FirmaDocumento_ModoPantallaMod" xml:space="preserve">
+    <value>ModoPantalla</value>
+  </data>
+  <data name="AdministrarCostosAsociados_Titulo" xml:space="preserve">
+    <value>Administrar Costos Asociados</value>
+  </data>
+  <data name="AdministrarCostosAsociados_Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="AdministrarCostosAsociados_CodProducto" xml:space="preserve">
+    <value>Codigo Producto</value>
+  </data>
+  <data name="AdministrarCostosAsociados_IdProducto" xml:space="preserve">
+    <value>Id. Producto</value>
+  </data>
+  <data name="AdministrarCostosAsociados_Incluye" xml:space="preserve">
+    <value>Incluye</value>
+  </data>
+  <data name="AdministrarCostosAsociados_NomGrupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="AdministrarCostosAsociados_NomProducto" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="CostoAsociado" xml:space="preserve">
+    <value>Est</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_EstadoCostoAsociado" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="General_ComboPropiedadValor_EstadoCostoAsociado" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="CrearCostosAsociados_TituloConsulta" xml:space="preserve">
+    <value>Consultar Costo Asociado</value>
+  </data>
+  <data name="CrearCostosAsociados_TituloCreacion" xml:space="preserve">
+    <value>Crear Costo Asociado</value>
+  </data>
+  <data name="CrearCostosAsociados_TituloModificacion" xml:space="preserve">
+    <value>Modificar Costo Asociado</value>
+  </data>
+  <data name="CrearCostosAsociados_GrupoPro" xml:space="preserve">
+    <value>Grupo de producto</value>
+  </data>
+  <data name="CrearCostosAsociados_Incluye" xml:space="preserve">
+    <value>Incluye el Valor del Producto</value>
+  </data>
+  <data name="CrearCostosAsociados_Producto" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="CrearCostosAsociados_SubTitulo" xml:space="preserve">
+    <value>Datos del Costo Asociado</value>
+  </data>
+  <data name="CrearCostosAsociados_ClaseServicio" xml:space="preserve">
+    <value>Clase de Servicio</value>
+  </data>
+  <data name="CrearCostosAsociados_CodigoProducto" xml:space="preserve">
+    <value>Código Producto</value>
+  </data>
+  <data name="CrearCostosAsociados_IdProducto" xml:space="preserve">
+    <value>Id Producto</value>
+  </data>
+  <data name="CrearCostosAsociados_IncluyeValor" xml:space="preserve">
+    <value>Incluye el Valor</value>
+  </data>
+  <data name="CrearCostosAsociados_NombreProducto" xml:space="preserve">
+    <value>Nombre Producto</value>
+  </data>
+  <data name="CrearCostosAsociados_Signo" xml:space="preserve">
+    <value>Signo</value>
+  </data>
+  <data name="CrearCostosAsociados_Tipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="CrearCostosAsociados_TipoAtencion" xml:space="preserve">
+    <value>Id. Tipo Atención</value>
+  </data>
+  <data name="CrearCostosAsociados_TipoComponente" xml:space="preserve">
+    <value>Tipo de Componente</value>
+  </data>
+  <data name="CrearCostosAsociados_Unidad" xml:space="preserve">
+    <value>Unidad</value>
+  </data>
+  <data name="CrearCostosAsociados_Valor" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="CrearCostosAsociados_ValorMax" xml:space="preserve">
+    <value>Valor Máximo</value>
+  </data>
+  <data name="CrearCostosAsociados_ValorMin" xml:space="preserve">
+    <value>Valor Mínimo</value>
+  </data>
+  <data name="CrearCostosAsociados_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado el costo asociado y su respectivo detalle satisfactoriamente.</value>
+  </data>
+  <data name="CrearCostosAsociados_MsjModificacion" xml:space="preserve">
+    <value>Se ha modificado el costo asociado  y su respectivo detalle  satisfactoriamente.</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_TipAte" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="General_ComboPropiedadValor_TipAte" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Configuracion_Aproximacion" xml:space="preserve">
+    <value>Aproximación</value>
+  </data>
+  <data name="Configuracion_Componente" xml:space="preserve">
+    <value>Componente</value>
+  </data>
+  <data name="Configuracion_Contrato" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="Configuracion_Entidad" xml:space="preserve">
+    <value>Entidad</value>
+  </data>
+  <data name="ContratoComponentes_Digitos" xml:space="preserve">
+    <value>Número de dígitos</value>
+  </data>
+  <data name="ContratoComponentes_Intervalo" xml:space="preserve">
+    <value>Intervalos</value>
+  </data>
+  <data name="ContratoComponentes_MinIntervalo" xml:space="preserve">
+    <value>Mínimo del intervalo</value>
+  </data>
+  <data name="ContratoComponente_Unidades" xml:space="preserve">
+    <value>Unidades a manejar</value>
+  </data>
+  <data name="ContratoComponentes_IntMaximo" xml:space="preserve">
+    <value>Máximo del intervalo</value>
+  </data>
+  <data name="ContratoComponentes_IntValor" xml:space="preserve">
+    <value>Valor en pesos del intervalo</value>
+  </data>
+  <data name="ContratoComponentes_Titulo" xml:space="preserve">
+    <value>Crear cobro de componentes QX</value>
+  </data>
+  <data name="Configuracion_TarifaManual_MsjSeleccionTarifa" xml:space="preserve">
+    <value>Debe seleccionar una tarifa</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_ClaseSer" xml:space="preserve">
+    <value>NombreServicio</value>
+  </data>
+  <data name="General_ComboPropiedadValor_ClaseSer" xml:space="preserve">
+    <value>IdServicio</value>
+  </data>
+  <data name="Signo" xml:space="preserve">
+    <value>Signo</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_Unidad" xml:space="preserve">
+    <value>NombreUnidad</value>
+  </data>
+  <data name="General_ComboPropiedadValor_Unidad" xml:space="preserve">
+    <value>CodigoUnidad</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_TipoComp" xml:space="preserve">
+    <value>NombreComponente</value>
+  </data>
+  <data name="General_ComboPropiedadValor_TipoComp" xml:space="preserve">
+    <value>CodigoComponente</value>
+  </data>
+  <data name="CrearCostosAsociados_MsjCreacion1" xml:space="preserve">
+    <value>Se ha creado el costo asociado satisfactoriamente.</value>
+  </data>
+  <data name="CrearCostosAsociados_MsjModificacion1" xml:space="preserve">
+    <value>Se ha modificado el costo asociado satisfactoriamente.</value>
+  </data>
+  <data name="AdministrarValoresTarifas_Titulo" xml:space="preserve">
+    <value>Administrar Valores de Tarifas</value>
+  </data>
+  <data name="Ejecucion" xml:space="preserve">
+    <value>Ejecu</value>
+  </data>
+  <data name="AdministrarValoresTarifas_CodProducto" xml:space="preserve">
+    <value>Código Producto</value>
+  </data>
+  <data name="AdministrarValoresTarifas_Id" xml:space="preserve">
+    <value>Id.</value>
+  </data>
+  <data name="AdministrarValoresTarifas_IdProducto" xml:space="preserve">
+    <value>Id. Producto</value>
+  </data>
+  <data name="AdministrarValoresTarifas_NomGrupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="AdministrarValoresTarifas_NomProducto" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="AdministrarValoresTarifas_NomProductoTipo" xml:space="preserve">
+    <value>Tipo de Producto</value>
+  </data>
+  <data name="AdministrarValoresTarifas_Porcentaje" xml:space="preserve">
+    <value>Porcentaje</value>
+  </data>
+  <data name="CrearValoresTarifas_CriterioAprox" xml:space="preserve">
+    <value>Criterio para la Aproximación</value>
+  </data>
+  <data name="CrearValoresTarifas_Digitos" xml:space="preserve">
+    <value>Número de Dígitos</value>
+  </data>
+  <data name="CrearValoresTarifas_Ejecucion" xml:space="preserve">
+    <value>Ejecución</value>
+  </data>
+  <data name="CrearValoresTarifas_Grupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="CrearValoresTarifas_Porcentaje" xml:space="preserve">
+    <value>Porcentaje</value>
+  </data>
+  <data name="CrearValoresTarifas_Producto" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="CrearValoresTarifas_SubTitulo" xml:space="preserve">
+    <value>Datos de la Tarifa</value>
+  </data>
+  <data name="CrearValoresTarifas_TipoProducto" xml:space="preserve">
+    <value>Tipo de Producto</value>
+  </data>
+  <data name="CrearValoresTarifas_TituloConsulta" xml:space="preserve">
+    <value>Consultar Valores de Tarifas</value>
+  </data>
+  <data name="CrearValoresTarifas_TituloCreacion" xml:space="preserve">
+    <value>Crear Valores de Tarifas</value>
+  </data>
+  <data name="CrearValoresTarifas_TituloModificacion" xml:space="preserve">
+    <value>Modificar Valores de Tarifas</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_Aprox" xml:space="preserve">
+    <value>NombreAproximacion</value>
+  </data>
+  <data name="General_ComboPropiedadValor_Aprox" xml:space="preserve">
+    <value>TipoAproximacion</value>
+  </data>
+  <data name="General_ComboPropiedadTexto_TipoProd" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="General_ComboPropiedadValor_TipoProd" xml:space="preserve">
+    <value>IdTipoProducto</value>
+  </data>
+  <data name="CrearValoresTarifas_MsjCreacion" xml:space="preserve">
+    <value>Se ha creado la tarifa y su respectivo detalle satisfactoriamente.</value>
+  </data>
+  <data name="CrearValoresTarifas_MsjCreacion1" xml:space="preserve">
+    <value>Se ha creado la tarifa satisfactoriamente.</value>
+  </data>
+  <data name="CrearValoresTarifas_MsjModificacion" xml:space="preserve">
+    <value>Se ha modificado la tarifa  y su respectivo detalle  satisfactoriamente.</value>
+  </data>
+  <data name="CrearValoresTarifas_MsjModificacion1" xml:space="preserve">
+    <value>Se ha modificado la tarifa satisfactoriamente.</value>
+  </data>
+  <data name="ContratoComponente_TituloConsultar" xml:space="preserve">
+    <value>Consultar cobro de componentes QX</value>
+  </data>
+  <data name="ContratoComponente_TituloEditar" xml:space="preserve">
+    <value>Modificar cobro de componentes QX</value>
+  </data>
+  <data name="CantratoTarifasAdicionales_AplicarRecargo" xml:space="preserve">
+    <value>Aplicar Recargo</value>
+  </data>
+  <data name="CantratoTarifasAdicionales_CodigoTarifa" xml:space="preserve">
+    <value>Código Tarifa</value>
+  </data>
+  <data name="CantratoTarifasAdicionales_NombreTarifa" xml:space="preserve">
+    <value>Nombre Tarifa</value>
+  </data>
+  <data name="CantratoTarifasAdicionales_RenovacionAuto" xml:space="preserve">
+    <value>Renovar Automaticamente</value>
+  </data>
+  <data name="CantratoTarifasAdicionales_VigenciaTarifa" xml:space="preserve">
+    <value>Vigencia Tarifa</value>
+  </data>
+  <data name="Configuracion_Plan" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="CantratoTarifasAdicionales_TituloBuscar" xml:space="preserve">
+    <value>Definir Tarifas Adicionales</value>
+  </data>
+  <data name="Configuracion_ClaseServicio" xml:space="preserve">
+    <value>Clase de servicio</value>
+  </data>
+  <data name="Configuracion_Identificador" xml:space="preserve">
+    <value>Identificador</value>
+  </data>
+  <data name="Configuracion_Porcentaje" xml:space="preserve">
+    <value>Porcentaje </value>
+  </data>
+  <data name="Configuracion_Tarifa" xml:space="preserve">
+    <value>Tarifa</value>
+  </data>
+  <data name="Configuracion_TipoAtencion" xml:space="preserve">
+    <value>Tipo de atención</value>
+  </data>
+  <data name="ContratoTarifasAdicionales_TituloNuevo" xml:space="preserve">
+    <value>Crear Tarifas Adicionales</value>
+  </data>
+  <data name="Configuracion_Vigencia" xml:space="preserve">
+    <value>Vigencia</value>
+  </data>
+  <data name="Manual_CrearTarifaBaseBtn" xml:space="preserve">
+    <value>Crear tarifa a partir de otra</value>
+  </data>
+  <data name="General_ComboPropiedadValor_ContratoPlan" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="AdministrarTiposRecargo_TituloConsulta" xml:space="preserve">
+    <value>Consulta Tipo de Recargo</value>
+  </data>
+  <data name="Aproximaciones_TituloConsulta" xml:space="preserve">
+    <value>Consulta Aproximaciones</value>
+  </data>
+  <data name="TipoComponente_TituloActualiza" xml:space="preserve">
+    <value>Actualiza Tipo de Componente</value>
+  </data>
+  <data name="TipoComponente_TituloConsulta" xml:space="preserve">
+    <value>Consulta Tipo de Componente</value>
+  </data>
+  <data name="ConvenioProducto_TituloConsulta" xml:space="preserve">
+    <value>Consulta Convenio de Tercero Para Producto</value>
+  </data>
+  <data name="ConvenioProducto_TituloModificar" xml:space="preserve">
+    <value>Modificar Convenio de Tercero Para Producto</value>
+  </data>
+  <data name="Configuracion_Unidad" xml:space="preserve">
+    <value>Unidad</value>
+  </data>
+  <data name="Configuracion_ValoresUnidad_MsgErrorRegistroDuplicado" xml:space="preserve">
+    <value>Por favor verifique esta intentando ingresar un registro duplicado</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_DatosDetalle" xml:space="preserve">
+    <value>Detalle de Nivel</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_Incluir" xml:space="preserve">
+    <value>Incluir el valor</value>
+  </data>
+  <data name="Configuracion_NivelComplejidad_NivelDatos" xml:space="preserve">
+    <value>Datos de Nivel</value>
+  </data>
+  <data name="NivelComlejidad_MsjActualizar" xml:space="preserve">
+    <value>Se ha actualizado el nivel de complejidad satisfactoriamente</value>
+  </data>
+  <data name="NivelComplejidad_MsjCrear" xml:space="preserve">
+    <value>Se ha creado el nivel de complejidad satisfactoriamente</value>
+  </data>
+  <data name="NivelComplejidad_TituloConsultar" xml:space="preserve">
+    <value>Consultar nivel de complejidad</value>
+  </data>
+  <data name="NivelComplejidad_TituloCrear" xml:space="preserve">
+    <value>Crear nivel de complejidad</value>
+  </data>
+  <data name="NivelCompliejidad_TituloModificar" xml:space="preserve">
+    <value>Modificar nivel de complejidad</value>
+  </data>
+  <data name="Manual_TituloValoresUnidades" xml:space="preserve">
+    <value>Valores para Unidades</value>
+  </data>
+  <data name="NivelComplejidad_MsjExisteNivel" xml:space="preserve">
+    <value>Ya existe un nivel vigente con el producto seleccionado</value>
+  </data>
+  <data name="NivelComplejidad_MsjValidaCantidadDetalle" xml:space="preserve">
+    <value>Debe ingresar al menos un detalle para el nivel de complejidad</value>
+  </data>
+  <data name="Aproximaciones_MsjValidaNiveles" xml:space="preserve">
+    <value>Debe ingresar al menos un límite para el criterio de aproximación.</value>
+  </data>
+  <data name="Aproximaciones_MsjIntervalosError" xml:space="preserve">
+    <value>Límites de aproximación inválidos, por favor verifique.</value>
+  </data>
+</root>

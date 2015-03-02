@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aproximaciones_MsjErrActualizar" xml:space="preserve">
+    <value>Se presentó un error al actualizar el criterio de aproximación</value>
+  </data>
+  <data name="Aproximaciones_MsjErrCrear" xml:space="preserve">
+    <value>Se presentó un error al crear el criterio de aproximación</value>
+  </data>
+  <data name="Aproximaciones_MsjErrEliminarInt" xml:space="preserve">
+    <value>Se presentó un error al eliminar los límites.</value>
+  </data>
+  <data name="Aproximaciones_MsjErrGuardarInt" xml:space="preserve">
+    <value>Se presentó un error al guardar los límites.</value>
+  </data>
+  <data name="Aproximacion_ErrorGuardarCriterio" xml:space="preserve">
+    <value>Error al almacenar el criterio de aproximación.</value>
+  </data>
+  <data name="Aproximacion_ErrorGuardarIntervalo" xml:space="preserve">
+    <value>Error al almacenar los límites de intervalos.</value>
+  </data>
+  <data name="ConvenioNoClinico_NoInstanciado" xml:space="preserve">
+    <value>El campo de convenio no clínico debe ser instanciado con el IdManual</value>
+  </data>
+  <data name="DetalleTarifa_AjusteTarifa" xml:space="preserve">
+    <value>El producto no tiene una tarifa definida IdProducto:{0} Nombre:{1} Atención:{2}</value>
+  </data>
+  <data name="DetalleTarifa_Porcentaje" xml:space="preserve">
+    <value>No se encuentra configurado el valor para el  IdProducto:{0} Nombre:{1} Atención:{2}, relacionado al ajuste de tarifa</value>
+  </data>
+  <data name="EstadoAgregado" xml:space="preserve">
+    <value>Agregado</value>
+  </data>
+  <data name="EstadoBorrado" xml:space="preserve">
+    <value>Borrado</value>
+  </data>
+  <data name="GrupoProducto_NoInstanciado" xml:space="preserve">
+    <value>El campo de grupo de producto debe tener un valor o ser instanciado con el constructor por defecto</value>
+  </data>
+  <data name="HomologacionProducto_SinDato" xml:space="preserve">
+    <value>No se encuentra configurado la homologación para el producto {0} Atención:{1}</value>
+  </data>
+  <data name="OperacionInsertar" xml:space="preserve">
+    <value>Insertar</value>
+  </data>
+  <data name="OperacionModificar" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="Producto_NoInstanciado" xml:space="preserve">
+    <value>El campo de producto debe tener un valor o ser instanciado con el constructor por defecto</value>
+  </data>
+  <data name="Tarifas_TipoFacturacion" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="Tarifas_TipoTarifas" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="TipoComponente_NA" xml:space="preserve">
+    <value>NA</value>
+  </data>
+  <data name="VentasProductoRelacion" xml:space="preserve">
+    <value>No fue posible realizar la asociación de ventas, vuelva  a intentarlo nuevamente</value>
+  </data>
+  <data name="VigenciaTarifa_MsjErrCrearVigencias" xml:space="preserve">
+    <value>Se presentó un error al insertar las vigencias de tarifa.</value>
+  </data>
+  <data name="VinculacionVentas" xml:space="preserve">
+    <value>No fue posible realizar la vinculación del Venta {0} Atención Padre {1} Atención Hija {2}</value>
+  </data>
+  <data name="NivelComplejidad_ErrorCrearDetalle" xml:space="preserve">
+    <value>Se presentó un error al crear el detalle del nivel de complejidad.</value>
+  </data>
+  <data name="NivelComplejidad_ErrorCrearNivel" xml:space="preserve">
+    <value>Se presentó un error al crear el nivel de complejidad</value>
+  </data>
+  <data name="NivelComplejidad_Nivel" xml:space="preserve">
+    <value>El producto {0} - {1} No tiene nivel de complejidad configurado</value>
+  </data>
+  <data name="UnidadVenta" xml:space="preserve">
+    <value>No se encuentra configurada la unidad para la fecha de vigencia {0} del manual {1}</value>
+  </data>
+</root>

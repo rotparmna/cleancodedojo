@@ -1,0 +1,16 @@
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\bin\Debug\CliCountry.Facturacion.Negocio.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\bin\Debug\CliCountry.Facturacion.Negocio.pdb
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\obj\Debug\CliCountry.Facturacion.Negocio.csprojResolveAssemblyReference.cache
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\obj\Debug\CliCountry.Facturacion.Negocio.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\obj\Debug\CliCountry.Facturacion.Negocio.pdb
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\obj\Debug\CliCountry.Facturacion.Negocio.Comun.Recursos.ReglasNegocio.resources
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\obj\Debug\CliCountry.Facturacion.Negocio.csproj.GenerateResource.Cache
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\bin\Debug\CliCountry.Facturacion.Datos.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\bin\Debug\CliCountry.Facturacion.Dominio.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\bin\Debug\CliCountry.SAHI.Comun.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\bin\Debug\CliCountry.SAHI.Dominio.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\bin\Debug\CliCountry.Facturacion.Integracion.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\bin\Debug\CliCountry.Facturacion.Dominio.pdb
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\bin\Debug\CliCountry.Facturacion.Datos.pdb
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\bin\Debug\CliCountry.Facturacion.Integracion.pdb
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountry.Facturacion.Negocio\obj\Debug\CliCountry.Facturacion.Negocio.Comun.Recursos.Constantes.resources

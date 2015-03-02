@@ -1,0 +1,129 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CliCountry.Facturacion.Web.WebExterno.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="General_CodigoEntidad" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">01</Value>
+    </Setting>
+    <Setting Name="TipoMovimiento_IdentificadorMovimientoNumerado" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="TipoMovimiento_CodigoPantalla" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FacturasRelacionActi</Value>
+    </Setting>
+    <Setting Name="TipoMovimiento_CodigoPantallaDetalle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FacturasRelacionActi</Value>
+    </Setting>
+    <Setting Name="TipoMovimiento_IndicadorPantallaActivo" Type="System.Int16" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="TipoAtencion_IndicadorEstadoHabilitado" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Formato_IdentificadorEstadoFormato" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Entidad_IndicadorHabilitadoContrato" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Entidad_IndicadorFacturaRelacion" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Entidad_IndicadorHabilitadoTercero" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Seccion_CodigoSede" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="Seccion_IdEstadoOrgan" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="Seccion_CodigoEstadoOrgan" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">01</Value>
+    </Setting>
+    <Setting Name="TipoAtencion_IdentificadorAtencionTipoBase" Type="System.Int16" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="FacturacionRelacion_AtencionOrdenPrioridad" Type="System.Int16" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ProcesoFactura_EstadoPendiente" Type="System.Byte" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="FacturaRelacion_TipoRelacion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1,3</Value>
+    </Setting>
+    <Setting Name="UsuarioFirma_Facturacion" Type="System.Int16" Scope="Application">
+      <Value Profile="(Default)">3887</Value>
+    </Setting>
+    <Setting Name="UsuarioRoles_DesbloquearAtencion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SISADM,BILFA1,BILFA2</Value>
+    </Setting>
+    <Setting Name="Paginacion_CantidadBotones" Type="System.Int16" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="Paginacion_CantidadRegistrosPagina" Type="System.Int16" Scope="Application">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="CodigoCiudadCliente" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">057011001</Value>
+    </Setting>
+    <Setting Name="Nivel_Cliente" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Uno</Value>
+    </Setting>
+    <Setting Name="TransaccionVentasQuirurgicas" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">120</Value>
+    </Setting>
+    <Setting Name="TransaccionVentasMedicamentosInsumos" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">75,146</Value>
+    </Setting>
+    <Setting Name="CondicionCubrimiento_IdPagina" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="CondicionCubrimiento_IdMaestra" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="FacturaActividades_TipoRelacion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1,2,3,4,5,6</Value>
+    </Setting>
+    <Setting Name="CondicionesFacturacion_Tipo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">F</Value>
+    </Setting>
+    <Setting Name="CondicionesTarifa_Tipo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">T</Value>
+    </Setting>
+    <Setting Name="CondicionesTarifa_AjusteTarifa" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="TipoPersona_Juridica" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">J</Value>
+    </Setting>
+    <Setting Name="TipoPersona_Natural" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">N</Value>
+    </Setting>
+    <Setting Name="FacturacionNoClinica_Transaccion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Ventas No Clinica</Value>
+    </Setting>
+    <Setting Name="FacturacionNoQX_Transaccion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Ventas No QX</Value>
+    </Setting>
+    <Setting Name="FacturacionQX_Transaccion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Ventas QX</Value>
+    </Setting>
+    <Setting Name="ModuloWeb_IdModulo" Type="System.Int16" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="AnchoCodigoBarras" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="LargoCodigoBarras" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">700</Value>
+    </Setting>
+    <Setting Name="NitCountryParticular" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">830005028</Value>
+    </Setting>
+    <Setting Name="PermisosEspeciales" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/default.aspx,/Facturacion/ReporteEstadoCuenta.aspx,/Facturacion/ReporteEstadoCuentaMultiple.aspx,/Facturacion/ReporteEstadoCuentaPaquetes.aspx,/Facturacion/ReporteRelacionPaquetes.aspx,/Facturacion/ReporteVenta.aspx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

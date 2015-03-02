@@ -1,0 +1,1149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aproximacion_ConsultarTodos" xml:space="preserve">
+    <value>FACSeleccionarAproximaciones</value>
+  </data>
+  <data name="CausalDetalle_Actualizar" xml:space="preserve">
+    <value>FACModificarCausalDetalle</value>
+  </data>
+  <data name="CausalDetalle_ConsultarPorFiltro" xml:space="preserve">
+    <value>FACSeleccionarCausalDetalle</value>
+  </data>
+  <data name="CausalDetalle_ConsultarTodos" xml:space="preserve">
+    <value>FACSeleccionarCausalDetalle</value>
+  </data>
+  <data name="CausalDetalle_Crear" xml:space="preserve">
+    <value>FACInsertarCausalDetalle</value>
+  </data>
+  <data name="CausalDetalle_Eliminar" xml:space="preserve">
+    <value>FACEliminarCausalDetalle</value>
+  </data>
+  <data name="CausalTipo_Actualizar" xml:space="preserve">
+    <value>FACModificarCausalTipo</value>
+  </data>
+  <data name="CausalTipo_ConsultarPorFiltro" xml:space="preserve">
+    <value>FACSeleccionarCausalTipo</value>
+  </data>
+  <data name="CausalTipo_ConsultarTodos" xml:space="preserve">
+    <value>FACSeleccionarCausalTipo</value>
+  </data>
+  <data name="CausalTipo_Crear" xml:space="preserve">
+    <value>FACInsertarCausalTipo</value>
+  </data>
+  <data name="CausalTipo_Eliminar" xml:space="preserve">
+    <value>FACEliminarCausalTipo</value>
+  </data>
+  <data name="CondicionContrato_Consultar" xml:space="preserve">
+    <value>FACSeleccionarCondicionesContrato</value>
+  </data>
+  <data name="CondicionesProceso_Seleccionar" xml:space="preserve">
+    <value>FACSeleccionarCondicionesProceso</value>
+  </data>
+  <data name="ConexionFacturacion" xml:space="preserve">
+    <value>Facturacion</value>
+  </data>
+  <data name="Contrato_ConsultarTodos" xml:space="preserve">
+    <value>FACSeleccionarContratoFac</value>
+  </data>
+  <data name="CuentaCartera_Insertar" xml:space="preserve">
+    <value>FACInsertarCuentaCartera</value>
+  </data>
+  <data name="DetalleFactura_Insertar" xml:space="preserve">
+    <value>FACInsertarDetalleFactura</value>
+  </data>
+  <data name="DetalleMovimientoCartera_Insertar" xml:space="preserve">
+    <value>FACInsertarDetalleMovimientoCartera</value>
+  </data>
+  <data name="DetalleTarifa_Consultar" xml:space="preserve">
+    <value>FACSeleccionarDetalleTarifa</value>
+  </data>
+  <data name="EncabezadoFactura_Insertar" xml:space="preserve">
+    <value>FACInsertarEncabezadoFactura</value>
+  </data>
+  <data name="Entidad_ConsultarTodos" xml:space="preserve">
+    <value>FACSeleccionarEntidadFac</value>
+  </data>
+  <data name="EstadoCuentaEncabezado_Consultar" xml:space="preserve">
+    <value>FACSeleccionarEstadoCuentaEncabezado</value>
+  </data>
+  <data name="Facturacion_SeleccionarAtencionesPendientesxProcesar" xml:space="preserve">
+    <value>FACSeleccionarAtencionesPendientesxProcesar</value>
+  </data>
+  <data name="Facturacion_SeleccionarProductosNC" xml:space="preserve">
+    <value>FACSeleccionarProductosNC</value>
+  </data>
+  <data name="Facturacion_ConsultarClientes" xml:space="preserve">
+    <value>FACSeleccionarAtencionCliente</value>
+  </data>
+  <data name="Facturacion_ConsultarConceptosCobro" xml:space="preserve">
+    <value>FACSeleccionarAtencionConceptosCobro</value>
+  </data>
+  <data name="Facturacion_ConsultarDetallesVenta" xml:space="preserve">
+    <value>FACSeleccionarDetalleVenta</value>
+  </data>
+  <data name="Facturacion_ConsultarInformacionFactura" xml:space="preserve">
+    <value>FACSeleccionarInformacionFactura</value>
+  </data>
+  <data name="Facturacion_ConsultarMovimientosTesoreria" xml:space="preserve">
+    <value>FACSeleccionarAtencionMovimientosTesoreria</value>
+  </data>
+  <data name="Facturacion_ConsultarAtenciones" xml:space="preserve">
+    <value>FACSeleccionarAtencionesFacturaPorRelacion</value>
+  </data>
+  <data name="Facturacion_SeleccionarCondicionesTarifas" xml:space="preserve">
+    <value>FACSeleccionarCondicionesTarifas</value>
+  </data>
+  <data name="Facturacion_ConsultarDescuentosContrato" xml:space="preserve">
+    <value>FACSeleccionarAtencionDescuentos</value>
+  </data>
+  <data name="Facturacion_ConsultarExclusionesContrato" xml:space="preserve">
+    <value>FACSeleccionarAtencionExclusiones</value>
+  </data>
+  <data name="Facturacion_ConsultarExclusionesManual" xml:space="preserve">
+    <value>FACSeleccionarAtencionExclusionesManual</value>
+  </data>
+  <data name="Facturacion_ConsultarRecargosContrato" xml:space="preserve">
+    <value>FACSeleccionarRecargosContrato</value>
+  </data>
+  <data name="Facturacion_ConsultarRecargosManual" xml:space="preserve">
+    <value>FACSeleccionarRecargosManual</value>
+  </data>
+  <data name="Facturacion_ConsultarRecargosProductos" xml:space="preserve">
+    <value>FACSeleccionarRecargosProductos</value>
+  </data>
+  <data name="HomologacionProducto_Consultar" xml:space="preserve">
+    <value>FACSeleccionarHomologacionProducto</value>
+  </data>
+  <data name="MovimientoCartera_Insertar" xml:space="preserve">
+    <value>FACInsertarMovimientoCartera</value>
+  </data>
+  <data name="NoFacturable_Insertar" xml:space="preserve">
+    <value>FACInsertarNoFacturable</value>
+  </data>
+  <data name="ProcesoFacturaDetalle_Insertar" xml:space="preserve">
+    <value>FACInsertarProcesoFacturaDetalle</value>
+  </data>
+  <data name="ProcesoFactura_ActualizarEstado" xml:space="preserve">
+    <value>FACActualizarEstadoProcesoFactura</value>
+  </data>
+  <data name="ProcesoFactura_Insertar" xml:space="preserve">
+    <value>FACInsertarProcesoFactura</value>
+  </data>
+  <data name="Seccion_ConsultarTodos" xml:space="preserve">
+    <value>FACSeleccionarSeccionFac</value>
+  </data>
+  <data name="TipoMovimiento_ConsultarTodos" xml:space="preserve">
+    <value>FACSeleccionarMovimientoFac</value>
+  </data>
+  <data name="VentaFactura_Insertar" xml:space="preserve">
+    <value>FACInsertarVentaFactura</value>
+  </data>
+  <data name="CuentaCarteraNumeroFactura_Actualizar" xml:space="preserve">
+    <value>FACActualizarNumeroFacturaCuentaCartera</value>
+  </data>
+  <data name="Facturacion_ActualizarConcepto" xml:space="preserve">
+    <value>FACActualizarConceptoCobro</value>
+  </data>
+  <data name="Facturacion_ActualizarMovimiento" xml:space="preserve">
+    <value>FACActualizarMovimientosTesoreria</value>
+  </data>
+  <data name="VentaEstadoFactura_Actualizar" xml:space="preserve">
+    <value>FACActualizarEstadoVentaFactura</value>
+  </data>
+  <data name="FacturaPago_Insertar" xml:space="preserve">
+    <value>FACInsertarPagoFactura</value>
+  </data>
+  <data name="FacturaPagoDetalle_Insertar" xml:space="preserve">
+    <value>FACInsertarPagoFacturaDetalle</value>
+  </data>
+  <data name="EstadoCuentaContabilidad_Insertar" xml:space="preserve">
+    <value>FACInsertarEstadoCuentaContabilidad</value>
+  </data>
+  <data name="Reimprimir_ConsultarFacturasReimprimir" xml:space="preserve">
+    <value>FACSeleccionarFacturaReimpresion</value>
+  </data>
+  <data name="FacturaNumeroCuenta_Actualizar" xml:space="preserve">
+    <value>FACActualizarIdCuentaFactura</value>
+  </data>
+  <data name="FacturaDetalleVenta_Consultar" xml:space="preserve">
+    <value>FACSeleccionarFacturaDetalleVenta</value>
+  </data>
+  <data name="FacturaDetalle_Consultar" xml:space="preserve">
+    <value>FACSeleccionarFacturaDetalle</value>
+  </data>
+  <data name="FacturaEncabezado_Consultar" xml:space="preserve">
+    <value>FACSeleccionarFacturaEncabezado</value>
+  </data>
+  <data name="DetalleVentaFactura_Consulta" xml:space="preserve">
+    <value>FACSeleccionarDetalleVentaFactura</value>
+  </data>
+  <data name="FacturaDetalleCliente_Consulta" xml:space="preserve">
+    <value>FACSeleccionarFacturaCliente</value>
+  </data>
+  <data name="Facturacion_ConsultarVinculaciones" xml:space="preserve">
+    <value>FACSeleccionarAtencionVinculacion</value>
+  </data>
+  <data name="Atencion_Consultar" xml:space="preserve">
+    <value>FACSeleccionarAtencion</value>
+  </data>
+  <data name="Facturacion_ConsultarVenta" xml:space="preserve">
+    <value>FACSeleccionarVentaAtencion</value>
+  </data>
+  <data name="Maestras_Consultar" xml:space="preserve">
+    <value>FACSeleccionarMaestras</value>
+  </data>
+  <data name="Facturacion_ConsultarMaestrasDetalle" xml:space="preserve">
+    <value>FACSeleccionarCargueMaestras</value>
+  </data>
+  <data name="InformacionBasicaTercero_Consultar" xml:space="preserve">
+    <value>FACSeleccionarInformacionBasicaTercero</value>
+  </data>
+  <data name="Tercero_Insertar" xml:space="preserve">
+    <value>FACInsertarTercero</value>
+  </data>
+  <data name="Facturacion_SeleccionarDescuentos" xml:space="preserve">
+    <value>FACSeleccionarDescuentos</value>
+  </data>
+  <data name="ClaseCubrimiento_Consultar" xml:space="preserve">
+    <value>FACSeleccionarClaseCubrimiento</value>
+  </data>
+  <data name="Descuentos_Insertar" xml:space="preserve">
+    <value>FACInsertarDescuentos</value>
+  </data>
+  <data name="Componentes_Consultar" xml:space="preserve">
+    <value>FACSeleccionarComponente</value>
+  </data>
+  <data name="Cubrimiento_Consultar" xml:space="preserve">
+    <value>FACSeleccionarCubrimientos</value>
+  </data>
+  <data name="Cubrimientos_Insertar" xml:space="preserve">
+    <value>FACInsertarCubrimientos</value>
+  </data>
+  <data name="Cubrimientos_Actualizar" xml:space="preserve">
+    <value>FACActualizarCubrimientos</value>
+  </data>
+  <data name="Facturacion_SeleccionarTarifas" xml:space="preserve">
+    <value>FACSeleccionarTarifas</value>
+  </data>
+  <data name="Descuentos_Actualizar" xml:space="preserve">
+    <value>FACActualizarDescuentos</value>
+  </data>
+  <data name="VinculacionVentas_Actualizar" xml:space="preserve">
+    <value>FACActualizarVinculacionVentas</value>
+  </data>
+  <data name="VinculacionVentas_Insertar" xml:space="preserve">
+    <value>FACInsertarVinculacionVentas</value>
+  </data>
+  <data name="CondicionesTarifa_Insertar" xml:space="preserve">
+    <value>FACInsertarCondicionTarifa</value>
+  </data>
+  <data name="CondicionCubrimiento_Consultar" xml:space="preserve">
+    <value>FACSeleccionarCondicionesCubrimiento</value>
+  </data>
+  <data name="CondicionCubrimiento_Actualizar" xml:space="preserve">
+    <value>FACActualizarCondicionCubrimiento</value>
+  </data>
+  <data name="CondicionCubrimiento_Insertar" xml:space="preserve">
+    <value>FACInsertarCondicionCubrimiento</value>
+  </data>
+  <data name="Cliente_Insertar" xml:space="preserve">
+    <value>FACInsertarCliente</value>
+  </data>
+  <data name="Facturacion_SeleccionarContratoPlan" xml:space="preserve">
+    <value>FACSeleccionarContratoPlan</value>
+  </data>
+  <data name="ExclusionContrato_Actualizar" xml:space="preserve">
+    <value>FACActualizarExclusionContrato</value>
+  </data>
+  <data name="ExclusionContrato_Insertar" xml:space="preserve">
+    <value>FACInsertarExclusionContrato</value>
+  </data>
+  <data name="Facturacion_SeleccionarComponente" xml:space="preserve">
+    <value>FACSeleccionarComponenteAtencion</value>
+  </data>
+  <data name="ExclusionesAtencionContrato_Consultar" xml:space="preserve">
+    <value>FACSeleccionarExclusionesContrato</value>
+  </data>
+  <data name="CondicionTarifa_Actualizar" xml:space="preserve">
+    <value>FACActualizarCondicionTarifa</value>
+  </data>
+  <data name="Facturacion_SeleccionarManuales" xml:space="preserve">
+    <value>FACSeleccionarManuales</value>
+  </data>
+  <data name="VentaProducto_Consultar" xml:space="preserve">
+    <value>FACSeleccionarProductosVentaTransaccion</value>
+  </data>
+  <data name="VentaTransaccion_Consultar" xml:space="preserve">
+    <value>FACSeleccionarVentasAtencionxTransaccion</value>
+  </data>
+  <data name="VentaProductoRelacion_Actualizar" xml:space="preserve">
+    <value>FACActualizarVentaProductoRelacion</value>
+  </data>
+  <data name="VentaProductoRelacion_Insertar" xml:space="preserve">
+    <value>FACInsertarVentaProductoRelacion</value>
+  </data>
+  <data name="VentaProductoRelacion_Consultar" xml:space="preserve">
+    <value>FACSeleccionarVentaProductoRelacion</value>
+  </data>
+  <data name="ProductoComponentes_Consultar" xml:space="preserve">
+    <value>FACSeleccionarComponentesProducto</value>
+  </data>
+  <data name="NivelesComplejidad_Consultar" xml:space="preserve">
+    <value>FACSeleccionarNivelesComplejidad</value>
+  </data>
+  <data name="AtencionVinculacion_Actualizar" xml:space="preserve">
+    <value>FACActualizarAtencionVinculacion</value>
+  </data>
+  <data name="AtencionVinculacion_Insertar" xml:space="preserve">
+    <value>FACInsertarAtencionVinculacion</value>
+  </data>
+  <data name="FacturaComponentes_Consultar" xml:space="preserve">
+    <value>FACSeleccionarFacturaComponente</value>
+  </data>
+  <data name="ConsultarCostoAsociado" xml:space="preserve">
+    <value>FACSeleccionarCostoAsociado</value>
+  </data>
+  <data name="CondicionCubrimientoProductos_Consultar" xml:space="preserve">
+    <value>FACSeleccionarCondicionesCubrimientoProductos</value>
+  </data>
+  <data name="CubrimientosProductos_Consultar" xml:space="preserve">
+    <value>FACSeleccionarCubrimientosProductos</value>
+  </data>
+  <data name="ConsultarFactoresQx" xml:space="preserve">
+    <value>FACSeleccionarFactoresQX</value>
+  </data>
+  <data name="Factura_Componenstes_Insertar" xml:space="preserve">
+    <value>FACInsertarFacturaComponentes</value>
+  </data>
+  <data name="Paquete_Consultar" xml:space="preserve">
+    <value>FACSeleccionarPaquetes</value>
+  </data>
+  <data name="PaqueteProducto_Consultar" xml:space="preserve">
+    <value>FACSeleccionarPaquetesProducto</value>
+  </data>
+  <data name="TarifaUnidad_Consultar" xml:space="preserve">
+    <value>FACSeleccionarUnidad</value>
+  </data>
+  <data name="Atencion_Actualizar" xml:space="preserve">
+    <value>FACActualizarAtencion</value>
+  </data>
+  <data name="Concepto_ObtenerConcepto" xml:space="preserve">
+    <value>FACSeleccionarTotalConcepto</value>
+  </data>
+  <data name="Deposito_ObtenerDeposito" xml:space="preserve">
+    <value>FACSeleccionarTotalDepositos</value>
+  </data>
+  <data name="ValorEncabezadoPaquete_Consultar" xml:space="preserve">
+    <value>FACSeleccionarValorPaquete</value>
+  </data>
+  <data name="VentaNoClinica_Consultar" xml:space="preserve">
+    <value>FACSeleccionarVentaNoClinica</value>
+  </data>
+  <data name="ConvenioNoClinico_Consultar" xml:space="preserve">
+    <value>FACSeleccionarConvenio</value>
+  </data>
+  <data name="HonorariosMedicos_Consultar" xml:space="preserve">
+    <value>FACSeleccionarHonorariosMedicos</value>
+  </data>
+  <data name="DetalleTarifaManual_Consultar" xml:space="preserve">
+    <value>FACSeleccionarDetalleTarifaManual</value>
+  </data>
+  <data name="Tasa_Consultar" xml:space="preserve">
+    <value>FACSeleccionarTasa</value>
+  </data>
+  <data name="Transaccion_Consultar" xml:space="preserve">
+    <value>FACSeleccionarTransaccion</value>
+  </data>
+  <data name="Ubicacion_Usuario_Consultar" xml:space="preserve">
+    <value>FACSeleccionarUbicacion</value>
+  </data>
+  <data name="TipoProducto_Consultar" xml:space="preserve">
+    <value>FACSeleccionarTipoProducto</value>
+  </data>
+  <data name="ResponsablesHonorarios_Consultar" xml:space="preserve">
+    <value>FACSeleccionarHonorariosResponsables</value>
+  </data>
+  <data name="TipoEmpresa_Consultar" xml:space="preserve">
+    <value>FACSeleccionarTipoEmpresa</value>
+  </data>
+  <data name="ConvenioNoClinico_Actualizar" xml:space="preserve">
+    <value>FACActualizarConvenio</value>
+  </data>
+  <data name="ConvenioNoClinico_Insertar" xml:space="preserve">
+    <value>FACInsertarConvenio</value>
+  </data>
+  <data name="ConceptoCartera_Consultar" xml:space="preserve">
+    <value>FACSeleccionarConceptoCartera</value>
+  </data>
+  <data name="Venta_Insertar" xml:space="preserve">
+    <value>FACInsertarVenta</value>
+  </data>
+  <data name="ResponsableFactura_Insertar" xml:space="preserve">
+    <value>FACInsertarResponsableFactura</value>
+  </data>
+  <data name="DetalleVenta_Consultar" xml:space="preserve">
+    <value>FACSeleccionarVentaDetalle</value>
+  </data>
+  <data name="VentaDetalle_Insertar" xml:space="preserve">
+    <value>FACInsertarVentaDetalle</value>
+  </data>
+  <data name="ProductosVenta_Consultar" xml:space="preserve">
+    <value>FACSeleccionarProductosVenta</value>
+  </data>
+  <data name="DetalleVenta_Borrar" xml:space="preserve">
+    <value>FACBorrarDetalleVenta</value>
+  </data>
+  <data name="DetalleVenta_Auditoria" xml:space="preserve">
+    <value>FACAuditoriaDetalleVenta</value>
+  </data>
+  <data name="DetalleTarifaXManual_Consultar" xml:space="preserve">
+    <value>FACSeleccionarDetalleTarifaXManual</value>
+  </data>
+  <data name="NotasCredito_Consultar" xml:space="preserve">
+    <value>FACSeleccionarNotasCredito</value>
+  </data>
+  <data name="UbicacionConsumo_Consultar" xml:space="preserve">
+    <value>FACSeleccionarUbicacionConsumo</value>
+  </data>
+  <data name="Facturacion_ConsultarFacturas" xml:space="preserve">
+    <value>FACSeleccionarFacturas</value>
+  </data>
+  <data name="AnulacionFactura_Insertar" xml:space="preserve">
+    <value>FACInsertarNotaCredito</value>
+  </data>
+  <data name="FacturaAnuladaDetalle_Consultar" xml:space="preserve">
+    <value>FACSeleccionarDetalleNotasCredito</value>
+  </data>
+  <data name="AnulacionFacturaDetalle_Insertar" xml:space="preserve">
+    <value>FACInsertarDetalleNotaCredito</value>
+  </data>
+  <data name="MovimientoUsuario_Consultar" xml:space="preserve">
+    <value>FACSeleccionarTipoMovimientoUsuario</value>
+  </data>
+  <data name="EstadoFactura_Actualizar" xml:space="preserve">
+    <value>FACActualizarEstadoFactura</value>
+  </data>
+  <data name="ConceptoContabilidad_Actualizar" xml:space="preserve">
+    <value>FACActualizarConceptoContabilidad</value>
+  </data>
+  <data name="EstadoCuentaCartera_Actualizar" xml:space="preserve">
+    <value>FACActualizarEstadoCuentaCartera</value>
+  </data>
+  <data name="MovimientosFactura_Actualizar" xml:space="preserve">
+    <value>FACActualizarSaldosMovimientos</value>
+  </data>
+  <data name="Facturacion_ConsultarVentaNoQX" xml:space="preserve">
+    <value>FACSeleccionarVentaNoQX</value>
+  </data>
+  <data name="EstadoVentasAnulacion_Actualizar" xml:space="preserve">
+    <value>FACActualizarEstadoVentasAnulacion</value>
+  </data>
+  <data name="MovimientoAnulacion_Insertar" xml:space="preserve">
+    <value>FACInsertarMovimientoCarteraAnulacion</value>
+  </data>
+  <data name="CuentaCartera_Consultar" xml:space="preserve">
+    <value>FACSeleccionarCuentaCartera</value>
+  </data>
+  <data name="Facturacion_ConsultarTercero" xml:space="preserve">
+    <value>FACSeleccionarTercero</value>
+  </data>
+  <data name="Aproximaciones_Consultar" xml:space="preserve">
+    <value>FACSeleccionarCriteriosAproximacion</value>
+  </data>
+  <data name="Aproximaciones_ConsultarIntervalos" xml:space="preserve">
+    <value>FACSeleccionarIntervalosCriteriosAproximacion</value>
+  </data>
+  <data name="UnidadDeMedida_Consultar" xml:space="preserve">
+    <value>FACSeleccionarUnidadDeMedida</value>
+  </data>
+  <data name="UnidadDeMedida_Insertar" xml:space="preserve">
+    <value>FACInsertarUnidadMedida</value>
+  </data>
+  <data name="Especialidad_Consultar" xml:space="preserve">
+    <value>FACSeleccionarEspecialidad</value>
+  </data>
+  <data name="Via_Consultar" xml:space="preserve">
+    <value>FACSeleccionarVia</value>
+  </data>
+  <data name="Facturacion_ConsultarVentaEncabezado" xml:space="preserve">
+    <value>FACSeleccionarVentaQX</value>
+  </data>
+  <data name="UnidadDeMedida_Actualizar" xml:space="preserve">
+    <value>FACActualizarUnidadMedida</value>
+  </data>
+  <data name="TipoComponente_Actualizar" xml:space="preserve">
+    <value>FACActualizaTipoComponente</value>
+  </data>
+  <data name="TipoComponente_Consultar" xml:space="preserve">
+    <value>FACSeleccionarTiposComponentes</value>
+  </data>
+  <data name="TipoComponente_ConsultarPorNombre" xml:space="preserve">
+    <value>FACBuscarTipoComponentePorNombre</value>
+  </data>
+  <data name="TipoComponente_Insertar" xml:space="preserve">
+    <value>FACInsertaTipoComponente</value>
+  </data>
+  <data name="Aproximaciones_ConsultarCriterioPorNombre" xml:space="preserve">
+    <value>FACSeleccionarCriterioPorNombre</value>
+  </data>
+  <data name="Aproximaciones_InsertaCriterios" xml:space="preserve">
+    <value>FACInsertaCriterioAproximacion</value>
+  </data>
+  <data name="Aproximaciones_InsertaIntervaloCriterio" xml:space="preserve">
+    <value>FACInsertaIntervalosCriterioAproximacion</value>
+  </data>
+  <data name="Aproximaciones_Actualizar" xml:space="preserve">
+    <value>FACActualizaCriterioAproximacion</value>
+  </data>
+  <data name="Aproximaciones_EliminaIntervalosCriterio" xml:space="preserve">
+    <value>FACElimiminaCriteriosAproximacion</value>
+  </data>
+  <data name="ClaseCubrimiento_Actualizar" xml:space="preserve">
+    <value>FACActualizarClaseCubrimiento</value>
+  </data>
+  <data name="ClaseCubrimiento_Insertar" xml:space="preserve">
+    <value>FACInsertarClaseCubrimiento</value>
+  </data>
+  <data name="ResponsableVenta_Insertar" xml:space="preserve">
+    <value>FACInsertarVentaResponsable</value>
+  </data>
+  <data name="VentaComponente_Insertar" xml:space="preserve">
+    <value>FACInsertarVentaComponente</value>
+  </data>
+  <data name="MovimientoUsuarioAtencion_Consultar" xml:space="preserve">
+    <value>FACSeleccionarRolAtencionMovimiento</value>
+  </data>
+  <data name="ComponenteXProducto" xml:space="preserve">
+    <value>FACSeleccionarComponentesXProducto</value>
+  </data>
+  <data name="ObservacionDocumento_Consultar" xml:space="preserve">
+    <value>FACSeleccionarObservacionesDocumentos</value>
+  </data>
+  <data name="ObservacionDocumento_ConsultarUltimoIDObservacion" xml:space="preserve">
+    <value>FACSeleccionarUltimoIdObservacion</value>
+  </data>
+  <data name="ObservacionDocumento_Insertar" xml:space="preserve">
+    <value>FACInsertarObservacionDocumento</value>
+  </data>
+  <data name="TiposRecargo_Consultar" xml:space="preserve">
+    <value>FACSeleccionarTiposRecargo</value>
+  </data>
+  <data name="TiposRecargo_Actualizar" xml:space="preserve">
+    <value>FACActualizarTipoRecargo</value>
+  </data>
+  <data name="TiposRecargo_Insertar" xml:space="preserve">
+    <value>FACInsertarTipoRecargo</value>
+  </data>
+  <data name="ObservacionDocumento_Modificar" xml:space="preserve">
+    <value>FACActualizarObservacionDocumento</value>
+  </data>
+  <data name="MetodoNumeracion_Actualizar" xml:space="preserve">
+    <value>FACActualizarMetodoNumeracion</value>
+  </data>
+  <data name="MetodoNumeracion_Consultar" xml:space="preserve">
+    <value>FACSeleccionarMetodoNumeracion</value>
+  </data>
+  <data name="MetodoNumeracion_Insertar" xml:space="preserve">
+    <value>FACInsertarMetodoNumeracion</value>
+  </data>
+  <data name="TipoMovimiento_Actualizar" xml:space="preserve">
+    <value>FACActualizarTipoMovimiento</value>
+  </data>
+  <data name="TipoMovimiento_Consultar" xml:space="preserve">
+    <value>FACSeleccionarTipoMovimiento</value>
+  </data>
+  <data name="TipoMovimiento_Insertar" xml:space="preserve">
+    <value>FACInsertarTipoMovimiento</value>
+  </data>
+  <data name="Servicio_Consultar" xml:space="preserve">
+    <value>FACSeleccionarServicios</value>
+  </data>
+  <data name="Niveles_Consultar" xml:space="preserve">
+    <value>FACSeleccionarNivelesManual</value>
+  </data>
+  <data name="ExclusionesManual_Consultar" xml:space="preserve">
+    <value>FACSeleccionarExclusionManualPorId</value>
+  </data>
+  <data name="ExclusionesManual_Actualizar" xml:space="preserve">
+    <value>FACActualizaExclusionManual</value>
+  </data>
+  <data name="ExclusionesManual_Insertar" xml:space="preserve">
+    <value>FACInsertaExclusionManual</value>
+  </data>
+  <data name="CuentaContable_Consultar" xml:space="preserve">
+    <value>FACSeleccionarCuentaContable</value>
+  </data>
+  <data name="CuentaTipoEmpresa_Actualizar" xml:space="preserve">
+    <value>FACActualizarCuentasTipoEmpresa</value>
+  </data>
+  <data name="CuentaTipoEmpresa_Consultar" xml:space="preserve">
+    <value>FACSeleccionarCuentasTipoEmpresa</value>
+  </data>
+  <data name="CuentaTipoEmpresa_Insertar" xml:space="preserve">
+    <value>FACInsertarCuentasTipoEmpresa</value>
+  </data>
+  <data name="Facturacion_ConsultarPlanesxContrato" xml:space="preserve">
+    <value>FACSeleccionarPlanesxcontrato</value>
+  </data>
+  <data name="Contrato_Consultar" xml:space="preserve">
+    <value>FACSeleccionarContratos</value>
+  </data>
+  <data name="HonorariosConvenio_Consultar" xml:space="preserve">
+    <value>FACSeleccionarHonorarios</value>
+  </data>
+  <data name="TipoMovimientoSeccion_Consultar" xml:space="preserve">
+    <value>FACSeleccionarSecTipoMovimiento</value>
+  </data>
+  <data name="TipoMovimientoSeccion_Actualizar" xml:space="preserve">
+    <value>FACActualizarSecTipoMovimiento</value>
+  </data>
+  <data name="TipoMovimientoSeccion_Insertar" xml:space="preserve">
+    <value>FACInsertarSecTipoMovimiento</value>
+  </data>
+  <data name="TipoAtencionConvenio_Consultar" xml:space="preserve">
+    <value>FACSeleccionarTipoAtencion</value>
+  </data>
+  <data name="Exclusiones_ConsultaDatosNivel" xml:space="preserve">
+    <value>FACSeleccionaDatosNivel</value>
+  </data>
+  <data name="ExclusionesManual_ConsularParametros" xml:space="preserve">
+    <value>FACSeleccionarExclusionesManual</value>
+  </data>
+  <data name="ExclusionesManual_ConsultarUnidades" xml:space="preserve">
+    <value>FACSeleccionarUnidadesExclusionesManual</value>
+  </data>
+  <data name="Facturacion_SeleccionarRecargosxContrato" xml:space="preserve">
+    <value>FACSeleccionarRecargosxContrato</value>
+  </data>
+  <data name="Recargo_Actualizar" xml:space="preserve">
+    <value>FACActualizarRecargo</value>
+  </data>
+  <data name="Recargo_Insertar" xml:space="preserve">
+    <value>FACInsertarRecargo</value>
+  </data>
+  <data name="DescuentoConfiguracion_Consultar" xml:space="preserve">
+    <value>FACSeleccionarDescuentoConfiguracion</value>
+  </data>
+  <data name="ConvenioProducto_Actualizar" xml:space="preserve">
+    <value>FACActualizarConvenioProducto</value>
+  </data>
+  <data name="ConvenioProducto_Insertar" xml:space="preserve">
+    <value>FACInsertarConvenioProducto</value>
+  </data>
+  <data name="DetalleConvenioProducto_Consultar" xml:space="preserve">
+    <value>FACSeleccionarDetalleConvenioProducto</value>
+  </data>
+  <data name="Codificacion_Actualizar" xml:space="preserve">
+    <value>FACActualizarCodificacion</value>
+  </data>
+  <data name="Codificacion_Consulta" xml:space="preserve">
+    <value>FACSeleccionarCodificacion</value>
+  </data>
+  <data name="Codificacion_Insertar" xml:space="preserve">
+    <value>FACInsertarCodificacion</value>
+  </data>
+  <data name="DetalleConvenioProducto_Insertar" xml:space="preserve">
+    <value>FACInsertarDetalleConvenioProducto</value>
+  </data>
+  <data name="Manuales_Consultar" xml:space="preserve">
+    <value>FACSeleccionarManualDetalle</value>
+  </data>
+  <data name="Manual_TarifaManual" xml:space="preserve">
+    <value>FACSeleccionarTarifaManual</value>
+  </data>
+  <data name="Manual_Actualizar" xml:space="preserve">
+    <value>FACActualizarManual</value>
+  </data>
+  <data name="Manual_Insertar" xml:space="preserve">
+    <value>FACInsertaManual</value>
+  </data>
+  <data name="Secciones_Consultar" xml:space="preserve">
+    <value>FACSeleccionarSecciones</value>
+  </data>
+  <data name="TipoAtencion_Consultar" xml:space="preserve">
+    <value>FACSeleccionarListadoTipoAtencion</value>
+  </data>
+  <data name="Componente_ConsultarPorTipoProducto" xml:space="preserve">
+    <value>FACSeleccionarTiposComponentesPorProducto</value>
+  </data>
+  <data name="FactoresNoQX_Actualizar" xml:space="preserve">
+    <value>FACActualizarFactoresNoQX</value>
+  </data>
+  <data name="FactoresNoQX_Consultar" xml:space="preserve">
+    <value>FACSeleccionarFactoresNoQX</value>
+  </data>
+  <data name="FactoresNoQX_Insertar" xml:space="preserve">
+    <value>FACInsertarFactoresNoQX</value>
+  </data>
+  <data name="ExclusionesPorContrato_Consultar" xml:space="preserve">
+    <value>FACSeleccionarExclusionesXContrato</value>
+  </data>
+  <data name="TarifaContrato_Consultar" xml:space="preserve">
+    <value>FACSeleccionarTarifasContratos</value>
+  </data>
+  <data name="TarifaContrato_ConsultarAproximaciones" xml:space="preserve">
+    <value>FACConsultarAproximaciones</value>
+  </data>
+  <data name="TiemposCirugia_Consultar" xml:space="preserve">
+    <value>FACSeleccionarTiemposCirugia</value>
+  </data>
+  <data name="ContratoEstancia_Actualizar" xml:space="preserve">
+    <value>FACActualizarContratoEstancia</value>
+  </data>
+  <data name="ContratoEstancia_Consultar" xml:space="preserve">
+    <value>FACSeleccionarContratoEstancia</value>
+  </data>
+  <data name="ContratoEstancia_Insertar" xml:space="preserve">
+    <value>FACInsertarContratoEstancia</value>
+  </data>
+  <data name="ManualCodificacion_Consultar" xml:space="preserve">
+    <value>FACSeleccionarManualCodificacion</value>
+  </data>
+  <data name="Tarifas_Consultar" xml:space="preserve">
+    <value>SAHISeleccionarTarifas</value>
+  </data>
+  <data name="TarifaContrato_ConsultarCantTarifasActivasContrato" xml:space="preserve">
+    <value>FACSeleccionarCantTarifasActivasContrato</value>
+  </data>
+  <data name="VigenciaTarifa_Consultar" xml:space="preserve">
+    <value>FACSeleccionarVigenciaTarifaProducto</value>
+  </data>
+  <data name="Contrato_Consulta" xml:space="preserve">
+    <value>FACSeleccionarContrato</value>
+  </data>
+  <data name="DetalleConvenioProducto_Eliminar" xml:space="preserve">
+    <value>FACBorrarDetalleHonorario</value>
+  </data>
+  <data name="TarifaContrato_Insertar" xml:space="preserve">
+    <value>FACInsertarTarifaContrato</value>
+  </data>
+  <data name="Configuracion_ValorUnidad_Insertar" xml:space="preserve">
+    <value>FACInsertarValoresUnidades</value>
+  </data>
+  <data name="TarifaContrato_Actualizar" xml:space="preserve">
+    <value>FACActualizarTarifaContrato</value>
+  </data>
+  <data name="Manual_ActualizarTarifaManual" xml:space="preserve">
+    <value>FACActualizarTarifaManual</value>
+  </data>
+  <data name="Manual_InsertarTarifaManual" xml:space="preserve">
+    <value>FACInsertarTarifaManual</value>
+  </data>
+  <data name="FactoresComponentes_Consultar" xml:space="preserve">
+    <value>FACSeleccionarFactoresComponentes</value>
+  </data>
+  <data name="Configuracion_ValorUnidad_Seleccionar" xml:space="preserve">
+    <value>FACSeleccionarValorUnidad</value>
+  </data>
+  <data name="VigenciaTarifa_Actualizar" xml:space="preserve">
+    <value>FACActualizarVigenciaTarifa</value>
+  </data>
+  <data name="VigenciaTarifa_Insertar" xml:space="preserve">
+    <value>FACInsertaVigenciaTarifa</value>
+  </data>
+  <data name="RecargosTarifa_Consultar" xml:space="preserve">
+    <value>FACSeleccionarRecargosTarifa</value>
+  </data>
+  <data name="VigenciaTarifa_ValidaGrupoProductoUsuario" xml:space="preserve">
+    <value>FACValidaGruposVigenciaUsuario</value>
+  </data>
+  <data name="FactorPaqueteQX_Actualizar" xml:space="preserve">
+    <value>FACActualizarFactorComponenteQX</value>
+  </data>
+  <data name="FactorPaqueteQX_Insertar" xml:space="preserve">
+    <value>FACInsertarFactorComponenteQX</value>
+  </data>
+  <data name="AtencionProceso_Consultar" xml:space="preserve">
+    <value>FACSeleccionarAtencionProceso</value>
+  </data>
+  <data name="DetalleCausal_Actualizar" xml:space="preserve">
+    <value>SAHIActualizarCausalDetalle</value>
+  </data>
+  <data name="DetalleCausal_Crear" xml:space="preserve">
+    <value>FACInsertarCausalDetalle</value>
+  </data>
+  <data name="DetalleCausal_Seleccionar" xml:space="preserve">
+    <value>SAHISeleccionarCausalDetalle</value>
+  </data>
+  <data name="TipoCausal_Actualizar" xml:space="preserve">
+    <value>SAHIActualizarTipoCausal</value>
+  </data>
+  <data name="TipoCausal_Crear" xml:space="preserve">
+    <value>FACInsertarTipoCausal</value>
+  </data>
+  <data name="TipoCausal_Seleccionar" xml:space="preserve">
+    <value>SAHISeleccionarTipoCausal</value>
+  </data>
+  <data name="FirmaDocumentos_Actualizar" xml:space="preserve">
+    <value>FACActualizaFirmaDocumento</value>
+  </data>
+  <data name="FirmaDocumentos_Consultar" xml:space="preserve">
+    <value>FACSeleccionaFirmasDocumentos</value>
+  </data>
+  <data name="FirmaDocumentos_Insertar" xml:space="preserve">
+    <value>FACInsertarFirmaDocumentos</value>
+  </data>
+  <data name="VigenciaTarifa_ValidaActualizacion" xml:space="preserve">
+    <value>FACValidaActualizacionVigenciaTarifa</value>
+  </data>
+  <data name="CostosAsociados_Consultar" xml:space="preserve">
+    <value>FACSeleccionarCostosAsociados</value>
+  </data>
+  <data name="CostosAsociados_ConsultarDetalle" xml:space="preserve">
+    <value>FACSeleccionarDetalleCostosAsociados</value>
+  </data>
+  <data name="CostosAsociados_Insertar" xml:space="preserve">
+    <value>FACInsertarCostosAsociados</value>
+  </data>
+  <data name="CostosAsociados_InsertarDetalle" xml:space="preserve">
+    <value>FACInsertarDetalleCostosAsociados</value>
+  </data>
+  <data name="CostosAsociados_Actualizar" xml:space="preserve">
+    <value>FACActualizarCostosAsociados</value>
+  </data>
+  <data name="ContratoComponente_Consultar" xml:space="preserve">
+    <value>FACSeleccionarContratosComponentes</value>
+  </data>
+  <data name="NivelComplejidad_Insertar" xml:space="preserve">
+    <value>FACInsertaNivelComplejidadTarifa</value>
+  </data>
+  <data name="NivelComplejidad_InsertarDetalle" xml:space="preserve">
+    <value>FACInsertaDetalleNivelComplejidad</value>
+  </data>
+  <data name="VigenciaTarifa_InsertaCostosManualBase" xml:space="preserve">
+    <value>FACInsertarCostosAsociadosManualBase</value>
+  </data>
+  <data name="VigenciaTarifa_InsertaExclusionManualBase" xml:space="preserve">
+    <value>FACInsertaExclusionManualBase</value>
+  </data>
+  <data name="VigenciaTarifa_InsertaFactorManualBase" xml:space="preserve">
+    <value>FACInsertarFactorComponenteManualBaseQX</value>
+  </data>
+  <data name="VigenciaTarifa_InsertaFactorNoQxManualBase" xml:space="preserve">
+    <value>FACInsertaFactoresNoQxManualBase</value>
+  </data>
+  <data name="VigenciaTarifa_InsertaNivelManualBase" xml:space="preserve">
+    <value>FACInsertaNivelComplejidadTarifaManualBase</value>
+  </data>
+  <data name="VigenciaTarifa_InsertaRecargosManualBase" xml:space="preserve">
+    <value>FACInsertaRecargosManualBase</value>
+  </data>
+  <data name="VigenciaTarifa_InsertaVigenciaManualBase" xml:space="preserve">
+    <value>FACInsertaVigenciaTarifaManualBase</value>
+  </data>
+  <data name="VigenciaTarifa_ConsultaTarifasManualBase" xml:space="preserve">
+    <value>FACConsultaVigenciasTarifaManualBase</value>
+  </data>
+  <data name="Control_UnidadesDeMedida" xml:space="preserve">
+    <value>FACSeleccionarUnidadesDeMedida</value>
+  </data>
+  <data name="CodificacionProductos_Consultar" xml:space="preserve">
+    <value>FACSeleccionarCodificacionProductos</value>
+  </data>
+  <data name="ContratoComponente_GuardarIntervalo" xml:space="preserve">
+    <value>FACInsertarIntervalosComponente</value>
+  </data>
+  <data name="CodificacionProducto_Actualizar" xml:space="preserve">
+    <value>FACActualizarCodificacionProducto</value>
+  </data>
+  <data name="CodificacionProducto_Insertar" xml:space="preserve">
+    <value>FACInsertarCodificacionProducto</value>
+  </data>
+  <data name="ContratoComponente_ConsultarIntervalos" xml:space="preserve">
+    <value>FACSeleccionarIntervalosComponente</value>
+  </data>
+  <data name="ContratoComponente_EliminarIntervalo" xml:space="preserve">
+    <value>FACEliminarIntervaloComponente</value>
+  </data>
+  <data name="ContratoComponente_GuardarComponente" xml:space="preserve">
+    <value>FACInsertarComponenteContrato</value>
+  </data>
+  <data name="ContratoComponente_ActualizarComponente" xml:space="preserve">
+    <value>FACActualizarComponenteContrato</value>
+  </data>
+  <data name="ValoresTarifas_Consultar" xml:space="preserve">
+    <value>FACSeleccionarValoresTarifas</value>
+  </data>
+  <data name="ValoresTarifas_ConsultarDetalle" xml:space="preserve">
+    <value>FACSeleccionarDetalleValoresTarifas</value>
+  </data>
+  <data name="ValoresTarifas_Actualizar" xml:space="preserve">
+    <value>FACActualizarValoresTarifas</value>
+  </data>
+  <data name="ValoresTarifas_Insertar" xml:space="preserve">
+    <value>FACInsertarValoresTarifas</value>
+  </data>
+  <data name="ValoresTarifas_InsertarDetalle" xml:space="preserve">
+    <value>FACInsertarDetalleValoresTarifas</value>
+  </data>
+  <data name="ContratoTarifasAdicionales_Consultar" xml:space="preserve">
+    <value>FACSeleccionarContratoTarifasAdicionales</value>
+  </data>
+  <data name="TarifasAdicionales_Insertar" xml:space="preserve">
+    <value>FACInsertarContratoTarifaAdicional</value>
+  </data>
+  <data name="RecargosTarifa_Actualizar" xml:space="preserve">
+    <value>FACActualizaRecargosTarifa</value>
+  </data>
+  <data name="RecargosTarifa_Insertar" xml:space="preserve">
+    <value>FACInsertaRecargosTarifa</value>
+  </data>
+  <data name="NivelComplejidad_Consulta" xml:space="preserve">
+    <value>FACSeleccionarNivelesTarifa</value>
+  </data>
+  <data name="NivelComplejidad_DetalleConsulta" xml:space="preserve">
+    <value>FACSeleleccionarDetalleNivelTarifa</value>
+  </data>
+  <data name="TarifaManualValorUnidades_Consulta" xml:space="preserve">
+    <value>FACSeleccionarValoresUnidades</value>
+  </data>
+  <data name="Configuracion_ValorUnidad_Actualizar" xml:space="preserve">
+    <value>FACActualizarValoresUnidades</value>
+  </data>
+  <data name="NivelComlejidad_ValidaDetalle" xml:space="preserve">
+    <value>FACValidaDetalleNivelTarifa</value>
+  </data>
+  <data name="NivelComplejidad_EliminaDetalle" xml:space="preserve">
+    <value>FACEliminaDetalleNivelTarifa</value>
+  </data>
+  <data name="TipoComponente_Lista" xml:space="preserve">
+    <value>FACSeleccionarTiposComponentesLista</value>
+  </data>
+  <data name="ComponentesNoQx" xml:space="preserve">
+    <value>FACSeleccionarComponentesProductoNoQx</value>
+  </data>
+  <data name="ComponentesQx" xml:space="preserve">
+    <value>FACSeleccionarComponentesProductoQx</value>
+  </data>
+  <data name="DetallePaquete_Insertar" xml:space="preserve">
+    <value>FACInsertarDetallePaqueteFactura</value>
+  </data>
+  <data name="Paquete_Insertar" xml:space="preserve">
+    <value>FACInsertarPaqueteFactura</value>
+  </data>
+  <data name="TarifasAdicionales_Actualizar" xml:space="preserve">
+    <value>FACActualizarContratoTarifaAdicional</value>
+  </data>
+  <data name="FacturaDetallePaquetes_Consultar" xml:space="preserve">
+    <value>FACSeleccionarDetallePaqueteXFactura</value>
+  </data>
+  <data name="Venta_SeleccionarVenta" xml:space="preserve">
+    <value>FACSeleccionarVenta</value>
+  </data>
+  <data name="Venta_SeleccionarVentaComponente" xml:space="preserve">
+    <value>FACSeleccionarVentaComponente</value>
+  </data>
+  <data name="Venta_SeleccionarVentaDetalle" xml:space="preserve">
+    <value>FACSeleccionarVentaDetallexNumeroVenta</value>
+  </data>
+  <data name="Venta_SeleccionarVentaResponsable" xml:space="preserve">
+    <value>FACSeleccionarVentaResponsable</value>
+  </data>
+  <data name="VentaEncabezado_Seleccionar" xml:space="preserve">
+    <value>FACSeleccionarVentaEncabezado</value>
+  </data>
+  <data name="TarifaProducto_Seleccionar" xml:space="preserve">
+    <value>FACSeleccionarTarifaProducto</value>
+  </data>
+  <data name="EstadoCuentaEncabezado_ConsultarMultiple" xml:space="preserve">
+    <value>FACSeleccionarEstadoCuentaEncabezadoMultiple</value>
+  </data>
+  <data name="Facturacion_SeleccionarCondicionesFacturacion" xml:space="preserve">
+    <value>FACSeleccionarCondicionesFacturacion</value>
+  </data>
+  <data name="VentaComponente_Actualizar" xml:space="preserve">
+    <value>FACActualizarVentaComponente</value>
+  </data>
+  <data name="VentaComponente_Eliminar" xml:space="preserve">
+    <value>FACEliminarVentaComponentes</value>
+  </data>
+  <data name="VentaDetalle_Eliminar" xml:space="preserve">
+    <value>FACEliminarVentaDetalle</value>
+  </data>
+  <data name="VentaResponsables_Eliminar" xml:space="preserve">
+    <value>FACEliminarVentaResponsables</value>
+  </data>
+  <data name="VentaResponsable_Actualizar" xml:space="preserve">
+    <value>FACActualizarVentaResponsable</value>
+  </data>
+  <data name="Venta_Actualizar" xml:space="preserve">
+    <value>FACActualizarVenta</value>
+  </data>
+  <data name="ConceptoCobro_Insertar" xml:space="preserve">
+    <value>FACInsertarConceptoCobro</value>
+  </data>
+  <data name="TerceroComponente_Seleccionar" xml:space="preserve">
+    <value>FACSeleccionarTerceroComponente</value>
+  </data>
+  <data name="NoFacturable_Consultar" xml:space="preserve">
+    <value>FACSeleccionarDetalleNoFacturable</value>
+  </data>
+  <data name="ObtenerTercero" xml:space="preserve">
+    <value>FACObtenerTercero</value>
+  </data>
+  <data name="ObtenerCliente" xml:space="preserve">
+    <value>FACObtenerCliente</value>
+  </data>
+  <data name="EncabezadoValoresPaquete_Consultar" xml:space="preserve">
+    <value>FACSeleccionarEncabezadoValorPaquete</value>
+  </data>
+  <data name="Productos_Seleccionar_IdProducto" xml:space="preserve">
+    <value>SAHISeleccionarProductoxIdProducto</value>
+  </data>
+  <data name="GrupoProducto_Consultar" xml:space="preserve">
+    <value>SAHISeleccionarGrupoProductoxIdGrupoProducto</value>
+  </data>
+  <data name="Cliente_Atencion_Consultar" xml:space="preserve">
+    <value>FACSeleccionarClienteAtencion</value>
+  </data>
+  <data name="Facturacion_ConsultarVentaNumeroVenta" xml:space="preserve">
+    <value>FACSeleccionarVentaNumeroVenta</value>
+  </data>
+  <data name="VentaEstadoFactura_ValidarVentaTerminada" xml:space="preserve">
+    <value>FACValidarVentaTerminada</value>
+  </data>
+  <data name="AnulacionFactura_ActualizarEstadoVentaAnulacion" xml:space="preserve">
+    <value>FACActualizarEstadoVentaAnulacion</value>
+  </data>
+  <data name="AnulacionFactura_ObtenerVentasPorFactura" xml:space="preserve">
+    <value>FACObtenerVentasPorFactura</value>
+  </data>
+  <data name="FacturacionActividades_BloquearAtencion" xml:space="preserve">
+    <value>FACActualizarBloquearAtencion</value>
+  </data>
+  <data name="FacturacionActividades_ValidarAtencionBloqueada" xml:space="preserve">
+    <value>FACValidarAtencionBloqueada</value>
+  </data>
+  <data name="FacturacionActividades_ValidarRolUsuario" xml:space="preserve">
+    <value>FACValidarRolUsuario</value>
+  </data>
+  <data name="Facturacion_SeleccionarManualesMaxVigencia" xml:space="preserve">
+    <value>FACSeleccionarManualesMaxVigencia</value>
+  </data>
+  <data name="VentasQX_ConsultarComplejidad" xml:space="preserve">
+    <value>FACSelNivelComplejidadXProd</value>
+  </data>
+  <data name="ProcedimientosQXAtencion_Consultar" xml:space="preserve">
+    <value>FACSelProcQXAtencion</value>
+  </data>
+  <data name="ProcedimientosQXDetalle_Consultar" xml:space="preserve">
+    <value>uspConsultaDetalleQx</value>
+  </data>
+</root>

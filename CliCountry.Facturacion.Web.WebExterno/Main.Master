@@ -1,0 +1,139 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="CliCountry.Facturacion.Web.WebExterno.Main" %>
+
+<%@ Register Src="~/Comun/Controles/Dialogo.ascx" TagPrefix="uc1" TagName="Dialogo" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <base target="_self" />
+    <title>Sistema de Facturación</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <div class="contenedorGlobal">
+    <script type="text/javascript">
+        setInterval("ObtenerFechaHora()", 1000);
+
+        function ObtenerFechaHora() {
+            date = new Date();
+
+            if (document.getElementById("reloj") != null) {
+                document.getElementById("reloj").innerText = $.datepicker.formatDate('d-M-yy', date) + ' ' + date.toLocaleTimeString();
+            }
+        }
+
+        document.onkeydown = function (evt) { return (evt ? evt.which : event.keyCode) != 13; }
+        
+    </script>
+    
+    <form id="form1" runat="server">
+        <AspAjax:ToolkitScriptManager ID="ScriptManager1" runat="server" EnableHistory="false"
+            EnableScriptGlobalization="true"
+            EnableScriptLocalization="true"
+            EnablePartialRendering="true"
+            EnablePageMethods="true"
+            AsyncPostBackTimeout="60000"
+            CombineScripts="true"
+            LoadScriptsBeforeUI="true"
+            ScriptMode="Release">
+            <ControlBundles>
+                <AspAjax:ControlBundle Name="FilteredTextBox" />
+                <AspAjax:ControlBundle Name="ModalPopup" />
+                <AspAjax:ControlBundle Name="Calendar" />
+                <AspAjax:ControlBundle Name="MaskedEdit" />
+            </ControlBundles>
+            <Scripts>
+                <asp:ScriptReference Path="~/App_Themes/SAHI/scripts/jquery-1.9.1.min.js" />
+                <asp:ScriptReference Path="~/App_Themes/SAHI/scripts/Choosen/chosen.jquery.min.js" />
+                <asp:ScriptReference Path="~/App_Themes/SAHI/scripts/controles.js" />
+                <asp:ScriptReference Path="~/App_Themes/SAHI/scripts/jquery-ui-1.10.3.min.js" />
+                <asp:ScriptReference Path="~/App_Themes/SAHI/Scripts/jquery.tablesorter.min.js" />
+                <asp:ScriptReference Path="~/App_Themes/SAHI/Scripts/jquery.tablesorter.widgets.min.js" />
+                <asp:ScriptReference Path="~/App_Themes/SAHI/scripts/modernizr-2.6.2.js" />
+                <asp:ScriptReference Path="~/App_Themes/SAHI/scripts/bootstrap/bootstrap.min.js" />
+                <asp:ScriptReference Path="~/App_Themes/SAHI/scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Path="~/App_Themes/SAHI/scripts/WebForms/Focus.js" />
+            </Scripts>
+        </AspAjax:ToolkitScriptManager>
+
+        <asp:UpdateProgress ID="pgrMain" runat="server" AssociatedUpdatePanelID="pnlMain"
+            DisplayAfter="100">
+            <ProgressTemplate>
+                <div id="blur"></div>
+                <div id="progress">
+                    <asp:Image ID="imgLoading1" runat="server" SkinID="LoadingImg" />
+                </div>
+            </ProgressTemplate>
+        </asp:UpdateProgress>
+
+            <div id="header">
+                <div id="Encabezado" class="encabezado">
+                    <div class="logo">
+                    </div>
+                    <div class="textoTitulo">
+                        <div class="tituloModulo">
+                            Sistema de Facturación
+                        </div>
+                        <div id="usuario" class="usuarioInfo">
+                            <table width="100%">
+                                <tr align="right">
+                                    <td>
+                                        <span id="lblInfoUsuario" runat="server"></span>
+                                        <br />
+                                        <span id="reloj"></span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                  <asp:UpdatePanel class="pnlMenu" ID="pnlMenu" runat="server" UpdateMode="Conditional">
+                    <ContentTemplate>
+                        <div class="Contenedormenu">
+                            <asp:Menu ID="menuUsuario" CssClass="menuUsuario" runat="server" BackColor="#E3EAEB" DynamicHorizontalOffset="2"
+                                Font-Names="'Segoe UI',Helvetica,Garuda,Arial,sans-serif" Font-Size="11px" ForeColor="#666666" Orientation="Horizontal"
+                                StaticSubMenuIndent="10px" OnMenuItemClick="MenuFacturacion_MenuItemClick">
+                                <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
+                                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                <DynamicMenuStyle BackColor="#E3EAEB" />
+                                <DynamicSelectedStyle BackColor="#1C5E55" />
+                                <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                <StaticSelectedStyle BackColor="#1C5E55" />
+                            </asp:Menu>
+                        </div>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                    </div>
+            </div>
+           
+            <div id="content" class="Contenedorgenerico">
+                <asp:UpdatePanel ID="pnlMain" runat="server">
+                    <ContentTemplate>
+                        <asp:ContentPlaceHolder ID="contenedorPrincipal" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                <uc1:Dialogo runat="server" ID="Dialogo" style="display: none;" />
+            </div>
+            <div id="footer">
+                <div class="contenidoFooter">
+                    <asp:Label ID="lblVersionCopyright" runat="server" Text="<%$ Resources:GlobalWeb, Version_Copyright %>"></asp:Label>
+                    <asp:Label ID="lblVersion" runat="server" Text="<%$ Resources:GlobalWeb, Version_AplicacionFacturacion %>"></asp:Label>
+                </div>
+            </div>
+        
+        <input runat="server" type="hidden" id="PermisosGenerales" />
+    </form>
+   
+    <script type="text/javascript">
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+        prm.add_endRequest(function (s, e) {
+            EstiloCombos();
+        });
+    </script>
+         </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\obj\Debug\CliCountryFacturacion.Datos.csprojResolveAssemblyReference.cache
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\bin\Debug\CliCountry.Facturacion.Dominio.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\bin\Debug\CliCountry.Facturacion.Integracion.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\bin\Debug\CliCountry.SAHI.Comun.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\bin\Debug\CliCountry.SAHI.Dominio.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\bin\Debug\CliCountry.Facturacion.Dominio.pdb
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\bin\Debug\CliCountry.Facturacion.Integracion.pdb
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\obj\Debug\CliCountryFacturacion.Datos.csproj.GenerateResource.Cache
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\obj\Debug\CliCountry.Facturacion.Datos.Recursos.OperacionesBaseDatos.resources
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\obj\Debug\CliCountry.Facturacion.Datos.Recursos.Parametros.resources
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\bin\Debug\CliCountry.Facturacion.Datos.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\bin\Debug\CliCountry.Facturacion.Datos.pdb
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\obj\Debug\CliCountry.Facturacion.Datos.dll
+E:\Intergrupo\CodingDojo\CleanCodeClinicaCountry\CliCountryFacturacion\CliCountryFacturacion.Datos\obj\Debug\CliCountry.Facturacion.Datos.pdb
