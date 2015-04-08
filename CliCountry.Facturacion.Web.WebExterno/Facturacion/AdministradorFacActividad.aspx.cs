@@ -140,10 +140,8 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
             }
         }
 
-        /// <summary>
-        /// Obtiene o establece vinculaciones
-        /// </summary>
-        private List<Vinculacion> Vinculaciones
+        
+        private List<Vinculacion> VinculacionesDeAtencion
         {
             get
             {
@@ -279,7 +277,7 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
                     {
                         var identificadorAtencion = Convert.ToInt32(txtAtencion.Text);
                         CargarVentas(identificadorAtencion, null);
-                        CargarVinculaciones(InfoVinculacion(identificadorAtencion, 1));
+                        CargarVinculaciones(CrearObjetoVinculacionSegunParametros(identificadorAtencion, 1));
 
                         if (Session["Atencion"] != null)
                         {
@@ -906,26 +904,17 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
             }
         }
 
+        
         /// <summary>
-        /// Se carga el ViewState.
+        /// Metodo para buscar vinculación persistidas en el ViewState.
         /// </summary>
-        /// <param name="identificadorEntidad">The id entidad.</param>
-        /// <param name="ordenVinculacion">The orden vinculacion.</param>
-        /// <returns>
-        /// Retorna la Vinculacion.
-        /// </returns>
-        /// <remarks>
-        /// Autor: (Nombre del Autor y Usuario del dominio)
-        /// FechaDeCreacion: (dd/MM/yyyy)
-        /// UltimaModificacionPor: (Nombre del Autor de la modificación - Usuario del dominio)
-        /// FechaDeUltimaModificacion: (dd/MM/yyyy)
-        /// EncargadoSoporte: (Nombre del Autor - Usuario del dominio)
-        /// Descripción: Descripción detallada del metodo, procure especificar todo el metodo aqui.
-        /// </remarks>
+        /// <param name="identificadorEntidad">Identificador del tercero.</param>
+        /// <param name="ordenVinculacion">Orden de la vinculación.</param>
+        /// <returns></returns>
         private Vinculacion BuscarVinculacion(int identificadorEntidad, int ordenVinculacion)
         {
             var vinculacion = from
-                                  item in Vinculaciones
+                                  item in VinculacionesDeAtencion
                               where
                                   item.Tercero.Id == identificadorEntidad
                                   && item.Orden == ordenVinculacion
@@ -1344,13 +1333,13 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
 
             if (resultado.Ejecuto)
             {
-                Vinculaciones = resultado.Objeto.ToList();
+                VinculacionesDeAtencion = resultado.Objeto.ToList();
 
-                if (Vinculaciones != null)
+                if (VinculacionesDeAtencion != null)
                 {
-                    CargaObjetos.OrdenamientoGrilla(grvEntidades, Vinculaciones);
+                    CargaObjetos.OrdenamientoGrilla(grvEntidades, VinculacionesDeAtencion);
 
-                    if (Vinculaciones.Count > 0)
+                    if (VinculacionesDeAtencion.Count > 0)
                     {
                         GrvEntidades_RowCommand(this, new GridViewCommandEventArgs(grvEntidades.Rows[0], new CommandEventArgs(CliCountry.SAHI.Comun.Utilidades.Global.SELECCIONAR, 0)));
                         grvEntidades.SelectedIndex = 0;
@@ -1363,21 +1352,7 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
             }
         }
 
-        /// <summary>
-        /// Devuelve encabezado para la factura.
-        /// </summary>
-        /// <returns>
-        /// Retorna Encabezado.
-        /// </returns>
-        /// <remarks>
-        /// Autor: Iván José Pimienta Serrano - INTERGRUPO\Ipimienta
-        /// FechaDeCreacion: 14/05/2013
-        /// UltimaModificacionPor: (Nombre del Autor de la modificación - Usuario del dominio)
-        /// FechaDeUltimaModificacion: (dd/MM/yyyy)
-        /// EncargadoSoporte: (Nombre del Autor - Usuario del dominio)
-        /// Descripción: Descripción detallada del metodo, procure especificar todo el metodo aqui.
-        /// </remarks>
-        private ProcesoFactura ConstruirEncabezado()
+       private ProcesoFactura ConstruirEncabezadoParaFactura()
         {
             var procesoFactura = new ProcesoFactura()
             {
@@ -1458,15 +1433,14 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
             return items.ToList();
         }
 
-        /// <summary>
-        /// Generars the estado cuenta.
-        /// </summary>
+      
         private void GenerarEstadoCuenta() 
         {
             if (Page.IsValid)
             {
                 int indiceFila = 0;
                 var identificadorEntidad = (Label)grvEntidades.Rows[indiceFila].FindControl("lblIdEntidad");
+                // La variable delay no se utiliza
                 string delay = DateTime.Now.Year.ToString() + DateTime.Now.Month.ToString() + DateTime.Now.Day.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Second.ToString() + DateTime.Now.Millisecond.ToString();
 
                 VinculacionSeleccionada = BuscarVinculacion(Convert.ToInt32(identificadorEntidad.Text), indiceFila + 1);
@@ -1478,7 +1452,7 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
 
                 if (ventasSeleccionadas.Count() > 0)
                 {
-                    var procesoFactura = ConstruirEncabezado();
+                    var procesoFactura = ConstruirEncabezadoParaFactura();
                     procesoFactura.Detalles = new List<ProcesoFacturaDetalle>();
                     procesoFactura.Detalles.Add(new ProcesoFacturaDetalle()
                     {
@@ -1488,19 +1462,20 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
                     });
 
                     procesoFactura.ExclusionesNoMarcadas = VinculacionSeleccionada.NoMarcadas;
-                    procesoFactura.Responsable = ObtenerResponsable();
+                    procesoFactura.Responsable = ObtenerTerceroResponsable();
                     procesoFactura.Vinculaciones = ObtenerVinculacionesSeleccionadas();
-                    ObtenerConceptosFactura();
+                    ObtenerConceptosXDepositoFactura();
                     procesoFactura.VentasSeleccionadas = ventasSeleccionadas;
 
-                    // Solamente se envia una variable de sesion
                     Session["ProcesoFactura"] = procesoFactura;
 
-                    var resultadoConceptos = WebService.Facturacion.ConsultarConceptos(
-                    new Atencion()
-                    {
-                        IdAtencion = Atencion.IdAtencion
-                    });
+                    var resultadoConceptos = WebService.Facturacion.ConsultarConceptos
+                     (
+                        new Atencion()
+                        {
+                            IdAtencion = Atencion.IdAtencion
+                        }
+                     );
 
                     if (resultadoConceptos.Ejecuto)
                     {
@@ -1531,28 +1506,13 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
             }
         }
 
-        /// <summary>
-        /// Obtiene la información de parametros del objeto de Vinculación.
-        /// </summary>
-        /// <param name="identificadorAtencion">The id atencion.</param>
-        /// <param name="indActivo">The ind act.</param>
-        /// <returns>
-        /// Objeto Vinculacion.
-        /// </returns>
-        /// <remarks>
-        /// Autor: Iván José Pimienta Serrano - INTERGRUPO\Ipimienta
-        /// FechaDeCreacion: 01/04/2013
-        /// UltimaModificacionPor: (Nombre del Autor de la modificación - Usuario del dominio)
-        /// FechaDeUltimaModificacion: (dd/MM/yyyy)
-        /// EncargadoSoporte: (Nombre del Autor - Usuario del dominio)
-        /// Descripción: Descripción detallada del metodo, procure especificar todo el metodo aqui.
-        /// </remarks>
-        private Vinculacion InfoVinculacion(int identificadorAtencion, short indActivo)
+       
+        private Vinculacion CrearObjetoVinculacionSegunParametros(int identificadorAtencion, short vinculacionActiva)
         {
             var vinculacion = new Vinculacion()
             {
                 IdAtencion = identificadorAtencion,
-                IndHabilitado = indActivo
+                IndHabilitado = vinculacionActiva
             };
 
             return vinculacion;
@@ -1573,7 +1533,7 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
         {
             Atencion = null;
             Ventas = null;
-            Vinculaciones = null;
+            VinculacionesDeAtencion = null;
             VinculacionSeleccionada = null;
             txtPaciente.Text = string.Empty;
             txtNoDocumento.Text = string.Empty;
@@ -1584,18 +1544,8 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
             divTabsMarco.Visible = false;
         }
 
-        /// <summary>
-        /// Metodo para obtener los conceptos asociados a un deposito.
-        /// </summary>
-        /// <remarks>
-        /// Autor: Jorge Arturo Cortes - INTERGRUPO\jcortesm
-        /// FechaDeCreacion: 26/06/2013
-        /// UltimaModificacionPor: (Nombre del Autor de la modificación - Usuario del dominio)
-        /// FechaDeUltimaModificacion: (dd/MM/yyyy)
-        /// EncargadoSoporte: (Nombre del Autor - Usuario del dominio)
-        /// Descripción: Descripción detallada del metodo, procure especificar todo el metodo aqui.
-        /// </remarks>
-        private void ObtenerConceptosFactura()
+       
+        private void ObtenerConceptosXDepositoFactura()
         {
             if (Atencion.Deposito != null)
             {
@@ -1612,19 +1562,7 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
             }
         }
 
-        /// <summary>
-        /// Obtiene la información del tercero responsable para el estado de cuenta.
-        /// </summary>
-        /// <returns>Retorna Responsable.</returns>
-        /// <remarks>
-        /// Autor: Iván José Pimienta Serrano - INTERGRUPO\Ipimienta
-        /// FechaDeCreacion: 28/06/2013
-        /// UltimaModificacionPor: (Nombre del Autor de la modificación - Usuario del dominio)
-        /// FechaDeUltimaModificacion: (dd/MM/yyyy)
-        /// EncargadoSoporte: (Nombre del Autor - Usuario del dominio)
-        /// Descripción: Descripción detallada del metodo, procure especificar todo el metodo aqui.
-        /// </remarks>
-        private Responsable ObtenerResponsable()
+        private Responsable ObtenerTerceroResponsable()
         {
             var responsable = new Responsable()
             {
@@ -1663,7 +1601,7 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
         private Vinculacion ObtenerSeleccionada()
         {
             var vinculacion = from
-                                  item in Vinculaciones
+                                  item in VinculacionesDeAtencion
                               where
                                   item.Tercero.Id == VinculacionSeleccionada.Tercero.Id
                                   && item.Contrato.Id == VinculacionSeleccionada.Contrato.Id
@@ -1674,17 +1612,9 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
         }
 
         /// <summary>
-        /// Metodo para controlar las ventas Seleccionadas.
+        /// Método para controlar las ventas seleccionadas de la grilla de ventas.
         /// </summary>
         /// <returns>Lista de Ventas Seleccionadas.</returns>
-        /// <remarks>
-        /// Autor: David Mauricio Gutiérrez Ruiz - INTERGRUPO\dgutierrez
-        /// FechaDeCreacion: 11/06/2013
-        /// UltimaModificacionPor: (Nombre del Autor de la modificación - Usuario del dominio)
-        /// FechaDeUltimaModificacion: (dd/MM/yyyy)
-        /// EncargadoSoporte: (Nombre del Autor - Usuario del dominio)
-        /// Descripción: Descripción detallada del metodo, procure especificar todo el metodo aqui.
-        /// </remarks>
         private List<int> ObtenerVentasMarcadas()
         {
             var ventasMarcadas = from
@@ -1721,22 +1651,11 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
             return ventasMarcadas.ToList();
         }
 
-        /// <summary>
-        /// Retorna la lista de vinculaciones seleccionadas.
-        /// </summary>
-        /// <returns>Resultado operacion.</returns>
-        /// <remarks>
-        /// Autor: Jorge Arturo Cortes Murcia - INTERGRUPO\Jcortesm
-        /// FechaDeCreacion: 07/11/2013
-        /// UltimaModificacionPor: (Nombre del Autor de la modificación - Usuario del dominio)
-        /// FechaDeUltimaModificacion: (dd/MM/yyyy)
-        /// EncargadoSoporte: (Nombre del Autor - Usuario del dominio)
-        /// Descripción: Descripción detallada del metodo, procure especificar todo el metodo aqui.
-        /// </remarks>
+        
         private List<Vinculacion> ObtenerVinculacionesSeleccionadas()
         {
             List<Vinculacion> resultado = new List<Vinculacion>();
-            foreach (Vinculacion item in Vinculaciones)
+            foreach (Vinculacion item in VinculacionesDeAtencion)
             {
                 var listaVinculacionesSeleccionadas = (from fila in grvEntidades.Rows.Cast<GridViewRow>()
                                                        where (fila.FindControl(CHECKGENERAR) as CheckBox).Checked
@@ -1756,13 +1675,13 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
                     resultado.Add(item);
                 }
 
-                var listaVinculacionesOmitidas = (from fila in grvEntidades.Rows.Cast<GridViewRow>()
+                var listaVinculacionesNoSeleccionadas = (from fila in grvEntidades.Rows.Cast<GridViewRow>()
                                                   where (fila.FindControl(CHECKGENERAR) as CheckBox).Checked == false
                                                   && (fila.FindControl(CHECKACTIVO) as CheckBox).Checked
                                                   && item.Contrato.Id == Convert.ToInt32((fila.FindControl(LABELIDCONTRATO) as Label).Text)
                                                   && item.Tercero.Id == Convert.ToInt32((fila.FindControl(LABELIDENTIDAD) as Label).Text)
                                                   select item).ToList();
-                if (listaVinculacionesOmitidas.Count > 0)
+                if (listaVinculacionesNoSeleccionadas.Count > 0)
                 {
                     item.IndGenerar = 0;
                     resultado.Add(item);
@@ -1801,7 +1720,7 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
         private Vinculacion ObtenerVinculacionSeleccionada(int identificadorEntidad, int identificadorContrato, int identificadorPlan)
         {
             var vinculacion = from
-                                  item in Vinculaciones
+                                  item in VinculacionesDeAtencion
                               where
                                   item.IdAtencion == Convert.ToInt32(txtAtencion.Text)
                                   && item.Tercero.Id == identificadorEntidad
@@ -1969,7 +1888,7 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
         /// </remarks>
         private void VincularEntidad_OperacionEjecutada(object sender, Global.TipoOperacion tipoOperacion)
         {
-            CargarVinculaciones(InfoVinculacion(Convert.ToInt32(txtAtencion.Text), 1));
+            CargarVinculaciones(CrearObjetoVinculacionSegunParametros(Convert.ToInt32(txtAtencion.Text), 1));
         }
 
         #endregion Metodos Privados 
