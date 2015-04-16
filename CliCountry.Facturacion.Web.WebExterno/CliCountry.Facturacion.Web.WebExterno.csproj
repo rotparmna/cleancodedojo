@@ -224,6 +224,7 @@
     </Compile>
     <Compile Include="Comun\Clases\CalcularConceptosCobro.cs" />
     <Compile Include="Comun\Clases\CargaObjetos.cs" />
+    <Compile Include="Comun\Clases\ConstruirEntidadProcesoFactura.cs" />
     <Compile Include="Comun\Clases\WebService.cs" />
     <Compile Include="Comun\Controles\Dialogo.ascx.cs">
       <DependentUpon>Dialogo.ascx</DependentUpon>

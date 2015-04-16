@@ -1352,28 +1352,7 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
             }
         }
 
-       private ProcesoFactura ConstruirEncabezadoParaFactura()
-        {
-            var procesoFactura = new ProcesoFactura()
-            {
-                CodigoEntidad = Settings.Default.General_CodigoEntidad,
-                CodigoSeccion = ddlSeccion.SelectedValue,
-                FechaInicio = DateTime.Now,
-                FechaFin = DateTime.Now,
-                IdContrato = Convert.ToInt32(VinculacionSeleccionada.Contrato.Id),
-                IdEstado = Settings.Default.ProcesoFactura_EstadoPendiente,
-                IdFormato = Convert.ToByte(DdlFormato.SelectedValue),
-                IdUsuarioFirma = Settings.Default.UsuarioFirma_Facturacion,
-                IdTercero = Convert.ToInt32(VinculacionSeleccionada.Tercero.Id),
-                IdTipoMovimiento = Convert.ToInt32(ddlTipoMovimiento.SelectedValue),
-                IndHabilitado = Convert.ToByte(ValorDefecto.IndHabilidado),
-                TipoRelacion = Settings.Default.FacturaActividades_TipoRelacion,
-                TipoFactura = TipoFacturacion.FacturacionActividad,
-                VentasNoMarcadas = ObtenerVentasNoMarcadas()
-            };
-
-            return procesoFactura;
-        }
+       
 
         /// <summary>
         /// Obtiene la información de los campos filtro.
@@ -1452,20 +1431,8 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
 
                 if (ventasSeleccionadas.Count() > 0)
                 {
-                    var procesoFactura = ConstruirEncabezadoParaFactura();
-                    procesoFactura.Detalles = new List<ProcesoFacturaDetalle>();
-                    procesoFactura.Detalles.Add(new ProcesoFacturaDetalle()
-                    {
-                        IdAtencion = VinculacionSeleccionada.IdAtencion,
-                        IdPlan = VinculacionSeleccionada.Plan.Id,
-                        Cruzar = true
-                    });
-
-                    procesoFactura.ExclusionesNoMarcadas = VinculacionSeleccionada.NoMarcadas;
-                    procesoFactura.Responsable = ObtenerTerceroResponsable();
-                    procesoFactura.Vinculaciones = ObtenerVinculacionesSeleccionadas();
+                    var procesoFactura = ConstruirProcesoFactura(ventasSeleccionadas, this.VinculacionSeleccionada);
                     ObtenerConceptosXDepositoFactura();
-                    procesoFactura.VentasSeleccionadas = ventasSeleccionadas;
 
                     Session["ProcesoFactura"] = procesoFactura;
 
@@ -1506,7 +1473,27 @@ namespace CliCountry.Facturacion.Web.WebExterno.Facturacion
             }
         }
 
-       
+        private ProcesoFactura ConstruirProcesoFactura(List<int> ventasSeleccionadas, Vinculacion vinculacionSeleccionada)
+        {
+            ConstruirEntidadProcesoFactura construirEntidadProcesoFactura = new ConstruirEntidadProcesoFactura(vinculacionSeleccionada);
+
+            var procesoFactura = construirEntidadProcesoFactura.Construir(Settings.Default.General_CodigoEntidad,
+                ddlSeccion.SelectedValue,
+                Convert.ToByte(DdlFormato.SelectedValue),
+                Settings.Default.ProcesoFactura_EstadoPendiente,
+                Settings.Default.UsuarioFirma_Facturacion,
+                Convert.ToInt32(ddlTipoMovimiento.SelectedValue),
+                Convert.ToByte(ValorDefecto.IndHabilidado),
+                Settings.Default.FacturaActividades_TipoRelacion,
+                TipoFacturacion.FacturacionActividad,
+                ObtenerVentasNoMarcadas(),
+                ObtenerTerceroResponsable(),
+                ObtenerVinculacionesSeleccionadas(),
+                ventasSeleccionadas);
+            
+            return procesoFactura;
+        }
+
         private Vinculacion CrearObjetoVinculacionSegunParametros(int identificadorAtencion, short vinculacionActiva)
         {
             var vinculacion = new Vinculacion()

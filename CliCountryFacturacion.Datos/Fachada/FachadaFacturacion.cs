@@ -1020,7 +1020,7 @@ namespace CliCountry.Facturacion.Datos.Fachada
         public List<ConceptoCobro> ConsultarConceptos(Atencion atencion)
         {
             IEnumerable<ConceptoCobro> registros = null;
-            using (DataTable filas = this.daoFacturacion.ConsultarConceptos(atencion))
+            using (DataTable filas = new DAOConcepto().ConsultarConceptos(atencion))
             {
                 registros = from fila in filas.Select()
                             select new ConceptoCobro(fila);

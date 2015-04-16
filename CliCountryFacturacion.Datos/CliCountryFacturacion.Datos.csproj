@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\DAOConcepto.cs" />
     <Compile Include="DAO\DAOConfiguracion.cs" />
     <Compile Include="DAO\DAOFacturacion.cs" />
     <Compile Include="Fachada\FachadaConfiguracion.cs" />
